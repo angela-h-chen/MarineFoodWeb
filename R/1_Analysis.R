@@ -9,7 +9,7 @@
 ###Load libraries and all_lists.rda file 
 
 setwd("C://Users/Angela/OneDrive/Desktop/ISP/R")
-load(file="../Data/.all_igraph.rda")
+load(file="../Data/all_igraph.rda")
 library(dplyr)
 library(tidyr)
 library(bipartite)

@@ -302,4 +302,110 @@ save(structure,
      troph_all_df,
      file="../Data/.for_graphing.rda")
 
+# Trophic level properties (basal, intermediate, top) ----
+
+library(igraph)
+library(tidyr)
+
+##Percentage basal (in degree = 0)
+indeg_all <- lapply(g_all, function(x) {
+  deg <- degree(x,mode= c("in"))
+})
+
+indeg_all_df <- indeg_all %>%
+  unlist(recursive=FALSE) %>%
+  enframe() %>%
+  extract(name, into = c("Location", "Species"), "^([^.]+)\\.(.*)") %>%
+  rename(Indegree = value)
+
+indeg<-subset(indeg_all_df,Indegree==0,select = c(Location,Species,Indegree))
+
+indeg<-indeg %>%
+  group_by(Location) %>%
+  count(Indegree)
+
+names(indeg)[names(indeg) == 'n'] <- 'BasalCount'
+indeg$Especies<-complexity$Especies
+indeg$Basal<-indeg$BasalCount/indeg$Especies
+
+
+##Percentage top predators (out degree = 0)
+outdeg_all <- lapply(g_all, function(x) {
+  deg <- degree(x,mode= c("out"))
+})
+
+outdeg_all_df <- outdeg_all %>%
+  unlist(recursive=FALSE) %>%
+  enframe() %>%
+  extract(name, into = c("Location", "Species"), "^([^.]+)\\.(.*)") %>%
+  rename(Outdegree = value)
+
+outdeg<-subset(outdeg_all_df,Outdegree==0,select = c(Location,Species,Outdegree))
+
+outdeg<-outdeg %>%
+  group_by(Location) %>%
+  count(Outdegree) %>%
+  as.data.frame()
+
+#Adding Benguela manually (no top predators, so was initially excluded from the subset)
+names(outdeg)[names(outdeg) == 'n'] <- 'TopCount'
+Beng<-data.frame("Benguela","0","0")
+names(Beng)<-c("Location","Outdegree","TopCount")
+outdeg<-rbind(outdeg,Beng)
+outdeg<-outdeg[order(outdeg$Location),]
+outdeg$TopCount<-as.numeric(outdeg$TopCount)
+
+outdeg$Especies<-complexity$Especies
+outdeg$Top<-outdeg$TopCount/outdeg$Especies
+
+## Combine basal and top to calculate % intermediate species
+
+alldeg<-cbind(indeg,outdeg$TopCount,outdeg$Top)
+names(alldeg)[names(alldeg) == '...6'] <- 'TopCount'
+names(alldeg)[names(alldeg) == '...7'] <- 'Top'
+alldeg$Intermediate<-1-(alldeg$Basal+alldeg$Top)
+
+
+# Generality vs Vulnerability ----
+
+## Generality (generalist vs specialist)
+
+gen <- lapply(g_all, function(x){
+  pred <- degree(x, mode = "in") > 0
+  G <- round(sum(degree(x, mode = "in")[pred] / sum(pred)), 2)
+})
+gen <- t(as.data.frame(gen))
+colnames(gen)<-c("Generality")
+
+
+## Vulnerability (energy flow)
+
+vul <- lapply(g_all, function(g){
+  prey <- degree(g, mode = "out") > 0
+  V <- round(sum(degree(g, mode = "out")[prey]) / sum(prey), 2)
+})
+
+vul <- t(as.data.frame(vul))
+colnames(vul) <- c("Vulnerability")
+
+
+# Primary producer/consumer for each food web ----
+
+library(stringr)
+
+pp<-subset(indeg_all_df,Indegree==0,select = c(Location,Species,Indegree))
+
+## Exclude trophic species that are basal but not primary producers 
+pp1 <- pp %>% 
+  filter(!str_detect(Species, 'etritus|DETRITUS|ood|rganic|ecromass|ediment|.POM|Detritos|arcass|Rocks|material|Fishery|material|Biofilm|Red|eggs')) %>%
+  group_by(Location) %>%
+  count(Indegree)
+colnames(pp1) <- c("Location", "Indegree", "PPcount")
+
+## Calculate ratio of pp/consumer
+pp1$Especies <- complexity$Especies
+pp1$BasalCount <- indeg$BasalCount
+pp1$Excludedspp <- pp1$BasalCount - pp1$PPcount
+
+pp1$pp_con <- pp1$PPcount/(pp1$Especies-pp1$Excludedspp)
 

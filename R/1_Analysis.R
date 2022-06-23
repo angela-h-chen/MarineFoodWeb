@@ -374,8 +374,12 @@ gen <- lapply(g_all, function(x){
   pred <- degree(x, mode = "in") > 0
   G <- round(sum(degree(x, mode = "in")[pred] / sum(pred)), 2)
 })
-gen <- t(as.data.frame(gen))
-colnames(gen)<-c("Generality")
+gen_df <- (as.data.frame(t(gen)))
+colnames(gen_df)<-c("Generality")
+
+### Normalization by connectance
+gen_df$Conectividad <- complexity$Conectividad
+gen_df$Gen_norm <- gen_df$Generality/gen_df$Conectividad
 
 
 ## Vulnerability (energy flow)
@@ -385,8 +389,13 @@ vul <- lapply(g_all, function(g){
   V <- round(sum(degree(g, mode = "out")[prey]) / sum(prey), 2)
 })
 
-vul <- t(as.data.frame(vul))
-colnames(vul) <- c("Vulnerability")
+vul_df <- as.data.frame(vul)
+vul_df <- t(vul_df)
+vul_df <- as.data.frame(vul_df)
+colnames(vul_df) <- c("Vulnerability")
+
+vul_df$Conectividad <- complexity$Conectividad
+vul_df$Gen_norm <- vul_df$Vulnerability/vul_df$Conectividad
 
 
 # Primary producer/consumer for each food web ----

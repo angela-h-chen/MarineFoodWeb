@@ -1,1805 +1,1805 @@
-"","Predator","Prey"
-"1","Staphylinidae","Staphylinidae"
-"2","Staphylinidae","Bacillariophyta"
-"3","Staphylinidae","Cyanophycota"
-"4","Staphylinidae","Gammaridea"
-"5","Staphylinidae","Detritus complex"
-"6","Chrysophyta","Bacteria"
-"7","Chrysophyta","Bacillariophyta"
-"8","Chrysophyta","Detritus complex"
-"9","Phascolosomatidae","Bacillariophyta"
-"10","Phascolosomatidae","Detritus complex"
-"11","Phoronida","Bacillariophyta"
-"12","Phoronida","Dinophyceae"
-"13","Phoronida","Detritus complex"
-"14","Gymnolaemata","Chrysophyta"
-"15","Gymnolaemata","Bacteria"
-"16","Gymnolaemata","Prymnesiophyceae"
-"17","Gymnolaemata","Bacillariophyta"
-"18","Gymnolaemata","Prasinophyta"
-"19","Terebratalia transversa","Detritus complex"
-"20","Solaster dawsoni","Solaster dawsoni"
-"21","Solaster dawsoni","Solaster stimpsoni"
-"22","Solaster dawsoni","Dermasterias imbricata"
-"23","Solaster dawsoni","Henricia"
-"24","Solaster dawsoni","Evasterias troschelii"
-"25","Solaster dawsoni","Leptasterias"
-"26","Solaster dawsoni","Pycnopodia helianthoides"
-"27","Solaster dawsoni","Strongylocentrotus droebachiensis"
-"28","Solaster dawsoni","Eupentacta"
-"29","Solaster dawsoni","Cucumaria"
-"30","Solaster dawsoni","Balanus crenatus"
-"31","Solaster endeca","Gymnolaemata"
-"32","Solaster endeca","Leptasterias"
-"33","Solaster endeca","Strongylocentrotus droebachiensis"
-"34","Solaster endeca","Eupentacta"
-"35","Solaster endeca","Cucumaria"
-"36","Solaster stimpsoni","Terebratalia transversa"
-"37","Solaster stimpsoni","Pycnopodia helianthoides"
-"38","Solaster stimpsoni","Eupentacta"
-"39","Solaster stimpsoni","Cucumaria"
-"40","Solaster stimpsoni","Pyura"
-"41","Dermasterias imbricata","Gymnolaemata"
-"42","Dermasterias imbricata","Leptasterias"
-"43","Dermasterias imbricata","Strongylocentrotus droebachiensis"
-"44","Dermasterias imbricata","Eupentacta"
-"45","Dermasterias imbricata","Cucumaria"
-"46","Dermasterias imbricata","Bacillariophyta"
-"47","Dermasterias imbricata","Hydrozoa"
-"48","Dermasterias imbricata","Anthopleura"
-"49","Dermasterias imbricata","Epiactis"
-"50","Dermasterias imbricata","Urticina"
-"51","Dermasterias imbricata","Metridium senile"
-"52","Dermasterias imbricata","Ulvaceae"
-"53","Dermasterias imbricata","Trichotropis cancellata"
-"54","Dermasterias imbricata","Tonicella"
-"55","Dermasterias imbricata","Katharina tunicata"
-"56","Dermasterias imbricata","Detritus complex"
-"57","Henricia","Gymnolaemata"
-"58","Henricia","Bacteria"
-"59","Henricia","Halichondria panicea"
-"60","Henricia","Detritus complex"
-"61","Evasterias troschelii","Terebratalia transversa"
-"62","Evasterias troschelii","Pyura"
-"63","Evasterias troschelii","Lottia pelta"
-"64","Evasterias troschelii","Lottia scutum"
-"65","Evasterias troschelii","Balanus nubilus"
-"66","Evasterias troschelii","Trochidae"
-"67","Evasterias troschelii","Littorina"
-"68","Evasterias troschelii","Nucella lamellosa"
-"69","Evasterias troschelii","Nucella lima"
-"70","Evasterias troschelii","Tonicella"
-"71","Evasterias troschelii","Katharina tunicata"
-"72","Evasterias troschelii","Mytilus"
-"73","Evasterias troschelii","Modiolus"
-"74","Evasterias troschelii","Pododesmus"
-"75","Evasterias troschelii","Saxidomus"
-"76","Evasterias troschelii","Protothaca staminea"
-"77","Evasterias troschelii","Hiatellidae"
-"78","Evasterias troschelii","Balanus crenatus"
-"79","Evasterias troschelii","Balanus glandula"
-"80","Evasterias troschelii","Semibalanus balanoides"
-"81","Evasterias troschelii","Semibalanus cariosus"
-"82","Leptasterias","Terebratalia transversa"
-"83","Leptasterias","Leptasterias"
-"84","Leptasterias","Ophiuroidea"
-"85","Leptasterias","Strongylocentrotus droebachiensis"
-"86","Leptasterias","Eupentacta"
-"87","Leptasterias","Cucumaria"
-"88","Leptasterias","Pharidae"
-"89","Leptasterias","Lottia digitalis"
-"90","Leptasterias","Lottia pelta"
-"91","Leptasterias","Lottia scutum"
-"92","Leptasterias","Trochidae"
-"93","Leptasterias","Lacuna"
-"94","Leptasterias","Littorina"
-"95","Leptasterias","Trichotropis cancellata"
-"96","Leptasterias","Nucella canaliculata"
-"97","Leptasterias","Nucella lamellosa"
-"98","Leptasterias","Buccinum"
-"99","Leptasterias","Tonicella"
-"100","Leptasterias","Katharina tunicata"
-"101","Leptasterias","Mopalia"
-"102","Leptasterias","Mytilus"
-"103","Leptasterias","Clinocardium"
-"104","Leptasterias","Mactromeris"
-"105","Leptasterias","Macoma"
-"106","Leptasterias","Hiatellidae"
-"107","Leptasterias","Chthamalus dalli"
-"108","Leptasterias","Balanus glandula"
-"109","Leptasterias","Semibalanus cariosus"
-"110","Leptasterias","Paguridae"
-"111","Orthasterias koehleri","Terebratalia transversa"
-"112","Orthasterias koehleri","Styela"
-"113","Orthasterias koehleri","Balanus nubilus"
-"114","Orthasterias koehleri","Acmaea mitra"
-"115","Orthasterias koehleri","Tonicella"
-"116","Orthasterias koehleri","Katharina tunicata"
-"117","Orthasterias koehleri","Mopalia"
-"118","Orthasterias koehleri","Pododesmus"
-"119","Orthasterias koehleri","Saxidomus"
-"120","Orthasterias koehleri","Entodesma"
-"121","Pycnopodia helianthoides","Terebratalia transversa"
-"122","Pycnopodia helianthoides","Solaster dawsoni"
-"123","Pycnopodia helianthoides","Dermasterias imbricata"
-"124","Pycnopodia helianthoides","Evasterias troschelii"
-"125","Pycnopodia helianthoides","Leptasterias"
-"126","Pycnopodia helianthoides","Pycnopodia helianthoides"
-"127","Pycnopodia helianthoides","Strongylocentrotus droebachiensis"
-"128","Pycnopodia helianthoides","Eupentacta"
-"129","Pycnopodia helianthoides","Cucumaria"
-"130","Pycnopodia helianthoides","Enteroctopus dofleini"
-"131","Pycnopodia helianthoides","Lottia digitalis"
-"132","Pycnopodia helianthoides","Lottia pelta"
-"133","Pycnopodia helianthoides","Lottia scutum"
-"134","Pycnopodia helianthoides","Trochidae"
-"135","Pycnopodia helianthoides","Littorina"
-"136","Pycnopodia helianthoides","Trichotropis cancellata"
-"137","Pycnopodia helianthoides","Naticidae"
-"138","Pycnopodia helianthoides","Fusitriton"
-"139","Pycnopodia helianthoides","Nucella lamellosa"
-"140","Pycnopodia helianthoides","Katharina tunicata"
-"141","Pycnopodia helianthoides","Mopalia"
-"142","Pycnopodia helianthoides","Cryptochiton stelleri"
-"143","Pycnopodia helianthoides","Mytilus"
-"144","Pycnopodia helianthoides","Modiolus"
-"145","Pycnopodia helianthoides","Pododesmus"
-"146","Pycnopodia helianthoides","Clinocardium"
-"147","Pycnopodia helianthoides","Tresus"
-"148","Pycnopodia helianthoides","Macoma"
-"149","Pycnopodia helianthoides","Saxidomus"
-"150","Pycnopodia helianthoides","Protothaca staminea"
-"151","Pycnopodia helianthoides","Hiatellidae"
-"152","Pycnopodia helianthoides","Entodesma"
-"153","Pycnopodia helianthoides","Chthamalus dalli"
-"154","Pycnopodia helianthoides","Balanus crenatus"
-"155","Pycnopodia helianthoides","Balanus glandula"
-"156","Pycnopodia helianthoides","Semibalanus cariosus"
-"157","Pycnopodia helianthoides","Paguridae"
-"158","Pycnopodia helianthoides","Cancer"
-"159","Pycnopodia helianthoides","Detritus complex"
-"160","Ophiuroidea","Bacteria"
-"161","Ophiuroidea","Prymnesiophyceae"
-"162","Ophiuroidea","Bacillariophyta"
-"163","Ophiuroidea","Sarcomastigophora"
-"164","Ophiuroidea","Foraminiferida"
-"165","Ophiuroidea","Radiolaria"
-"166","Ophiuroidea","Hydrozoa"
-"167","Ophiuroidea","Polynoidae"
-"168","Ophiuroidea","Flabelligeridae"
-"169","Ophiuroidea","Naticidae"
-"170","Ophiuroidea","Hiatellidae"
-"171","Ophiuroidea","Ostracoda"
-"172","Ophiuroidea","Gammaridea"
-"173","Ophiuroidea","Caprellidae"
-"174","Ophiuroidea","Euphausiidae"
-"175","Ophiuroidea","Detritus complex"
-"176","Strongylocentrotus droebachiensis","Pilayella littoralis"
-"177","Strongylocentrotus droebachiensis","Laminaria"
-"178","Strongylocentrotus droebachiensis","Agarum"
-"179","Strongylocentrotus droebachiensis","Costaria costata"
-"180","Strongylocentrotus droebachiensis","Saccharina sessile"
-"181","Strongylocentrotus droebachiensis","Nereocystis luetkeana"
-"182","Strongylocentrotus droebachiensis","Alaria"
-"183","Strongylocentrotus droebachiensis","Desmarestia"
-"184","Strongylocentrotus droebachiensis","Fucus"
-"185","Strongylocentrotus droebachiensis","Porphyra"
-"186","Strongylocentrotus droebachiensis","Corallina"
-"187","Strongylocentrotus droebachiensis","Palmaria"
-"188","Strongylocentrotus droebachiensis","Chrysophyta"
-"189","Strongylocentrotus droebachiensis","Gymnolaemata"
-"190","Strongylocentrotus droebachiensis","Solaster endeca"
-"191","Strongylocentrotus droebachiensis","Ophiuroidea"
-"192","Strongylocentrotus droebachiensis","Strongylocentrotus droebachiensis"
-"193","Strongylocentrotus droebachiensis","Styela"
-"194","Strongylocentrotus droebachiensis","Bacillariophyta"
-"195","Strongylocentrotus droebachiensis","Hydrozoa"
-"196","Strongylocentrotus droebachiensis","Ulvaceae"
-"197","Strongylocentrotus droebachiensis","Acrosiphoniaceae"
-"198","Strongylocentrotus droebachiensis","Codiaceae"
-"199","Strongylocentrotus droebachiensis","Lacuna"
-"200","Strongylocentrotus droebachiensis","Fusitriton"
-"201","Strongylocentrotus droebachiensis","Nucella lamellosa"
-"202","Strongylocentrotus droebachiensis","Buccinum"
-"203","Strongylocentrotus droebachiensis","Katharina tunicata"
-"204","Strongylocentrotus droebachiensis","Semibalanus balanoides"
-"205","Strongylocentrotus droebachiensis","Pugettia"
-"206","Strongylocentrotus droebachiensis","Crustose coralline algae complex"
-"207","Strongylocentrotus droebachiensis","Detritus complex"
-"208","Strongylocentrotus droebachiensis","Biofilm Complex"
-"209","Strongylocentrotus droebachiensis","Red crust complex"
-"210","Eupentacta","Bacteria"
-"211","Eupentacta","Bacillariophyta"
-"212","Eupentacta","Ciliophora"
-"213","Eupentacta","Detritus complex"
-"214","Cucumaria","Prymnesiophyceae"
-"215","Cucumaria","Bacillariophyta"
-"216","Cucumaria","Detritus complex"
-"217","Apodacea","Bacteria"
-"218","Apodacea","Bacillariophyta"
-"219","Apodacea","Detritus complex"
-"220","Styela","Lottia scutum"
-"221","Styela","Littorina"
-"222","Styela","Detritus complex"
-"223","Pyura","Bacillariophyta"
-"224","Pyura","Prasinophyta"
-"225","Pyura","Detritus complex"
-"226","Hypomesus pretiosus","Ammodytes hexapterus"
-"227","Hypomesus pretiosus","Harpacticidae"
-"228","Hypomesus pretiosus","Gammaridea"
-"229","Hypomesus pretiosus","Paguridae"
-"230","Hypomesus pretiosus","Cancer"
-"231","Gobiesocidae","Gobiesocidae"
-"232","Gobiesocidae","Lottia digitalis"
-"233","Gobiesocidae","Lottia pelta"
-"234","Gobiesocidae","Lottia persona"
-"235","Gobiesocidae","Lottia scutum"
-"236","Gobiesocidae","Littorina"
-"237","Gobiesocidae","Naticidae"
-"238","Gobiesocidae","Tonicella"
-"239","Gobiesocidae","Ostracoda"
-"240","Gobiesocidae","Sphaeromatidae"
-"241","Gobiesocidae","Idoteidae"
-"242","Gobiesocidae","Gammaridea"
-"243","Gobiesocidae","Pugettia"
-"244","Gobiesocidae","Cancer"
-"245","Gasterosteus aculeatus","Gasterosteus aculeatus"
-"246","Gasterosteus aculeatus","Bacillariophyta"
-"247","Gasterosteus aculeatus","Ostracoda"
-"248","Gasterosteus aculeatus","Harpacticidae"
-"249","Gasterosteus aculeatus","Gammaridea"
-"250","Gasterosteus aculeatus","Detritus complex"
-"251","Artedius","Hydrozoa"
-"252","Artedius","Gammaridea"
-"253","Artedius","Hippolytidae"
-"254","Artedius","Crangonidae"
-"255","Artedius","Paguridae"
-"256","Clinocottus","Porphyra"
-"257","Clinocottus","Ophiuroidea"
-"258","Clinocottus","Bacillariophyta"
-"259","Clinocottus","Anthopleura"
-"260","Clinocottus","Epiactis"
-"261","Clinocottus","Lottia digitalis"
-"262","Clinocottus","Ulvaceae"
-"263","Clinocottus","Nereididae"
-"264","Clinocottus","Sabellidae"
-"265","Clinocottus","Littorina"
-"266","Clinocottus","Mytilus"
-"267","Clinocottus","Pycnogonida"
-"268","Clinocottus","Ostracoda"
-"269","Clinocottus","Harpacticidae"
-"270","Clinocottus","Sphaeromatidae"
-"271","Clinocottus","Limnoria"
-"272","Clinocottus","Idoteidae"
-"273","Clinocottus","Gammaridea"
-"274","Clinocottus","Caprellidae"
-"275","Clinocottus","Hippolytidae"
-"276","Clinocottus","Paguridae"
-"277","Clinocottus","Pugettia"
-"278","Clinocottus","Detritus complex"
-"279","Hemilepidotus hemilepidotus","Ophiuroidea"
-"280","Hemilepidotus hemilepidotus","Mytilus"
-"281","Hemilepidotus hemilepidotus","Sphaeromatidae"
-"282","Hemilepidotus hemilepidotus","Gammaridea"
-"283","Hemilepidotus hemilepidotus","Paguridae"
-"284","Hemilepidotus hemilepidotus","Pugettia"
-"285","Hemilepidotus hemilepidotus","Detritus complex"
-"286","Oligocottus maculosus","Lottia pelta"
-"287","Oligocottus maculosus","Cryptochiton stelleri"
-"288","Oligocottus maculosus","Harpacticidae"
-"289","Oligocottus maculosus","Sphaeromatidae"
-"290","Oligocottus maculosus","Gammaridea"
-"291","Oligocottus maculosus","Paguridae"
-"292","Trichodon trichodon","Gammaridea"
-"293","Anoplarchus purpurescens","Colpomenia"
-"294","Anoplarchus purpurescens","Porphyra"
-"295","Anoplarchus purpurescens","Cucumaria"
-"296","Anoplarchus purpurescens","Ulvaceae"
-"297","Anoplarchus purpurescens","Acrosiphoniaceae"
-"298","Anoplarchus purpurescens","Littorina"
-"299","Anoplarchus purpurescens","Pycnogonida"
-"300","Anoplarchus purpurescens","Gammaridea"
-"301","Xiphister atropurpureus","Desmarestia"
-"302","Xiphister atropurpureus","Porphyra"
-"303","Xiphister atropurpureus","Odonthalia"
-"304","Xiphister atropurpureus","Ulvaceae"
-"305","Xiphister atropurpureus","Acrosiphoniaceae"
-"306","Xiphister atropurpureus","Ostracoda"
-"307","Xiphister atropurpureus","Gammaridea"
-"308","Xiphister atropurpureus","Caprellidae"
-"309","Xiphister atropurpureus","Hippolytidae"
-"310","Xiphister atropurpureus","Paguridae"
-"311","Xiphister mucosus","Porphyra"
-"312","Xiphister mucosus","Microcladia"
-"313","Xiphister mucosus","Polysiphonia"
-"314","Xiphister mucosus","Bacillariophyta"
-"315","Xiphister mucosus","Ulvaceae"
-"316","Xiphister mucosus","Acrosiphoniaceae"
-"317","Xiphister mucosus","Sphaeromatidae"
-"318","Xiphister mucosus","Gammaridea"
-"319","Xiphister mucosus","Mastocarpus"
-"320","Pholis","Strongylocentrotus droebachiensis"
-"321","Pholis","Lacuna"
-"322","Pholis","Ostracoda"
-"323","Pholis","Sphaeromatidae"
-"324","Pholis","Idoteidae"
-"325","Pholis","Gammaridea"
-"326","Pholis","Caprellidae"
-"327","Pholis","Detritus complex"
-"328","Ammodytes hexapterus","Harpacticidae"
-"329","Ammodytes hexapterus","Gammaridea"
-"330","Homo sapiens","Alaria"
-"331","Homo sapiens","Fucus"
-"332","Homo sapiens","Porphyra"
-"333","Homo sapiens","Palmaria"
-"334","Homo sapiens","Chrysophyta"
-"335","Homo sapiens","Strongylocentrotus droebachiensis"
-"336","Homo sapiens","Cucumaria"
-"337","Homo sapiens","Styela"
-"338","Homo sapiens","Pyura"
-"339","Homo sapiens","Hypomesus pretiosus"
-"340","Homo sapiens","Trichodon trichodon"
-"341","Homo sapiens","Enhydra lutris"
-"342","Homo sapiens","Vulpes"
-"343","Homo sapiens","Eumetopias jubatus"
-"344","Homo sapiens","Phoca vitulina"
-"345","Homo sapiens","Anthopleura"
-"346","Homo sapiens","Epiactis"
-"347","Homo sapiens","Urticina"
-"348","Homo sapiens","Enteroctopus dofleini"
-"349","Homo sapiens","Pharidae"
-"350","Homo sapiens","Lottia persona"
-"351","Homo sapiens","Lineidae"
-"352","Homo sapiens","Ulvaceae"
-"353","Homo sapiens","Balanus nubilus"
-"354","Homo sapiens","Littorina"
-"355","Homo sapiens","Naticidae"
-"356","Homo sapiens","Fusitriton"
-"357","Homo sapiens","Nucella canaliculata"
-"358","Homo sapiens","Nucella lamellosa"
-"359","Homo sapiens","Nucella lima"
-"360","Homo sapiens","Buccinum"
-"361","Homo sapiens","Katharina tunicata"
-"362","Homo sapiens","Cryptochiton stelleri"
-"363","Homo sapiens","Mytilus"
-"364","Homo sapiens","Modiolus"
-"365","Homo sapiens","Pododesmus"
-"366","Homo sapiens","Clinocardium"
-"367","Homo sapiens","Tresus"
-"368","Homo sapiens","Mactromeris"
-"369","Homo sapiens","Macoma"
-"370","Homo sapiens","Saxidomus"
-"371","Homo sapiens","Protothaca staminea"
-"372","Homo sapiens","Hiatellidae"
-"373","Homo sapiens","Entodesma"
-"374","Homo sapiens","Balanus glandula"
-"375","Homo sapiens","Hippolytidae"
-"376","Homo sapiens","Telmessus cheiragonus"
-"377","Homo sapiens","Cancer"
-"378","Homo sapiens","Detritus complex"
-"379","Homo sapiens","Gavia"
-"380","Homo sapiens","Diomedeidae"
-"381","Homo sapiens","Phalacrocorax pelagicus"
-"382","Homo sapiens","Branta canadensis"
-"383","Homo sapiens","Branta bernicla"
-"384","Homo sapiens","Chen canagica"
-"385","Homo sapiens","Anas"
-"386","Homo sapiens","Somateria mollissima"
-"387","Homo sapiens","Somateria spectabilis"
-"388","Homo sapiens","Mergus"
-"389","Homo sapiens","Tringa melanoleuca"
-"390","Homo sapiens","Gallinago"
-"391","Homo sapiens","Larus hyperboreus"
-"392","Homo sapiens","Larus glaucescens"
-"393","Homo sapiens","Uria lomvia"
-"394","Homo sapiens","Synthliboramphus antiquus"
-"395","Homo sapiens","Ptychoramphus aleuticus"
-"396","Homo sapiens","Aethia cristatella"
-"397","Homo sapiens","Fratercula corniculata"
-"398","Homo sapiens","Fratercula cirrhata"
-"399","Homo sapiens","Bubo scandiacus"
-"400","Enhydra lutris","Phascolosomatidae"
-"401","Enhydra lutris","Evasterias troschelii"
-"402","Enhydra lutris","Pycnopodia helianthoides"
-"403","Enhydra lutris","Strongylocentrotus droebachiensis"
-"404","Enhydra lutris","Cucumaria"
-"405","Enhydra lutris","Ammodytes hexapterus"
-"406","Enhydra lutris","Enteroctopus dofleini"
-"407","Enhydra lutris","Pharidae"
-"408","Enhydra lutris","Trochidae"
-"409","Enhydra lutris","Naticidae"
-"410","Enhydra lutris","Nucella lamellosa"
-"411","Enhydra lutris","Katharina tunicata"
-"412","Enhydra lutris","Cryptochiton stelleri"
-"413","Enhydra lutris","Mytilus"
-"414","Enhydra lutris","Modiolus"
-"415","Enhydra lutris","Pododesmus"
-"416","Enhydra lutris","Clinocardium"
-"417","Enhydra lutris","Tresus"
-"418","Enhydra lutris","Mactromeris"
-"419","Enhydra lutris","Macoma"
-"420","Enhydra lutris","Saxidomus"
-"421","Enhydra lutris","Protothaca staminea"
-"422","Enhydra lutris","Hiatellidae"
-"423","Enhydra lutris","Entodesma"
-"424","Enhydra lutris","Crangonidae"
-"425","Enhydra lutris","Paguridae"
-"426","Enhydra lutris","Pugettia"
-"427","Enhydra lutris","Telmessus cheiragonus"
-"428","Enhydra lutris","Cancer"
-"429","Enhydra lutris","Gavia"
-"430","Enhydra lutris","Anas"
-"431","Enhydra lutris","Melanitta perspicillata"
-"432","Vulpes","Staphylinidae"
-"433","Vulpes","Pholis"
-"434","Vulpes","Ammodytes hexapterus"
-"435","Vulpes","Enhydra lutris"
-"436","Vulpes","Vulpes"
-"437","Vulpes","Eumetopias jubatus"
-"438","Vulpes","Nereididae"
-"439","Vulpes","Mytilus"
-"440","Vulpes","Gammaridea"
-"441","Vulpes","Detritus complex"
-"442","Vulpes","Gavia"
-"443","Vulpes","Fulmarus glacialis"
-"444","Vulpes","Puffinus tenuirostris"
-"445","Vulpes","Oceanodroma"
-"446","Vulpes","Phalacrocorax auritus"
-"447","Vulpes","Phalacrocorax pelagicus"
-"448","Vulpes","Cygnus columbianus"
-"449","Vulpes","Branta canadensis"
-"450","Vulpes","Branta bernicla"
-"451","Vulpes","Chen canagica"
-"452","Vulpes","Anas"
-"453","Vulpes","Aythya marila"
-"454","Vulpes","Clangula hyemalis"
-"455","Vulpes","Polysticta stelleri"
-"456","Vulpes","Somateria mollissima"
-"457","Vulpes","Somateria spectabilis"
-"458","Vulpes","Buteo lagopus"
-"459","Vulpes","Charadrius semipalmatus"
-"460","Vulpes","Calidris"
-"461","Vulpes","Limosa lapponica"
-"462","Vulpes","Phalaropus lobatus"
-"463","Vulpes","Stercorarius parasiticus"
-"464","Vulpes","Larus hyperboreus"
-"465","Vulpes","Larus glaucescens"
-"466","Vulpes","Larus canus"
-"467","Vulpes","Rissa tridactyla"
-"468","Vulpes","Sterna"
-"469","Vulpes","Uria aalge"
-"470","Vulpes","Uria lomvia"
-"471","Vulpes","Cepphus columba"
-"472","Vulpes","Synthliboramphus antiquus"
-"473","Vulpes","Ptychoramphus aleuticus"
-"474","Vulpes","Aethia cristatella"
-"475","Vulpes","Fratercula corniculata"
-"476","Vulpes","Fratercula cirrhata"
-"477","Vulpes","Melospiza melodia"
-"478","Vulpes","Calcarius lapponicus"
-"479","Vulpes","Plectrophenax"
-"480","Vulpes","Aethia psittacula"
-"481","Vulpes","Bubo scandiacus"
-"482","Eumetopias jubatus","Hypomesus pretiosus"
-"483","Eumetopias jubatus","Gasterosteus aculeatus"
-"484","Eumetopias jubatus","Artedius"
-"485","Eumetopias jubatus","Hemilepidotus hemilepidotus"
-"486","Eumetopias jubatus","Oligocottus maculosus"
-"487","Eumetopias jubatus","Trichodon trichodon"
-"488","Eumetopias jubatus","Anoplarchus purpurescens"
-"489","Eumetopias jubatus","Xiphister atropurpureus"
-"490","Eumetopias jubatus","Xiphister mucosus"
-"491","Eumetopias jubatus","Pholis"
-"492","Eumetopias jubatus","Ammodytes hexapterus"
-"493","Eumetopias jubatus","Enhydra lutris"
-"494","Eumetopias jubatus","Phoca vitulina"
-"495","Eumetopias jubatus","Enteroctopus dofleini"
-"496","Eumetopias jubatus","Cancer"
-"497","Eumetopias jubatus","Ptychoramphus aleuticus"
-"498","Phoca vitulina","Hypomesus pretiosus"
-"499","Phoca vitulina","Gasterosteus aculeatus"
-"500","Phoca vitulina","Hemilepidotus hemilepidotus"
-"501","Phoca vitulina","Trichodon trichodon"
-"502","Phoca vitulina","Anoplarchus purpurescens"
-"503","Phoca vitulina","Pholis"
-"504","Phoca vitulina","Ammodytes hexapterus"
-"505","Phoca vitulina","Enteroctopus dofleini"
-"506","Phoca vitulina","Mytilus"
-"507","Phoca vitulina","Crangonidae"
-"508","Phoca vitulina","Paguridae"
-"509","Phoca vitulina","Cancer"
-"510","Foraminiferida","Bacteria"
-"511","Foraminiferida","Bacillariophyta"
-"512","Foraminiferida","Foraminiferida"
-"513","Foraminiferida","Radiolaria"
-"514","Foraminiferida","Ciliophora"
-"515","Radiolaria","Bacillariophyta"
-"516","Radiolaria","Foraminiferida"
-"517","Radiolaria","Radiolaria"
-"518","Radiolaria","Ciliophora"
-"519","Radiolaria","Ostracoda"
-"520","Ciliophora","Chrysophyta"
-"521","Ciliophora","Gasterosteus aculeatus"
-"522","Ciliophora","Bacteria"
-"523","Ciliophora","Prymnesiophyceae"
-"524","Ciliophora","Bacillariophyta"
-"525","Ciliophora","Ciliophora"
-"526","Ciliophora","Cyanophycota"
-"527","Ciliophora","Prasinophyta"
-"528","Ciliophora","Dinophyceae"
-"529","Haliclona","Bacteria"
-"530","Haliclona","Detritus complex"
-"531","Ophlitaspongia","Detritus complex"
-"532","Halichondria panicea","Bacteria"
-"533","Halichondria panicea","Detritus complex"
-"534","Hydrozoa","Bacteria"
-"535","Hydrozoa","Bacillariophyta"
-"536","Hydrozoa","Foraminiferida"
-"537","Hydrozoa","Ciliophora"
-"538","Hydrozoa","Hydrozoa"
-"539","Hydrozoa","Polynoidae"
-"540","Hydrozoa","Ostracoda"
-"541","Hydrozoa","Gammaridea"
-"542","Hydrozoa","Caprellidae"
-"543","Hydrozoa","Euphausiidae"
-"544","Hydrozoa","Pugettia"
-"545","Hydrozoa","Dinophyceae"
-"546","Hydrozoa","Detritus complex"
-"547","Anthopleura","Gymnolaemata"
-"548","Anthopleura","Bacillariophyta"
-"549","Anthopleura","Foraminiferida"
-"550","Anthopleura","Hydrozoa"
-"551","Anthopleura","Anthopleura"
-"552","Anthopleura","Lottia scutum"
-"553","Anthopleura","Trochidae"
-"554","Anthopleura","Littorina"
-"555","Anthopleura","Mytilus"
-"556","Anthopleura","Protothaca staminea"
-"557","Anthopleura","Balanus glandula"
-"558","Anthopleura","Semibalanus cariosus"
-"559","Anthopleura","Paguridae"
-"560","Anthopleura","Pugettia"
-"561","Anthopleura","Cancer"
-"562","Anthopleura","Detritus complex"
-"563","Epiactis","Caprellidae"
-"564","Epiactis","Detritus complex"
-"565","Urticina","Dermasterias imbricata"
-"566","Urticina","Hemilepidotus hemilepidotus"
-"567","Urticina","Epiactis"
-"568","Urticina","Mytilus"
-"569","Urticina","Telmessus cheiragonus"
-"570","Metridium senile","Gymnolaemata"
-"571","Metridium senile","Bacillariophyta"
-"572","Metridium senile","Foraminiferida"
-"573","Metridium senile","Ostracoda"
-"574","Metridium senile","Harpacticidae"
-"575","Metridium senile","Chthamalus dalli"
-"576","Metridium senile","Balanus glandula"
-"577","Metridium senile","Semibalanus cariosus"
-"578","Metridium senile","Gammaridea"
-"579","Metridium senile","Caprellidae"
-"580","Metridium senile","Detritus complex"
-"581","Enteroctopus dofleini","Strongylocentrotus droebachiensis"
-"582","Enteroctopus dofleini","Enteroctopus dofleini"
-"583","Enteroctopus dofleini","Littorina"
-"584","Enteroctopus dofleini","Trichotropis cancellata"
-"585","Enteroctopus dofleini","Naticidae"
-"586","Enteroctopus dofleini","Nucella lima"
-"587","Enteroctopus dofleini","Tonicella"
-"588","Enteroctopus dofleini","Mytilus"
-"589","Enteroctopus dofleini","Pododesmus"
-"590","Enteroctopus dofleini","Macoma"
-"591","Enteroctopus dofleini","Saxidomus"
-"592","Enteroctopus dofleini","Protothaca staminea"
-"593","Enteroctopus dofleini","Semibalanus cariosus"
-"594","Enteroctopus dofleini","Pugettia"
-"595","Enteroctopus dofleini","Telmessus cheiragonus"
-"596","Enteroctopus dofleini","Cancer"
-"597","Pharidae","Detritus complex"
-"598","Lottia digitalis","Fucus"
-"599","Lottia digitalis","Bangia"
-"600","Lottia digitalis","Bacillariophyta"
-"601","Lottia digitalis","Cyanophycota"
-"602","Lottia digitalis","Acrosiphoniaceae"
-"603","Lottia digitalis","Cladophoraceae"
-"604","Lottia digitalis","Chthamalus dalli"
-"605","Lottia digitalis","Balanus crenatus"
-"606","Lottia digitalis","Balanus glandula"
-"607","Lottia digitalis","Semibalanus cariosus"
-"608","Lottia digitalis","Mastocarpus"
-"609","Lottia digitalis","Mazzaella"
-"610","Lottia digitalis","Biofilm Complex"
-"611","Lottia pelta","Bacillariophyta"
-"612","Lottia pelta","Cyanophycota"
-"613","Lottia pelta","Cladophoraceae"
-"614","Lottia pelta","Chthamalus dalli"
-"615","Lottia pelta","Balanus glandula"
-"616","Lottia pelta","Semibalanus cariosus"
-"617","Lottia pelta","Mastocarpus"
-"618","Lottia pelta","Mazzaella"
-"619","Lottia pelta","Phaeophyta Crust"
-"620","Lottia pelta","Crustose coralline algae complex"
-"621","Lottia pelta","Biofilm Complex"
-"622","Lottia pelta","Red crust complex"
-"623","Lottia persona","Bacillariophyta"
-"624","Lottia persona","Biofilm Complex"
-"625","Lottia scutum","Pilayella littoralis"
-"626","Lottia scutum","Saccharina sessile"
-"627","Lottia scutum","Porphyra"
-"628","Lottia scutum","Odonthalia"
-"629","Lottia scutum","Bacillariophyta"
-"630","Lottia scutum","Foraminiferida"
-"631","Lottia scutum","Cyanophycota"
-"632","Lottia scutum","Ulvaceae"
-"633","Lottia scutum","Chthamalus dalli"
-"634","Lottia scutum","Balanus glandula"
-"635","Lottia scutum","Semibalanus cariosus"
-"636","Lottia scutum","Mastocarpus"
-"637","Lottia scutum","Phaeophyta Crust"
-"638","Lottia scutum","Crustose coralline algae complex"
-"639","Lottia scutum","Detritus complex"
-"640","Lottia scutum","Biofilm Complex"
-"641","Lottia scutum","Red crust complex"
-"642","Lineidae","Lineidae"
-"643","Lineidae","Emplectonematidae"
-"644","Lineidae","Polynoidae"
-"645","Lineidae","Nereididae"
-"646","Emplectonematidae","Lottia digitalis"
-"647","Emplectonematidae","Lottia pelta"
-"648","Emplectonematidae","Polynoidae"
-"649","Emplectonematidae","Nereididae"
-"650","Emplectonematidae","Lumbrineridae"
-"651","Emplectonematidae","Terebellidae"
-"652","Emplectonematidae","Nucella lamellosa"
-"653","Emplectonematidae","Chthamalus dalli"
-"654","Emplectonematidae","Balanus glandula"
-"655","Emplectonematidae","Semibalanus cariosus"
-"656","Amphiporidae","Littorina"
-"657","Amphiporidae","Idoteidae"
-"658","Amphiporidae","Gammaridea"
-"659","Amphiporidae","Caprellidae"
-"660","Polynoidae","Gymnolaemata"
-"661","Polynoidae","Prymnesiophyceae"
-"662","Polynoidae","Bacillariophyta"
-"663","Polynoidae","Radiolaria"
-"664","Polynoidae","Ciliophora"
-"665","Polynoidae","Hydrozoa"
-"666","Polynoidae","Polynoidae"
-"667","Polynoidae","Pycnogonida"
-"668","Polynoidae","Ostracoda"
-"669","Polynoidae","Limnoria"
-"670","Polynoidae","Gammaridea"
-"671","Polynoidae","Detritus complex"
-"672","Balanus nubilus","Bacillariophyta"
-"673","Balanus nubilus","Sarcomastigophora"
-"674","Balanus nubilus","Foraminiferida"
-"675","Balanus nubilus","Detritus complex"
-"676","Nereididae","Laminaria"
-"677","Nereididae","Fucus"
-"678","Nereididae","Odonthalia"
-"679","Nereididae","Bacillariophyta"
-"680","Nereididae","Zostera marina"
-"681","Nereididae","Foraminiferida"
-"682","Nereididae","Hydrozoa"
-"683","Nereididae","Ulvaceae"
-"684","Nereididae","Nereididae"
-"685","Nereididae","Macoma"
-"686","Nereididae","Limnoria"
-"687","Nereididae","Gammaridea"
-"688","Nereididae","Detritus complex"
-"689","Glyceridae","Polynoidae"
-"690","Glyceridae","Nereididae"
-"691","Glyceridae","Macoma"
-"692","Glyceridae","Gammaridea"
-"693","Glyceridae","Detritus complex"
-"694","Lumbrineridae","Ophiuroidea"
-"695","Lumbrineridae","Foraminiferida"
-"696","Lumbrineridae","Lumbrineridae"
-"697","Lumbrineridae","Flabelligeridae"
-"698","Lumbrineridae","Detritus complex"
-"699","Flabelligeridae","Detritus complex"
-"700","Terebellidae","Bacteria"
-"701","Terebellidae","Bacillariophyta"
-"702","Terebellidae","Ulvaceae"
-"703","Terebellidae","Detritus complex"
-"704","Sabellidae","Detritus complex"
-"705","Acmaea mitra","Saccharina sessile"
-"706","Acmaea mitra","Alaria"
-"707","Acmaea mitra","Corallina"
-"708","Acmaea mitra","Microcladia"
-"709","Acmaea mitra","Crustose coralline algae complex"
-"710","Acmaea mitra","Biofilm Complex"
-"711","Trochidae","Laminaria"
-"712","Trochidae","Agarum"
-"713","Trochidae","Costaria costata"
-"714","Trochidae","Saccharina sessile"
-"715","Trochidae","Nereocystis luetkeana"
-"716","Trochidae","Alaria"
-"717","Trochidae","Fucus"
-"718","Trochidae","Cystoseira"
-"719","Trochidae","Colpomenia"
-"720","Trochidae","Corallina"
-"721","Trochidae","Microcladia"
-"722","Trochidae","Bacillariophyta"
-"723","Trochidae","Ulvaceae"
-"724","Trochidae","Cladophoraceae"
-"725","Trochidae","Codiaceae"
-"726","Trochidae","Mastocarpus"
-"727","Trochidae","Mazzaella"
-"728","Trochidae","Phaeophyta Crust"
-"729","Trochidae","Crustose coralline algae complex"
-"730","Trochidae","Biofilm Complex"
-"731","Trochidae","Red crust complex"
-"732","Lacuna","Laminaria"
-"733","Lacuna","Costaria costata"
-"734","Lacuna","Saccharina sessile"
-"735","Lacuna","Nereocystis luetkeana"
-"736","Lacuna","Alaria"
-"737","Lacuna","Fucus"
-"738","Lacuna","Bacillariophyta"
-"739","Lacuna","Mastocarpus"
-"740","Lacuna","Neorhodomela"
-"741","Lacuna","Detritus complex"
-"742","Lacuna","Biofilm Complex"
-"743","Littorina","Laminaria"
-"744","Littorina","Agarum"
-"745","Littorina","Desmarestia"
-"746","Littorina","Fucus"
-"747","Littorina","Cystoseira"
-"748","Littorina","Colpomenia"
-"749","Littorina","Porphyra"
-"750","Littorina","Polysiphonia"
-"751","Littorina","Odonthalia"
-"752","Littorina","Caloplaca"
-"753","Littorina","Verrucaria"
-"754","Littorina","Strongylocentrotus droebachiensis"
-"755","Littorina","Bacillariophyta"
-"756","Littorina","Foraminiferida"
-"757","Littorina","Cyanophycota"
-"758","Littorina","Ulvaceae"
-"759","Littorina","Acrosiphoniaceae"
-"760","Littorina","Cladophoraceae"
-"761","Littorina","Codiaceae"
-"762","Littorina","Prasinophyta"
-"763","Littorina","Mastocarpus"
-"764","Littorina","Mazzaella"
-"765","Littorina","Neorhodomela"
-"766","Littorina","Phaeophyta Crust"
-"767","Littorina","Crustose coralline algae complex"
-"768","Littorina","Detritus complex"
-"769","Littorina","Biofilm Complex"
-"770","Littorina","Red crust complex"
-"771","Cerithiopsis","Halichondria panicea"
-"772","Cerithiopsis","Biofilm Complex"
-"773","Trichotropis cancellata","Sabellidae"
-"774","Trichotropis cancellata","Detritus complex"
-"775","Velutina","Biofilm Complex"
-"776","Naticidae","Chrysophyta"
-"777","Naticidae","Prymnesiophyceae"
-"778","Naticidae","Bacillariophyta"
-"779","Naticidae","Ulvaceae"
-"780","Naticidae","Naticidae"
-"781","Naticidae","Buccinum"
-"782","Naticidae","Tresus"
-"783","Naticidae","Macoma"
-"784","Naticidae","Saxidomus"
-"785","Naticidae","Protothaca staminea"
-"786","Naticidae","Detritus complex"
-"787","Naticidae","Biofilm Complex"
-"788","Fusitriton","Terebratalia transversa"
-"789","Fusitriton","Solaster stimpsoni"
-"790","Fusitriton","Leptasterias"
-"791","Fusitriton","Ophiuroidea"
-"792","Fusitriton","Strongylocentrotus droebachiensis"
-"793","Fusitriton","Styela"
-"794","Fusitriton","Pyura"
-"795","Fusitriton","Sabellidae"
-"796","Fusitriton","Acmaea mitra"
-"797","Fusitriton","Naticidae"
-"798","Fusitriton","Fusitriton"
-"799","Fusitriton","Tonicella"
-"800","Fusitriton","Katharina tunicata"
-"801","Fusitriton","Cryptochiton stelleri"
-"802","Fusitriton","Mytilus"
-"803","Fusitriton","Clinocardium"
-"804","Fusitriton","Detritus complex"
-"805","Nucella canaliculata","Mytilus"
-"806","Nucella canaliculata","Chthamalus dalli"
-"807","Nucella canaliculata","Balanus glandula"
-"808","Nucella canaliculata","Semibalanus cariosus"
-"809","Nucella lamellosa","Pyura"
-"810","Nucella lamellosa","Lottia pelta"
-"811","Nucella lamellosa","Trichotropis cancellata"
-"812","Nucella lamellosa","Mytilus"
-"813","Nucella lamellosa","Chthamalus dalli"
-"814","Nucella lamellosa","Balanus glandula"
-"815","Nucella lamellosa","Semibalanus balanoides"
-"816","Nucella lamellosa","Semibalanus cariosus"
-"817","Nucella lima","Lottia pelta"
-"818","Nucella lima","Littorina"
-"819","Nucella lima","Mytilus"
-"820","Nucella lima","Balanus glandula"
-"821","Nucella lima","Semibalanus balanoides"
-"822","Nucella lima","Semibalanus cariosus"
-"823","Buccinum","Strongylocentrotus droebachiensis"
-"824","Buccinum","Polynoidae"
-"825","Buccinum","Terebellidae"
-"826","Buccinum","Buccinum"
-"827","Buccinum","Mytilus"
-"828","Buccinum","Clinocardium"
-"829","Buccinum","Mactromeris"
-"830","Buccinum","Gammaridea"
-"831","Buccinum","Cancer"
-"832","Buccinum","Detritus complex"
-"833","Siphonaria thersites","Fucus"
-"834","Siphonaria thersites","Ulvaceae"
-"835","Siphonaria thersites","Biofilm Complex"
-"836","Diaulula sandiegensis","Haliclona"
-"837","Diaulula sandiegensis","Halichondria panicea"
-"838","Rostanga pulchra","Ophlitaspongia"
-"839","Archidoris montereyensis","Haliclona"
-"840","Archidoris montereyensis","Halichondria panicea"
-"841","Archidoris odhneri","Haliclona"
-"842","Archidoris odhneri","Halichondria panicea"
-"843","Triopha catalinae","Gymnolaemata"
-"844","Hermissenda crassicornis","Gymnolaemata"
-"845","Hermissenda crassicornis","Hydrozoa"
-"846","Hermissenda crassicornis","Anthopleura"
-"847","Hermissenda crassicornis","Hermissenda crassicornis"
-"848","Hermissenda crassicornis","Detritus complex"
-"849","Aeolidia papillosa","Hydrozoa"
-"850","Aeolidia papillosa","Anthopleura"
-"851","Aeolidia papillosa","Epiactis"
-"852","Aeolidia papillosa","Urticina"
-"853","Aeolidia papillosa","Metridium senile"
-"854","Onchidella","Bacillariophyta"
-"855","Onchidella","Biofilm Complex"
-"856","Leptochiton rugatus","Bacteria"
-"857","Leptochiton rugatus","Bacillariophyta"
-"858","Leptochiton rugatus","Cyanophycota"
-"859","Leptochiton rugatus","Detritus complex"
-"860","Leptochiton rugatus","Biofilm Complex"
-"861","Tonicella","Corallina"
-"862","Tonicella","Gymnolaemata"
-"863","Tonicella","Bacillariophyta"
-"864","Tonicella","Crustose coralline algae complex"
-"865","Tonicella","Biofilm Complex"
-"866","Katharina tunicata","Saccharina sessile"
-"867","Katharina tunicata","Alaria"
-"868","Katharina tunicata","Fucus"
-"869","Katharina tunicata","Porphyra"
-"870","Katharina tunicata","Corallina"
-"871","Katharina tunicata","Bossiella"
-"872","Katharina tunicata","Microcladia"
-"873","Katharina tunicata","Polysiphonia"
-"874","Katharina tunicata","Odonthalia"
-"875","Katharina tunicata","Verrucaria"
-"876","Katharina tunicata","Gymnolaemata"
-"877","Katharina tunicata","Bacillariophyta"
-"878","Katharina tunicata","Foraminiferida"
-"879","Katharina tunicata","Halichondria panicea"
-"880","Katharina tunicata","Hydrozoa"
-"881","Katharina tunicata","Cyanophycota"
-"882","Katharina tunicata","Ulvaceae"
-"883","Katharina tunicata","Acrosiphoniaceae"
-"884","Katharina tunicata","Lacuna"
-"885","Katharina tunicata","Chthamalus dalli"
-"886","Katharina tunicata","Mazzaella"
-"887","Katharina tunicata","Neorhodomela"
-"888","Katharina tunicata","Phaeophyta Crust"
-"889","Katharina tunicata","Crustose coralline algae complex"
-"890","Katharina tunicata","Biofilm Complex"
-"891","Katharina tunicata","Red crust complex"
-"892","Katharina tunicata","Chlorophyta Crust"
-"893","Mopalia","Corallina"
-"894","Mopalia","Gymnolaemata"
-"895","Mopalia","Bacillariophyta"
-"896","Mopalia","Foraminiferida"
-"897","Mopalia","Ciliophora"
-"898","Mopalia","Hydrozoa"
-"899","Mopalia","Ulvaceae"
-"900","Mopalia","Nucella lamellosa"
-"901","Mopalia","Mastocarpus"
-"902","Mopalia","Phaeophyta Crust"
-"903","Mopalia","Crustose coralline algae complex"
-"904","Mopalia","Detritus complex"
-"905","Mopalia","Biofilm Complex"
-"906","Cryptochiton stelleri","Costaria costata"
-"907","Cryptochiton stelleri","Saccharina sessile"
-"908","Cryptochiton stelleri","Alaria"
-"909","Cryptochiton stelleri","Odonthalia"
-"910","Cryptochiton stelleri","Ulvaceae"
-"911","Cryptochiton stelleri","Acrosiphoniaceae"
-"912","Cryptochiton stelleri","Fusitriton"
-"913","Cryptochiton stelleri","Mastocarpus"
-"914","Cryptochiton stelleri","Biofilm Complex"
-"915","Mytilus","Prymnesiophyceae"
-"916","Mytilus","Bacillariophyta"
-"917","Mytilus","Sarcomastigophora"
-"918","Mytilus","Lottia scutum"
-"919","Mytilus","Ulvaceae"
-"920","Mytilus","Dinophyceae"
-"921","Mytilus","Detritus complex"
-"922","Modiolus","Detritus complex"
-"923","Pododesmus","Detritus complex"
-"924","Clinocardium","Chrysophyta"
-"925","Clinocardium","Prymnesiophyceae"
-"926","Clinocardium","Bacillariophyta"
-"927","Clinocardium","Prasinophyta"
-"928","Clinocardium","Detritus complex"
-"929","Tresus","Detritus complex"
-"930","Mactromeris","Detritus complex"
-"931","Macoma","Bacteria"
-"932","Macoma","Bacillariophyta"
-"933","Macoma","Sarcomastigophora"
-"934","Macoma","Cyanophycota"
-"935","Macoma","Dinophyceae"
-"936","Macoma","Detritus complex"
-"937","Saxidomus","Detritus complex"
-"938","Protothaca staminea","Detritus complex"
-"939","Hiatellidae","Detritus complex"
-"940","Entodesma","Detritus complex"
-"941","Prostigmata","Detritus complex"
-"942","Pycnogonida","Gymnolaemata"
-"943","Pycnogonida","Cucumaria"
-"944","Pycnogonida","Foraminiferida"
-"945","Pycnogonida","Halichondria panicea"
-"946","Pycnogonida","Hydrozoa"
-"947","Pycnogonida","Anthopleura"
-"948","Pycnogonida","Urticina"
-"949","Pycnogonida","Metridium senile"
-"950","Pycnogonida","Sabellidae"
-"951","Pycnogonida","Detritus complex"
-"952","Ostracoda","Bacteria"
-"953","Ostracoda","Cyanophycota"
-"954","Ostracoda","Detritus complex"
-"955","Harpacticidae","Bacillariophyta"
-"956","Harpacticidae","Detritus complex"
-"957","Chthamalus dalli","Detritus complex"
-"958","Balanus crenatus","Bacillariophyta"
-"959","Balanus crenatus","Detritus complex"
-"960","Balanus glandula","Bacillariophyta"
-"961","Balanus glandula","Detritus complex"
-"962","Semibalanus balanoides","Chrysophyta"
-"963","Semibalanus balanoides","Bacillariophyta"
-"964","Semibalanus balanoides","Sarcomastigophora"
-"965","Semibalanus balanoides","Ciliophora"
-"966","Semibalanus balanoides","Dinophyceae"
-"967","Semibalanus balanoides","Detritus complex"
-"968","Semibalanus cariosus","Bacillariophyta"
-"969","Semibalanus cariosus","Foraminiferida"
-"970","Semibalanus cariosus","Mytilus"
-"971","Semibalanus cariosus","Ostracoda"
-"972","Semibalanus cariosus","Detritus complex"
-"973","Sphaeromatidae","Fucus"
-"974","Sphaeromatidae","Cystoseira"
-"975","Sphaeromatidae","Polysiphonia"
-"976","Sphaeromatidae","Bacillariophyta"
-"977","Sphaeromatidae","Ulvaceae"
-"978","Sphaeromatidae","Cladophoraceae"
-"979","Sphaeromatidae","Detritus complex"
-"980","Limnoria","Detritus complex"
-"981","Idoteidae","Pilayella littoralis"
-"982","Idoteidae","Laminaria"
-"983","Idoteidae","Costaria costata"
-"984","Idoteidae","Saccharina sessile"
-"985","Idoteidae","Nereocystis luetkeana"
-"986","Idoteidae","Alaria"
-"987","Idoteidae","Fucus"
-"988","Idoteidae","Porphyra"
-"989","Idoteidae","Corallina"
-"990","Idoteidae","Palmaria"
-"991","Idoteidae","Odonthalia"
-"992","Idoteidae","Bacillariophyta"
-"993","Idoteidae","Zostera marina"
-"994","Idoteidae","Hydrozoa"
-"995","Idoteidae","Cyanophycota"
-"996","Idoteidae","Ulvaceae"
-"997","Idoteidae","Acrosiphoniaceae"
-"998","Idoteidae","Cladophoraceae"
-"999","Idoteidae","Codiaceae"
-"1000","Idoteidae","Nucella lamellosa"
-"1001","Idoteidae","Mastocarpus"
-"1002","Idoteidae","Neorhodomela"
-"1003","Idoteidae","Detritus complex"
-"1004","Gammaridea","Pilayella littoralis"
-"1005","Gammaridea","Laminaria"
-"1006","Gammaridea","Alaria"
-"1007","Gammaridea","Desmarestia"
-"1008","Gammaridea","Fucus"
-"1009","Gammaridea","Cystoseira"
-"1010","Gammaridea","Porphyra"
-"1011","Gammaridea","Corallina"
-"1012","Gammaridea","Palmaria"
-"1013","Gammaridea","Polysiphonia"
-"1014","Gammaridea","Odonthalia"
-"1015","Gammaridea","Cucumaria"
-"1016","Gammaridea","Bacteria"
-"1017","Gammaridea","Bacillariophyta"
-"1018","Gammaridea","Zostera marina"
-"1019","Gammaridea","Ciliophora"
-"1020","Gammaridea","Cyanophycota"
-"1021","Gammaridea","Ulvaceae"
-"1022","Gammaridea","Acrosiphoniaceae"
-"1023","Gammaridea","Cladophoraceae"
-"1024","Gammaridea","Codiaceae"
-"1025","Gammaridea","Macoma"
-"1026","Gammaridea","Ostracoda"
-"1027","Gammaridea","Gammaridea"
-"1028","Gammaridea","Dinophyceae"
-"1029","Gammaridea","Mazzaella"
-"1030","Gammaridea","Neorhodomela"
-"1031","Gammaridea","Detritus complex"
-"1032","Gammaridea","Biofilm Complex"
-"1033","Caprellidae","Fucus"
-"1034","Caprellidae","Microcladia"
-"1035","Caprellidae","Bacillariophyta"
-"1036","Caprellidae","Detritus complex"
-"1037","Caprellidae","Biofilm Complex"
-"1038","Euphausiidae","Prymnesiophyceae"
-"1039","Euphausiidae","Bacillariophyta"
-"1040","Euphausiidae","Sarcomastigophora"
-"1041","Euphausiidae","Foraminiferida"
-"1042","Euphausiidae","Radiolaria"
-"1043","Euphausiidae","Ciliophora"
-"1044","Euphausiidae","Hydrozoa"
-"1045","Euphausiidae","Cyanophycota"
-"1046","Euphausiidae","Ostracoda"
-"1047","Euphausiidae","Euphausiidae"
-"1048","Euphausiidae","Dinophyceae"
-"1049","Euphausiidae","Detritus complex"
-"1050","Hippolytidae","Bacillariophyta"
-"1051","Hippolytidae","Foraminiferida"
-"1052","Hippolytidae","Hydrozoa"
-"1053","Hippolytidae","Hermissenda crassicornis"
-"1054","Hippolytidae","Gammaridea"
-"1055","Hippolytidae","Prasinophyta"
-"1056","Hippolytidae","Detritus complex"
-"1057","Crangonidae","Strongylocentrotus droebachiensis"
-"1058","Crangonidae","Bacillariophyta"
-"1059","Crangonidae","Foraminiferida"
-"1060","Crangonidae","Hydrozoa"
-"1061","Crangonidae","Nereididae"
-"1062","Crangonidae","Glyceridae"
-"1063","Crangonidae","Macoma"
-"1064","Crangonidae","Ostracoda"
-"1065","Crangonidae","Idoteidae"
-"1066","Crangonidae","Gammaridea"
-"1067","Crangonidae","Detritus complex"
-"1068","Paguridae","Odonthalia"
-"1069","Paguridae","Gymnolaemata"
-"1070","Paguridae","Strongylocentrotus droebachiensis"
-"1071","Paguridae","Bacillariophyta"
-"1072","Paguridae","Foraminiferida"
-"1073","Paguridae","Hydrozoa"
-"1074","Paguridae","Lottia pelta"
-"1075","Paguridae","Glyceridae"
-"1076","Paguridae","Nucella lamellosa"
-"1077","Paguridae","Mytilus"
-"1078","Paguridae","Ostracoda"
-"1079","Paguridae","Paguridae"
-"1080","Paguridae","Detritus complex"
-"1081","Mimulus","Detritus complex"
-"1082","Pugettia","Laminaria"
-"1083","Pugettia","Costaria costata"
-"1084","Pugettia","Nereocystis luetkeana"
-"1085","Pugettia","Alaria"
-"1086","Pugettia","Fucus"
-"1087","Pugettia","Cystoseira"
-"1088","Pugettia","Odonthalia"
-"1089","Pugettia","Gymnolaemata"
-"1090","Pugettia","Bacillariophyta"
-"1091","Pugettia","Zostera marina"
-"1092","Pugettia","Hydrozoa"
-"1093","Pugettia","Mytilus"
-"1094","Pugettia","Idoteidae"
-"1095","Pugettia","Detritus complex"
-"1096","Scyra","Foraminiferida"
-"1097","Scyra","Detritus complex"
-"1098","Telmessus cheiragonus","Pycnopodia helianthoides"
-"1099","Telmessus cheiragonus","Zostera marina"
-"1100","Cancer","Phoronida"
-"1101","Cancer","Terebratalia transversa"
-"1102","Cancer","Leptasterias"
-"1103","Cancer","Pycnopodia helianthoides"
-"1104","Cancer","Strongylocentrotus droebachiensis"
-"1105","Cancer","Cucumaria"
-"1106","Cancer","Styela"
-"1107","Cancer","Ammodytes hexapterus"
-"1108","Cancer","Bacillariophyta"
-"1109","Cancer","Zostera marina"
-"1110","Cancer","Hydrozoa"
-"1111","Cancer","Pharidae"
-"1112","Cancer","Flabelligeridae"
-"1113","Cancer","Trochidae"
-"1114","Cancer","Littorina"
-"1115","Cancer","Trichotropis cancellata"
-"1116","Cancer","Nucella lamellosa"
-"1117","Cancer","Buccinum"
-"1118","Cancer","Mytilus"
-"1119","Cancer","Modiolus"
-"1120","Cancer","Clinocardium"
-"1121","Cancer","Tresus"
-"1122","Cancer","Mactromeris"
-"1123","Cancer","Macoma"
-"1124","Cancer","Saxidomus"
-"1125","Cancer","Protothaca staminea"
-"1126","Cancer","Hiatellidae"
-"1127","Cancer","Balanus crenatus"
-"1128","Cancer","Semibalanus balanoides"
-"1129","Cancer","Gammaridea"
-"1130","Cancer","Crangonidae"
-"1131","Cancer","Paguridae"
-"1132","Cancer","Pugettia"
-"1133","Cancer","Cancer"
-"1134","Cancer","Dinophyceae"
-"1135","Cancer","Detritus complex"
-"1136","Cancer","Red crust complex"
-"1137","Dinophyceae","Bacteria"
-"1138","Dinophyceae","Prymnesiophyceae"
-"1139","Dinophyceae","Bacillariophyta"
-"1140","Dinophyceae","Ciliophora"
-"1141","Dinophyceae","Cyanophycota"
-"1142","Dinophyceae","Prasinophyta"
-"1143","Dinophyceae","Dinophyceae"
-"1144","Gavia","Gasterosteus aculeatus"
-"1145","Gavia","Pholis"
-"1146","Gavia","Ammodytes hexapterus"
-"1147","Gavia","Enteroctopus dofleini"
-"1148","Gavia","Nereididae"
-"1149","Gavia","Idoteidae"
-"1150","Gavia","Gammaridea"
-"1151","Gavia","Hippolytidae"
-"1152","Gavia","Paguridae"
-"1153","Gavia","Gavia"
-"1154","Podiceps","Gasterosteus aculeatus"
-"1155","Podiceps","Nereididae"
-"1156","Podiceps","Ostracoda"
-"1157","Podiceps","Gammaridea"
-"1158","Podiceps","Crangonidae"
-"1159","Podiceps","Podiceps"
-"1160","Diomedeidae","Strongylocentrotus droebachiensis"
-"1161","Diomedeidae","Ammodytes hexapterus"
-"1162","Diomedeidae","Foraminiferida"
-"1163","Diomedeidae","Polynoidae"
-"1164","Diomedeidae","Nereididae"
-"1165","Diomedeidae","Trochidae"
-"1166","Diomedeidae","Sphaeromatidae"
-"1167","Diomedeidae","Gammaridea"
-"1168","Diomedeidae","Euphausiidae"
-"1169","Diomedeidae","Paguridae"
-"1170","Diomedeidae","Detritus complex"
-"1171","Fulmarus glacialis","Hydrozoa"
-"1172","Fulmarus glacialis","Nereididae"
-"1173","Fulmarus glacialis","Trochidae"
-"1174","Fulmarus glacialis","Ostracoda"
-"1175","Fulmarus glacialis","Idoteidae"
-"1176","Fulmarus glacialis","Gammaridea"
-"1177","Fulmarus glacialis","Euphausiidae"
-"1178","Fulmarus glacialis","Paguridae"
-"1179","Puffinus tenuirostris","Ammodytes hexapterus"
-"1180","Puffinus tenuirostris","Fusitriton"
-"1181","Puffinus tenuirostris","Gammaridea"
-"1182","Puffinus tenuirostris","Euphausiidae"
-"1183","Oceanodroma","Ammodytes hexapterus"
-"1184","Oceanodroma","Hydrozoa"
-"1185","Oceanodroma","Gammaridea"
-"1186","Oceanodroma","Euphausiidae"
-"1187","Oceanodroma","Detritus complex"
-"1188","Phalacrocorax auritus","Gasterosteus aculeatus"
-"1189","Phalacrocorax auritus","Pholis"
-"1190","Phalacrocorax auritus","Ammodytes hexapterus"
-"1191","Phalacrocorax auritus","Littorina"
-"1192","Phalacrocorax auritus","Mytilus"
-"1193","Phalacrocorax auritus","Hippolytidae"
-"1194","Phalacrocorax auritus","Crangonidae"
-"1195","Phalacrocorax auritus","Cancer"
-"1196","Phalacrocorax auritus","Detritus complex"
-"1197","Phalacrocorax pelagicus","Artedius"
-"1198","Phalacrocorax pelagicus","Ammodytes hexapterus"
-"1199","Phalacrocorax pelagicus","Nereididae"
-"1200","Phalacrocorax pelagicus","Hippolytidae"
-"1201","Cygnus columbianus","Cyanophycota"
-"1202","Cygnus columbianus","Ulvaceae"
-"1203","Cygnus columbianus","Nereididae"
-"1204","Cygnus columbianus","Macoma"
-"1205","Cygnus columbianus","Cygnus columbianus"
-"1206","Branta canadensis","Zostera marina"
-"1207","Branta canadensis","Somateria mollissima"
-"1208","Branta bernicla","Fucus"
-"1209","Branta bernicla","Zostera marina"
-"1210","Branta bernicla","Ulvaceae"
-"1211","Chen canagica","Zostera marina"
-"1212","Chen canagica","Pharidae"
-"1213","Chen canagica","Ulvaceae"
-"1214","Chen canagica","Mytilus"
-"1215","Chen canagica","Macoma"
-"1216","Chen canagica","Telmessus cheiragonus"
-"1217","Anas","Phoronida"
-"1218","Anas","Gymnolaemata"
-"1219","Anas","Bacillariophyta"
-"1220","Anas","Zostera marina"
-"1221","Anas","Foraminiferida"
-"1222","Anas","Cyanophycota"
-"1223","Anas","Ulvaceae"
-"1224","Anas","Nereididae"
-"1225","Anas","Cladophoraceae"
-"1226","Anas","Prostigmata"
-"1227","Anas","Ostracoda"
-"1228","Anas","Gammaridea"
-"1229","Anas","Detritus complex"
-"1230","Aythya marila","Zostera marina"
-"1231","Aythya marila","Ulvaceae"
-"1232","Aythya marila","Lacuna"
-"1233","Aythya marila","Littorina"
-"1234","Aythya marila","Cerithiopsis"
-"1235","Aythya marila","Mytilus"
-"1236","Aythya marila","Macoma"
-"1237","Aythya marila","Semibalanus balanoides"
-"1238","Aythya marila","Gammaridea"
-"1239","Aythya marila","Paguridae"
-"1240","Aythya marila","Cancer"
-"1241","Aythya marila","Detritus complex"
-"1242","Bucephala","Lottia pelta"
-"1243","Bucephala","Nereididae"
-"1244","Bucephala","Trochidae"
-"1245","Bucephala","Lacuna"
-"1246","Bucephala","Littorina"
-"1247","Bucephala","Mytilus"
-"1248","Bucephala","Macoma"
-"1249","Bucephala","Balanus glandula"
-"1250","Bucephala","Idoteidae"
-"1251","Bucephala","Gammaridea"
-"1252","Bucephala","Paguridae"
-"1253","Bucephala","Cancer"
-"1254","Bucephala","Detritus complex"
-"1255","Bucephala","Bucephala"
-"1256","Clangula hyemalis","Pharidae"
-"1257","Clangula hyemalis","Trochidae"
-"1258","Clangula hyemalis","Lacuna"
-"1259","Clangula hyemalis","Littorina"
-"1260","Clangula hyemalis","Mytilus"
-"1261","Clangula hyemalis","Macoma"
-"1262","Clangula hyemalis","Idoteidae"
-"1263","Clangula hyemalis","Gammaridea"
-"1264","Clangula hyemalis","Caprellidae"
-"1265","Clangula hyemalis","Euphausiidae"
-"1266","Clangula hyemalis","Crangonidae"
-"1267","Clangula hyemalis","Cancer"
-"1268","Histrionicus histrionicus","Ophiuroidea"
-"1269","Histrionicus histrionicus","Lottia pelta"
-"1270","Histrionicus histrionicus","Cyanophycota"
-"1271","Histrionicus histrionicus","Trochidae"
-"1272","Histrionicus histrionicus","Lacuna"
-"1273","Histrionicus histrionicus","Littorina"
-"1274","Histrionicus histrionicus","Tonicella"
-"1275","Histrionicus histrionicus","Mopalia"
-"1276","Histrionicus histrionicus","Mytilus"
-"1277","Histrionicus histrionicus","Paguridae"
-"1278","Polysticta stelleri","Ophiuroidea"
-"1279","Polysticta stelleri","Strongylocentrotus droebachiensis"
-"1280","Polysticta stelleri","Nereididae"
-"1281","Polysticta stelleri","Trochidae"
-"1282","Polysticta stelleri","Lacuna"
-"1283","Polysticta stelleri","Littorina"
-"1284","Polysticta stelleri","Buccinum"
-"1285","Polysticta stelleri","Mytilus"
-"1286","Polysticta stelleri","Macoma"
-"1287","Polysticta stelleri","Hiatellidae"
-"1288","Polysticta stelleri","Idoteidae"
-"1289","Polysticta stelleri","Gammaridea"
-"1290","Polysticta stelleri","Caprellidae"
-"1291","Somateria mollissima","Leptasterias"
-"1292","Somateria mollissima","Ophiuroidea"
-"1293","Somateria mollissima","Strongylocentrotus droebachiensis"
-"1294","Somateria mollissima","Nereididae"
-"1295","Somateria mollissima","Trochidae"
-"1296","Somateria mollissima","Lacuna"
-"1297","Somateria mollissima","Littorina"
-"1298","Somateria mollissima","Buccinum"
-"1299","Somateria mollissima","Tonicella"
-"1300","Somateria mollissima","Mytilus"
-"1301","Somateria mollissima","Modiolus"
-"1302","Somateria mollissima","Macoma"
-"1303","Somateria mollissima","Hiatellidae"
-"1304","Somateria mollissima","Idoteidae"
-"1305","Somateria mollissima","Gammaridea"
-"1306","Somateria mollissima","Cancer"
-"1307","Somateria mollissima","Somateria mollissima"
-"1308","Somateria spectabilis","Ophiuroidea"
-"1309","Somateria spectabilis","Strongylocentrotus droebachiensis"
-"1310","Somateria spectabilis","Hydrozoa"
-"1311","Somateria spectabilis","Trochidae"
-"1312","Somateria spectabilis","Mytilus"
-"1313","Somateria spectabilis","Macoma"
-"1314","Somateria spectabilis","Hiatellidae"
-"1315","Somateria spectabilis","Gammaridea"
-"1316","Somateria spectabilis","Caprellidae"
-"1317","Melanitta fusca","Acmaea mitra"
-"1318","Melanitta fusca","Lacuna"
-"1319","Melanitta fusca","Littorina"
-"1320","Melanitta fusca","Cerithiopsis"
-"1321","Melanitta fusca","Mytilus"
-"1322","Melanitta fusca","Clinocardium"
-"1323","Melanitta fusca","Macoma"
-"1324","Melanitta fusca","Protothaca staminea"
-"1325","Melanitta fusca","Gammaridea"
-"1326","Melanitta fusca","Cancer"
-"1327","Melanitta fusca","Melanitta fusca"
-"1328","Melanitta perspicillata","Ophiuroidea"
-"1329","Melanitta perspicillata","Trochidae"
-"1330","Melanitta perspicillata","Littorina"
-"1331","Melanitta perspicillata","Mytilus"
-"1332","Melanitta perspicillata","Clinocardium"
-"1333","Melanitta perspicillata","Macoma"
-"1334","Melanitta perspicillata","Protothaca staminea"
-"1335","Melanitta perspicillata","Balanus glandula"
-"1336","Melanitta perspicillata","Idoteidae"
-"1337","Melanitta perspicillata","Paguridae"
-"1338","Melanitta nigra","Pharidae"
-"1339","Melanitta nigra","Mytilus"
-"1340","Melanitta nigra","Clinocardium"
-"1341","Mergus","Gobiesocidae"
-"1342","Mergus","Gasterosteus aculeatus"
-"1343","Mergus","Oligocottus maculosus"
-"1344","Mergus","Anoplarchus purpurescens"
-"1345","Mergus","Xiphister atropurpureus"
-"1346","Mergus","Pholis"
-"1347","Mergus","Ammodytes hexapterus"
-"1348","Mergus","Mytilus"
-"1349","Mergus","Mergus"
-"1350","Buteo lagopus","Chrysophyta"
-"1351","Buteo lagopus","Detritus complex"
-"1352","Buteo lagopus","Anas"
-"1353","Buteo lagopus","Aythya marila"
-"1354","Buteo lagopus","Somateria spectabilis"
-"1355","Buteo lagopus","Charadrius semipalmatus"
-"1356","Buteo lagopus","Tringa melanoleuca"
-"1357","Buteo lagopus","Tringa incana"
-"1358","Buteo lagopus","Calidris"
-"1359","Buteo lagopus","Limosa lapponica"
-"1360","Buteo lagopus","Gallinago"
-"1361","Buteo lagopus","Phalaropus lobatus"
-"1362","Buteo lagopus","Rissa tridactyla"
-"1363","Buteo lagopus","Asio flammeus"
-"1364","Buteo lagopus","Calcarius lapponicus"
-"1365","Aquila chrysaetos","Chrysophyta"
-"1366","Aquila chrysaetos","Vulpes"
-"1367","Aquila chrysaetos","Cygnus columbianus"
-"1368","Aquila chrysaetos","Branta canadensis"
-"1369","Aquila chrysaetos","Chen canagica"
-"1370","Aquila chrysaetos","Anas"
-"1371","Aquila chrysaetos","Bucephala"
-"1372","Aquila chrysaetos","Histrionicus histrionicus"
-"1373","Aquila chrysaetos","Falco rusticolus"
-"1374","Aquila chrysaetos","Grus canadensis"
-"1375","Aquila chrysaetos","Tringa melanoleuca"
-"1376","Aquila chrysaetos","Larus argentatus"
-"1377","Aquila chrysaetos","Asio flammeus"
-"1378","Aquila chrysaetos","Corvus corax"
-"1379","Haliaeetus leucocephalus","Strongylocentrotus droebachiensis"
-"1380","Haliaeetus leucocephalus","Ammodytes hexapterus"
-"1381","Haliaeetus leucocephalus","Enhydra lutris"
-"1382","Haliaeetus leucocephalus","Vulpes"
-"1383","Haliaeetus leucocephalus","Nereididae"
-"1384","Haliaeetus leucocephalus","Cryptochiton stelleri"
-"1385","Haliaeetus leucocephalus","Mytilus"
-"1386","Haliaeetus leucocephalus","Clinocardium"
-"1387","Haliaeetus leucocephalus","Protothaca staminea"
-"1388","Haliaeetus leucocephalus","Cancer"
-"1389","Haliaeetus leucocephalus","Detritus complex"
-"1390","Haliaeetus leucocephalus","Gavia"
-"1391","Haliaeetus leucocephalus","Fulmarus glacialis"
-"1392","Haliaeetus leucocephalus","Puffinus tenuirostris"
-"1393","Haliaeetus leucocephalus","Oceanodroma"
-"1394","Haliaeetus leucocephalus","Branta canadensis"
-"1395","Haliaeetus leucocephalus","Chen canagica"
-"1396","Haliaeetus leucocephalus","Anas"
-"1397","Haliaeetus leucocephalus","Bucephala"
-"1398","Haliaeetus leucocephalus","Clangula hyemalis"
-"1399","Haliaeetus leucocephalus","Histrionicus histrionicus"
-"1400","Haliaeetus leucocephalus","Somateria mollissima"
-"1401","Haliaeetus leucocephalus","Mergus"
-"1402","Haliaeetus leucocephalus","Haliaeetus leucocephalus"
-"1403","Haliaeetus leucocephalus","Haematopus bachmani"
-"1404","Haliaeetus leucocephalus","Larus hyperboreus"
-"1405","Haliaeetus leucocephalus","Larus glaucescens"
-"1406","Haliaeetus leucocephalus","Rissa tridactyla"
-"1407","Haliaeetus leucocephalus","Uria aalge"
-"1408","Haliaeetus leucocephalus","Uria lomvia"
-"1409","Haliaeetus leucocephalus","Cepphus columba"
-"1410","Haliaeetus leucocephalus","Brachyramphus marmoratus"
-"1411","Haliaeetus leucocephalus","Synthliboramphus antiquus"
-"1412","Haliaeetus leucocephalus","Aethia cristatella"
-"1413","Haliaeetus leucocephalus","Fratercula corniculata"
-"1414","Haliaeetus leucocephalus","Fratercula cirrhata"
-"1415","Haliaeetus leucocephalus","Corvus corax"
-"1416","Haliaeetus leucocephalus","Aethia psittacula"
-"1417","Falco rusticolus","Anas"
-"1418","Falco rusticolus","Clangula hyemalis"
-"1419","Falco rusticolus","Mergus"
-"1420","Falco rusticolus","Buteo lagopus"
-"1421","Falco rusticolus","Falco rusticolus"
-"1422","Falco rusticolus","Falco peregrinus"
-"1423","Falco rusticolus","Calidris"
-"1424","Falco rusticolus","Gallinago"
-"1425","Falco rusticolus","Phalaropus lobatus"
-"1426","Falco rusticolus","Larus canus"
-"1427","Falco rusticolus","Rissa tridactyla"
-"1428","Falco rusticolus","Sterna"
-"1429","Falco rusticolus","Asio flammeus"
-"1430","Falco rusticolus","Calcarius lapponicus"
-"1431","Falco rusticolus","Plectrophenax"
-"1432","Falco peregrinus","Oceanodroma"
-"1433","Falco peregrinus","Phalacrocorax pelagicus"
-"1434","Falco peregrinus","Branta bernicla"
-"1435","Falco peregrinus","Anas"
-"1436","Falco peregrinus","Bucephala"
-"1437","Falco peregrinus","Clangula hyemalis"
-"1438","Falco peregrinus","Histrionicus histrionicus"
-"1439","Falco peregrinus","Mergus"
-"1440","Falco peregrinus","Falco peregrinus"
-"1441","Falco peregrinus","Grus canadensis"
-"1442","Falco peregrinus","Haematopus bachmani"
-"1443","Falco peregrinus","Charadrius semipalmatus"
-"1444","Falco peregrinus","Tringa melanoleuca"
-"1445","Falco peregrinus","Tringa incana"
-"1446","Falco peregrinus","Calidris"
-"1447","Falco peregrinus","Gallinago"
-"1448","Falco peregrinus","Phalaropus lobatus"
-"1449","Falco peregrinus","Larus glaucescens"
-"1450","Falco peregrinus","Rissa tridactyla"
-"1451","Falco peregrinus","Sterna"
-"1452","Falco peregrinus","Uria aalge"
-"1453","Falco peregrinus","Cepphus columba"
-"1454","Falco peregrinus","Brachyramphus marmoratus"
-"1455","Falco peregrinus","Synthliboramphus antiquus"
-"1456","Falco peregrinus","Ptychoramphus aleuticus"
-"1457","Falco peregrinus","Aethia cristatella"
-"1458","Falco peregrinus","Fratercula corniculata"
-"1459","Falco peregrinus","Fratercula cirrhata"
-"1460","Falco peregrinus","Asio flammeus"
-"1461","Falco peregrinus","Calcarius lapponicus"
-"1462","Falco peregrinus","Plectrophenax"
-"1463","Falco peregrinus","Corvus corax"
-"1464","Falco peregrinus","Aethia psittacula"
-"1465","Falco peregrinus","Anthus rubescens"
-"1466","Grus canadensis","Anas"
-"1467","Haematopus bachmani","Phascolosomatidae"
-"1468","Haematopus bachmani","Leptasterias"
-"1469","Haematopus bachmani","Hydrozoa"
-"1470","Haematopus bachmani","Lottia digitalis"
-"1471","Haematopus bachmani","Lottia pelta"
-"1472","Haematopus bachmani","Lottia persona"
-"1473","Haematopus bachmani","Lottia scutum"
-"1474","Haematopus bachmani","Nereididae"
-"1475","Haematopus bachmani","Acmaea mitra"
-"1476","Haematopus bachmani","Trochidae"
-"1477","Haematopus bachmani","Littorina"
-"1478","Haematopus bachmani","Nucella canaliculata"
-"1479","Haematopus bachmani","Nucella lamellosa"
-"1480","Haematopus bachmani","Tonicella"
-"1481","Haematopus bachmani","Katharina tunicata"
-"1482","Haematopus bachmani","Mopalia"
-"1483","Haematopus bachmani","Mytilus"
-"1484","Haematopus bachmani","Saxidomus"
-"1485","Haematopus bachmani","Protothaca staminea"
-"1486","Haematopus bachmani","Balanus glandula"
-"1487","Haematopus bachmani","Idoteidae"
-"1488","Charadrius semipalmatus","Nereididae"
-"1489","Charadrius semipalmatus","Glyceridae"
-"1490","Charadrius semipalmatus","Macoma"
-"1491","Charadrius semipalmatus","Ostracoda"
-"1492","Charadrius semipalmatus","Gammaridea"
-"1493","Tringa melanoleuca","Staphylinidae"
-"1494","Tringa melanoleuca","Gymnolaemata"
-"1495","Tringa melanoleuca","Gasterosteus aculeatus"
-"1496","Tringa melanoleuca","Foraminiferida"
-"1497","Tringa melanoleuca","Nereididae"
-"1498","Tringa melanoleuca","Littorina"
-"1499","Tringa melanoleuca","Macoma"
-"1500","Tringa melanoleuca","Ostracoda"
-"1501","Tringa melanoleuca","Sphaeromatidae"
-"1502","Tringa melanoleuca","Gammaridea"
-"1503","Tringa melanoleuca","Crangonidae"
-"1504","Tringa melanoleuca","Tringa melanoleuca"
-"1505","Tringa incana","Littorina"
-"1506","Tringa incana","Gammaridea"
-"1507","Calidris","Staphylinidae"
-"1508","Calidris","Foraminiferida"
-"1509","Calidris","Hydrozoa"
-"1510","Calidris","Nereididae"
-"1511","Calidris","Lumbrineridae"
-"1512","Calidris","Lacuna"
-"1513","Calidris","Littorina"
-"1514","Calidris","Mytilus"
-"1515","Calidris","Modiolus"
-"1516","Calidris","Clinocardium"
-"1517","Calidris","Macoma"
-"1518","Calidris","Ostracoda"
-"1519","Calidris","Balanus glandula"
-"1520","Calidris","Sphaeromatidae"
-"1521","Calidris","Gammaridea"
-"1522","Calidris","Detritus complex"
-"1523","Calidris","Biofilm Complex"
-"1524","Calidris","Calidris"
-"1525","Limosa lapponica","Staphylinidae"
-"1526","Limosa lapponica","Nereididae"
-"1527","Limosa lapponica","Terebellidae"
-"1528","Limosa lapponica","Littorina"
-"1529","Limosa lapponica","Macoma"
-"1530","Limosa lapponica","Gammaridea"
-"1531","Limosa lapponica","Detritus complex"
-"1532","Limosa lapponica","Limosa lapponica"
-"1533","Gallinago","Staphylinidae"
-"1534","Gallinago","Gallinago"
-"1535","Phalaropus lobatus","Hydrozoa"
-"1536","Phalaropus lobatus","Modiolus"
-"1537","Phalaropus lobatus","Euphausiidae"
-"1538","Phalaropus lobatus","Phalaropus lobatus"
-"1539","Stercorarius parasiticus","Vulpes"
-"1540","Stercorarius parasiticus","Gammaridea"
-"1541","Stercorarius parasiticus","Gavia"
-"1542","Stercorarius parasiticus","Oceanodroma"
-"1543","Stercorarius parasiticus","Cygnus columbianus"
-"1544","Stercorarius parasiticus","Branta canadensis"
-"1545","Stercorarius parasiticus","Branta bernicla"
-"1546","Stercorarius parasiticus","Chen canagica"
-"1547","Stercorarius parasiticus","Anas"
-"1548","Stercorarius parasiticus","Aythya marila"
-"1549","Stercorarius parasiticus","Clangula hyemalis"
-"1550","Stercorarius parasiticus","Somateria mollissima"
-"1551","Stercorarius parasiticus","Somateria spectabilis"
-"1552","Stercorarius parasiticus","Charadrius semipalmatus"
-"1553","Stercorarius parasiticus","Calidris"
-"1554","Stercorarius parasiticus","Stercorarius parasiticus"
-"1555","Stercorarius parasiticus","Larus hyperboreus"
-"1556","Stercorarius parasiticus","Larus argentatus"
-"1557","Stercorarius parasiticus","Rissa tridactyla"
-"1558","Stercorarius parasiticus","Sterna"
-"1559","Stercorarius parasiticus","Uria aalge"
-"1560","Stercorarius parasiticus","Uria lomvia"
-"1561","Stercorarius parasiticus","Calcarius lapponicus"
-"1562","Stercorarius parasiticus","Plectrophenax"
-"1563","Larus hyperboreus","Strongylocentrotus droebachiensis"
-"1564","Larus hyperboreus","Pholis"
-"1565","Larus hyperboreus","Ammodytes hexapterus"
-"1566","Larus hyperboreus","Pharidae"
-"1567","Larus hyperboreus","Nereididae"
-"1568","Larus hyperboreus","Naticidae"
-"1569","Larus hyperboreus","Mytilus"
-"1570","Larus hyperboreus","Modiolus"
-"1571","Larus hyperboreus","Euphausiidae"
-"1572","Larus hyperboreus","Cygnus columbianus"
-"1573","Larus hyperboreus","Branta canadensis"
-"1574","Larus hyperboreus","Branta bernicla"
-"1575","Larus hyperboreus","Chen canagica"
-"1576","Larus hyperboreus","Anas"
-"1577","Larus hyperboreus","Aythya marila"
-"1578","Larus hyperboreus","Clangula hyemalis"
-"1579","Larus hyperboreus","Somateria mollissima"
-"1580","Larus hyperboreus","Somateria spectabilis"
-"1581","Larus hyperboreus","Grus canadensis"
-"1582","Larus hyperboreus","Calidris"
-"1583","Larus hyperboreus","Phalaropus lobatus"
-"1584","Larus hyperboreus","Larus canus"
-"1585","Larus hyperboreus","Rissa tridactyla"
-"1586","Larus hyperboreus","Uria aalge"
-"1587","Larus hyperboreus","Uria lomvia"
-"1588","Larus hyperboreus","Plectrophenax"
-"1589","Larus glaucescens","Nereocystis luetkeana"
-"1590","Larus glaucescens","Solaster stimpsoni"
-"1591","Larus glaucescens","Dermasterias imbricata"
-"1592","Larus glaucescens","Evasterias troschelii"
-"1593","Larus glaucescens","Leptasterias"
-"1594","Larus glaucescens","Orthasterias koehleri"
-"1595","Larus glaucescens","Pycnopodia helianthoides"
-"1596","Larus glaucescens","Strongylocentrotus droebachiensis"
-"1597","Larus glaucescens","Cucumaria"
-"1598","Larus glaucescens","Trichodon trichodon"
-"1599","Larus glaucescens","Ammodytes hexapterus"
-"1600","Larus glaucescens","Enteroctopus dofleini"
-"1601","Larus glaucescens","Lottia digitalis"
-"1602","Larus glaucescens","Lottia pelta"
-"1603","Larus glaucescens","Lottia scutum"
-"1604","Larus glaucescens","Amphiporidae"
-"1605","Larus glaucescens","Nereididae"
-"1606","Larus glaucescens","Acmaea mitra"
-"1607","Larus glaucescens","Trochidae"
-"1608","Larus glaucescens","Littorina"
-"1609","Larus glaucescens","Nucella canaliculata"
-"1610","Larus glaucescens","Nucella lamellosa"
-"1611","Larus glaucescens","Katharina tunicata"
-"1612","Larus glaucescens","Mopalia"
-"1613","Larus glaucescens","Cryptochiton stelleri"
-"1614","Larus glaucescens","Mytilus"
-"1615","Larus glaucescens","Clinocardium"
-"1616","Larus glaucescens","Tresus"
-"1617","Larus glaucescens","Saxidomus"
-"1618","Larus glaucescens","Protothaca staminea"
-"1619","Larus glaucescens","Balanus glandula"
-"1620","Larus glaucescens","Semibalanus cariosus"
-"1621","Larus glaucescens","Pugettia"
-"1622","Larus glaucescens","Telmessus cheiragonus"
-"1623","Larus glaucescens","Cancer"
-"1624","Larus glaucescens","Detritus complex"
-"1625","Larus glaucescens","Oceanodroma"
-"1626","Larus glaucescens","Cygnus columbianus"
-"1627","Larus glaucescens","Branta canadensis"
-"1628","Larus glaucescens","Branta bernicla"
-"1629","Larus glaucescens","Chen canagica"
-"1630","Larus glaucescens","Polysticta stelleri"
-"1631","Larus glaucescens","Rissa tridactyla"
-"1632","Larus glaucescens","Synthliboramphus antiquus"
-"1633","Larus glaucescens","Ptychoramphus aleuticus"
-"1634","Larus glaucescens","Aethia cristatella"
-"1635","Larus glaucescens","Fratercula cirrhata"
-"1636","Larus argentatus","Strongylocentrotus droebachiensis"
-"1637","Larus argentatus","Pharidae"
-"1638","Larus argentatus","Trochidae"
-"1639","Larus argentatus","Lacuna"
-"1640","Larus argentatus","Littorina"
-"1641","Larus argentatus","Mytilus"
-"1642","Larus argentatus","Macoma"
-"1643","Larus argentatus","Paguridae"
-"1644","Larus argentatus","Cancer"
-"1645","Larus argentatus","Oceanodroma"
-"1646","Larus argentatus","Branta canadensis"
-"1647","Larus argentatus","Anas"
-"1648","Larus argentatus","Clangula hyemalis"
-"1649","Larus argentatus","Somateria mollissima"
-"1650","Larus argentatus","Mergus"
-"1651","Larus argentatus","Charadrius semipalmatus"
-"1652","Larus argentatus","Calidris"
-"1653","Larus argentatus","Rissa tridactyla"
-"1654","Larus argentatus","Sterna"
-"1655","Larus argentatus","Asio flammeus"
-"1656","Larus argentatus","Plectrophenax"
-"1657","Larus canus","Pharidae"
-"1658","Larus canus","Nereididae"
-"1659","Larus canus","Terebellidae"
-"1660","Larus canus","Mytilus"
-"1661","Larus canus","Macoma"
-"1662","Larus canus","Crangonidae"
-"1663","Larus canus","Paguridae"
-"1664","Larus canus","Cygnus columbianus"
-"1665","Larus canus","Aythya marila"
-"1666","Larus canus","Calidris"
-"1667","Larus canus","Melospiza melodia"
-"1668","Rissa tridactyla","Trichodon trichodon"
-"1669","Rissa tridactyla","Ammodytes hexapterus"
-"1670","Rissa tridactyla","Nereididae"
-"1671","Rissa tridactyla","Gammaridea"
-"1672","Rissa tridactyla","Euphausiidae"
-"1673","Rissa tridactyla","Rissa tridactyla"
-"1674","Sterna","Gasterosteus aculeatus"
-"1675","Sterna","Hydrozoa"
-"1676","Sterna","Nereididae"
-"1677","Sterna","Gammaridea"
-"1678","Sterna","Euphausiidae"
-"1679","Uria aalge","Ammodytes hexapterus"
-"1680","Uria aalge","Nereididae"
-"1681","Uria aalge","Pycnogonida"
-"1682","Uria aalge","Gammaridea"
-"1683","Uria aalge","Euphausiidae"
-"1684","Uria aalge","Hippolytidae"
-"1685","Uria aalge","Crangonidae"
-"1686","Uria aalge","Uria aalge"
-"1687","Uria lomvia","Ammodytes hexapterus"
-"1688","Uria lomvia","Nereididae"
-"1689","Uria lomvia","Gammaridea"
-"1690","Uria lomvia","Euphausiidae"
-"1691","Uria lomvia","Hippolytidae"
-"1692","Uria lomvia","Crangonidae"
-"1693","Cepphus columba","Trichodon trichodon"
-"1694","Cepphus columba","Pholis"
-"1695","Cepphus columba","Ammodytes hexapterus"
-"1696","Cepphus columba","Lacuna"
-"1697","Cepphus columba","Hippolytidae"
-"1698","Cepphus columba","Crangonidae"
-"1699","Cepphus columba","Paguridae"
-"1700","Cepphus columba","Cancer"
-"1701","Brachyramphus marmoratus","Trichodon trichodon"
-"1702","Brachyramphus marmoratus","Ammodytes hexapterus"
-"1703","Brachyramphus marmoratus","Gammaridea"
-"1704","Brachyramphus marmoratus","Euphausiidae"
-"1705","Synthliboramphus antiquus","Ammodytes hexapterus"
-"1706","Synthliboramphus antiquus","Gammaridea"
-"1707","Synthliboramphus antiquus","Euphausiidae"
-"1708","Synthliboramphus antiquus","Synthliboramphus antiquus"
-"1709","Ptychoramphus aleuticus","Artedius"
-"1710","Ptychoramphus aleuticus","Clinocottus"
-"1711","Ptychoramphus aleuticus","Ammodytes hexapterus"
-"1712","Ptychoramphus aleuticus","Hydrozoa"
-"1713","Ptychoramphus aleuticus","Ostracoda"
-"1714","Ptychoramphus aleuticus","Idoteidae"
-"1715","Ptychoramphus aleuticus","Gammaridea"
-"1716","Ptychoramphus aleuticus","Caprellidae"
-"1717","Ptychoramphus aleuticus","Euphausiidae"
-"1718","Ptychoramphus aleuticus","Hippolytidae"
-"1719","Ptychoramphus aleuticus","Crangonidae"
-"1720","Ptychoramphus aleuticus","Paguridae"
-"1721","Ptychoramphus aleuticus","Cancer"
-"1722","Aethia cristatella","Hydrozoa"
-"1723","Aethia cristatella","Gammaridea"
-"1724","Aethia cristatella","Euphausiidae"
-"1725","Aethia cristatella","Paguridae"
-"1726","Fratercula corniculata","Gasterosteus aculeatus"
-"1727","Fratercula corniculata","Trichodon trichodon"
-"1728","Fratercula corniculata","Pholis"
-"1729","Fratercula corniculata","Ammodytes hexapterus"
-"1730","Fratercula corniculata","Euphausiidae"
-"1731","Fratercula cirrhata","Gasterosteus aculeatus"
-"1732","Fratercula cirrhata","Trichodon trichodon"
-"1733","Fratercula cirrhata","Pholis"
-"1734","Fratercula cirrhata","Ammodytes hexapterus"
-"1735","Fratercula cirrhata","Nereididae"
-"1736","Fratercula cirrhata","Gammaridea"
-"1737","Fratercula cirrhata","Euphausiidae"
-"1738","Asio flammeus","Oceanodroma"
-"1739","Asio flammeus","Charadrius semipalmatus"
-"1740","Asio flammeus","Calidris"
-"1741","Asio flammeus","Sterna"
-"1742","Asio flammeus","Melospiza melodia"
-"1743","Lanius excubitor","Staphylinidae"
-"1744","Lanius excubitor","Calidris"
-"1745","Lanius excubitor","Plectrophenax"
-"1746","Melospiza melodia","Detritus complex"
-"1747","Calcarius lapponicus","Staphylinidae"
-"1748","Plectrophenax","Staphylinidae"
-"1749","Corvus corax","Strongylocentrotus droebachiensis"
-"1750","Corvus corax","Cryptochiton stelleri"
-"1751","Corvus corax","Detritus complex"
-"1752","Corvus corax","Gavia"
-"1753","Corvus corax","Cygnus columbianus"
-"1754","Corvus corax","Branta canadensis"
-"1755","Corvus corax","Anas"
-"1756","Corvus corax","Aythya marila"
-"1757","Corvus corax","Polysticta stelleri"
-"1758","Corvus corax","Somateria mollissima"
-"1759","Corvus corax","Somateria spectabilis"
-"1760","Corvus corax","Mergus"
-"1761","Corvus corax","Grus canadensis"
-"1762","Corvus corax","Haematopus bachmani"
-"1763","Corvus corax","Charadrius semipalmatus"
-"1764","Corvus corax","Calidris"
-"1765","Corvus corax","Limosa lapponica"
-"1766","Corvus corax","Larus glaucescens"
-"1767","Corvus corax","Larus argentatus"
-"1768","Corvus corax","Rissa tridactyla"
-"1769","Corvus corax","Sterna"
-"1770","Corvus corax","Uria aalge"
-"1771","Corvus corax","Uria lomvia"
-"1772","Corvus corax","Brachyramphus marmoratus"
-"1773","Corvus corax","Asio flammeus"
-"1774","Corvus corax","Calcarius lapponicus"
-"1775","Corvus corax","Corvus corax"
-"1776","Aethia psittacula","Ammodytes hexapterus"
-"1777","Aethia psittacula","Gammaridea"
-"1778","Aethia psittacula","Euphausiidae"
-"1779","Aethia psittacula","Paguridae"
-"1780","Anthus rubescens","Staphylinidae"
-"1781","Bubo scandiacus","Podiceps"
-"1782","Bubo scandiacus","Oceanodroma"
-"1783","Bubo scandiacus","Branta canadensis"
-"1784","Bubo scandiacus","Anas"
-"1785","Bubo scandiacus","Aythya marila"
-"1786","Bubo scandiacus","Bucephala"
-"1787","Bubo scandiacus","Clangula hyemalis"
-"1788","Bubo scandiacus","Histrionicus histrionicus"
-"1789","Bubo scandiacus","Polysticta stelleri"
-"1790","Bubo scandiacus","Melanitta fusca"
-"1791","Bubo scandiacus","Melanitta perspicillata"
-"1792","Bubo scandiacus","Calidris"
-"1793","Bubo scandiacus","Larus glaucescens"
-"1794","Bubo scandiacus","Larus canus"
-"1795","Bubo scandiacus","Cepphus columba"
-"1796","Bubo scandiacus","Synthliboramphus antiquus"
-"1797","Bubo scandiacus","Ptychoramphus aleuticus"
-"1798","Bubo scandiacus","Fratercula corniculata"
-"1799","Bubo scandiacus","Fratercula cirrhata"
-"1800","Bubo scandiacus","Asio flammeus"
-"1801","Bubo scandiacus","Melospiza melodia"
-"1802","Bubo scandiacus","Calcarius lapponicus"
-"1803","Bubo scandiacus","Plectrophenax"
-"1804","Cinclus mexicanus","Hydrozoa"
+Prey,Predator
+Staphylinidae,Staphylinidae
+Bacillariophyta,Staphylinidae
+Cyanophycota,Staphylinidae
+Gammaridea,Staphylinidae
+Detritus complex,Staphylinidae
+Bacteria,Chrysophyta
+Bacillariophyta,Chrysophyta
+Detritus complex,Chrysophyta
+Bacillariophyta,Phascolosomatidae
+Detritus complex,Phascolosomatidae
+Bacillariophyta,Phoronida
+Dinophyceae,Phoronida
+Detritus complex,Phoronida
+Chrysophyta,Gymnolaemata
+Bacteria,Gymnolaemata
+Prymnesiophyceae,Gymnolaemata
+Bacillariophyta,Gymnolaemata
+Prasinophyta,Gymnolaemata
+Detritus complex,Terebratalia transversa
+Solaster dawsoni,Solaster dawsoni
+Solaster stimpsoni,Solaster dawsoni
+Dermasterias imbricata,Solaster dawsoni
+Henricia,Solaster dawsoni
+Evasterias troschelii,Solaster dawsoni
+Leptasterias,Solaster dawsoni
+Pycnopodia helianthoides,Solaster dawsoni
+Strongylocentrotus droebachiensis,Solaster dawsoni
+Eupentacta,Solaster dawsoni
+Cucumaria,Solaster dawsoni
+Balanus crenatus,Solaster dawsoni
+Gymnolaemata,Solaster endeca
+Leptasterias,Solaster endeca
+Strongylocentrotus droebachiensis,Solaster endeca
+Eupentacta,Solaster endeca
+Cucumaria,Solaster endeca
+Terebratalia transversa,Solaster stimpsoni
+Pycnopodia helianthoides,Solaster stimpsoni
+Eupentacta,Solaster stimpsoni
+Cucumaria,Solaster stimpsoni
+Pyura,Solaster stimpsoni
+Gymnolaemata,Dermasterias imbricata
+Leptasterias,Dermasterias imbricata
+Strongylocentrotus droebachiensis,Dermasterias imbricata
+Eupentacta,Dermasterias imbricata
+Cucumaria,Dermasterias imbricata
+Bacillariophyta,Dermasterias imbricata
+Hydrozoa,Dermasterias imbricata
+Anthopleura,Dermasterias imbricata
+Epiactis,Dermasterias imbricata
+Urticina,Dermasterias imbricata
+Metridium senile,Dermasterias imbricata
+Ulvaceae,Dermasterias imbricata
+Trichotropis cancellata,Dermasterias imbricata
+Tonicella,Dermasterias imbricata
+Katharina tunicata,Dermasterias imbricata
+Detritus complex,Dermasterias imbricata
+Gymnolaemata,Henricia
+Bacteria,Henricia
+Halichondria panicea,Henricia
+Detritus complex,Henricia
+Terebratalia transversa,Evasterias troschelii
+Pyura,Evasterias troschelii
+Lottia pelta,Evasterias troschelii
+Lottia scutum,Evasterias troschelii
+Balanus nubilus,Evasterias troschelii
+Trochidae,Evasterias troschelii
+Littorina,Evasterias troschelii
+Nucella lamellosa,Evasterias troschelii
+Nucella lima,Evasterias troschelii
+Tonicella,Evasterias troschelii
+Katharina tunicata,Evasterias troschelii
+Mytilus,Evasterias troschelii
+Modiolus,Evasterias troschelii
+Pododesmus,Evasterias troschelii
+Saxidomus,Evasterias troschelii
+Protothaca staminea,Evasterias troschelii
+Hiatellidae,Evasterias troschelii
+Balanus crenatus,Evasterias troschelii
+Balanus glandula,Evasterias troschelii
+Semibalanus balanoides,Evasterias troschelii
+Semibalanus cariosus,Evasterias troschelii
+Terebratalia transversa,Leptasterias
+Leptasterias,Leptasterias
+Ophiuroidea,Leptasterias
+Strongylocentrotus droebachiensis,Leptasterias
+Eupentacta,Leptasterias
+Cucumaria,Leptasterias
+Pharidae,Leptasterias
+Lottia digitalis,Leptasterias
+Lottia pelta,Leptasterias
+Lottia scutum,Leptasterias
+Trochidae,Leptasterias
+Lacuna,Leptasterias
+Littorina,Leptasterias
+Trichotropis cancellata,Leptasterias
+Nucella canaliculata,Leptasterias
+Nucella lamellosa,Leptasterias
+Buccinum,Leptasterias
+Tonicella,Leptasterias
+Katharina tunicata,Leptasterias
+Mopalia,Leptasterias
+Mytilus,Leptasterias
+Clinocardium,Leptasterias
+Mactromeris,Leptasterias
+Macoma,Leptasterias
+Hiatellidae,Leptasterias
+Chthamalus dalli,Leptasterias
+Balanus glandula,Leptasterias
+Semibalanus cariosus,Leptasterias
+Paguridae,Leptasterias
+Terebratalia transversa,Orthasterias koehleri
+Styela,Orthasterias koehleri
+Balanus nubilus,Orthasterias koehleri
+Acmaea mitra,Orthasterias koehleri
+Tonicella,Orthasterias koehleri
+Katharina tunicata,Orthasterias koehleri
+Mopalia,Orthasterias koehleri
+Pododesmus,Orthasterias koehleri
+Saxidomus,Orthasterias koehleri
+Entodesma,Orthasterias koehleri
+Terebratalia transversa,Pycnopodia helianthoides
+Solaster dawsoni,Pycnopodia helianthoides
+Dermasterias imbricata,Pycnopodia helianthoides
+Evasterias troschelii,Pycnopodia helianthoides
+Leptasterias,Pycnopodia helianthoides
+Pycnopodia helianthoides,Pycnopodia helianthoides
+Strongylocentrotus droebachiensis,Pycnopodia helianthoides
+Eupentacta,Pycnopodia helianthoides
+Cucumaria,Pycnopodia helianthoides
+Enteroctopus dofleini,Pycnopodia helianthoides
+Lottia digitalis,Pycnopodia helianthoides
+Lottia pelta,Pycnopodia helianthoides
+Lottia scutum,Pycnopodia helianthoides
+Trochidae,Pycnopodia helianthoides
+Littorina,Pycnopodia helianthoides
+Trichotropis cancellata,Pycnopodia helianthoides
+Naticidae,Pycnopodia helianthoides
+Fusitriton,Pycnopodia helianthoides
+Nucella lamellosa,Pycnopodia helianthoides
+Katharina tunicata,Pycnopodia helianthoides
+Mopalia,Pycnopodia helianthoides
+Cryptochiton stelleri,Pycnopodia helianthoides
+Mytilus,Pycnopodia helianthoides
+Modiolus,Pycnopodia helianthoides
+Pododesmus,Pycnopodia helianthoides
+Clinocardium,Pycnopodia helianthoides
+Tresus,Pycnopodia helianthoides
+Macoma,Pycnopodia helianthoides
+Saxidomus,Pycnopodia helianthoides
+Protothaca staminea,Pycnopodia helianthoides
+Hiatellidae,Pycnopodia helianthoides
+Entodesma,Pycnopodia helianthoides
+Chthamalus dalli,Pycnopodia helianthoides
+Balanus crenatus,Pycnopodia helianthoides
+Balanus glandula,Pycnopodia helianthoides
+Semibalanus cariosus,Pycnopodia helianthoides
+Paguridae,Pycnopodia helianthoides
+Cancer,Pycnopodia helianthoides
+Detritus complex,Pycnopodia helianthoides
+Bacteria,Ophiuroidea
+Prymnesiophyceae,Ophiuroidea
+Bacillariophyta,Ophiuroidea
+Sarcomastigophora,Ophiuroidea
+Foraminiferida,Ophiuroidea
+Radiolaria,Ophiuroidea
+Hydrozoa,Ophiuroidea
+Polynoidae,Ophiuroidea
+Flabelligeridae,Ophiuroidea
+Naticidae,Ophiuroidea
+Hiatellidae,Ophiuroidea
+Ostracoda,Ophiuroidea
+Gammaridea,Ophiuroidea
+Caprellidae,Ophiuroidea
+Euphausiidae,Ophiuroidea
+Detritus complex,Ophiuroidea
+Pilayella littoralis,Strongylocentrotus droebachiensis
+Laminaria,Strongylocentrotus droebachiensis
+Agarum,Strongylocentrotus droebachiensis
+Costaria costata,Strongylocentrotus droebachiensis
+Saccharina sessile,Strongylocentrotus droebachiensis
+Nereocystis luetkeana,Strongylocentrotus droebachiensis
+Alaria,Strongylocentrotus droebachiensis
+Desmarestia,Strongylocentrotus droebachiensis
+Fucus,Strongylocentrotus droebachiensis
+Porphyra,Strongylocentrotus droebachiensis
+Corallina,Strongylocentrotus droebachiensis
+Palmaria,Strongylocentrotus droebachiensis
+Chrysophyta,Strongylocentrotus droebachiensis
+Gymnolaemata,Strongylocentrotus droebachiensis
+Solaster endeca,Strongylocentrotus droebachiensis
+Ophiuroidea,Strongylocentrotus droebachiensis
+Strongylocentrotus droebachiensis,Strongylocentrotus droebachiensis
+Styela,Strongylocentrotus droebachiensis
+Bacillariophyta,Strongylocentrotus droebachiensis
+Hydrozoa,Strongylocentrotus droebachiensis
+Ulvaceae,Strongylocentrotus droebachiensis
+Acrosiphoniaceae,Strongylocentrotus droebachiensis
+Codiaceae,Strongylocentrotus droebachiensis
+Lacuna,Strongylocentrotus droebachiensis
+Fusitriton,Strongylocentrotus droebachiensis
+Nucella lamellosa,Strongylocentrotus droebachiensis
+Buccinum,Strongylocentrotus droebachiensis
+Katharina tunicata,Strongylocentrotus droebachiensis
+Semibalanus balanoides,Strongylocentrotus droebachiensis
+Pugettia,Strongylocentrotus droebachiensis
+Crustose coralline algae complex,Strongylocentrotus droebachiensis
+Detritus complex,Strongylocentrotus droebachiensis
+Biofilm Complex,Strongylocentrotus droebachiensis
+Red crust complex,Strongylocentrotus droebachiensis
+Bacteria,Eupentacta
+Bacillariophyta,Eupentacta
+Ciliophora,Eupentacta
+Detritus complex,Eupentacta
+Prymnesiophyceae,Cucumaria
+Bacillariophyta,Cucumaria
+Detritus complex,Cucumaria
+Bacteria,Apodacea
+Bacillariophyta,Apodacea
+Detritus complex,Apodacea
+Lottia scutum,Styela
+Littorina,Styela
+Detritus complex,Styela
+Bacillariophyta,Pyura
+Prasinophyta,Pyura
+Detritus complex,Pyura
+Ammodytes hexapterus,Hypomesus pretiosus
+Harpacticidae,Hypomesus pretiosus
+Gammaridea,Hypomesus pretiosus
+Paguridae,Hypomesus pretiosus
+Cancer,Hypomesus pretiosus
+Gobiesocidae,Gobiesocidae
+Lottia digitalis,Gobiesocidae
+Lottia pelta,Gobiesocidae
+Lottia persona,Gobiesocidae
+Lottia scutum,Gobiesocidae
+Littorina,Gobiesocidae
+Naticidae,Gobiesocidae
+Tonicella,Gobiesocidae
+Ostracoda,Gobiesocidae
+Sphaeromatidae,Gobiesocidae
+Idoteidae,Gobiesocidae
+Gammaridea,Gobiesocidae
+Pugettia,Gobiesocidae
+Cancer,Gobiesocidae
+Gasterosteus aculeatus,Gasterosteus aculeatus
+Bacillariophyta,Gasterosteus aculeatus
+Ostracoda,Gasterosteus aculeatus
+Harpacticidae,Gasterosteus aculeatus
+Gammaridea,Gasterosteus aculeatus
+Detritus complex,Gasterosteus aculeatus
+Hydrozoa,Artedius
+Gammaridea,Artedius
+Hippolytidae,Artedius
+Crangonidae,Artedius
+Paguridae,Artedius
+Porphyra,Clinocottus
+Ophiuroidea,Clinocottus
+Bacillariophyta,Clinocottus
+Anthopleura,Clinocottus
+Epiactis,Clinocottus
+Lottia digitalis,Clinocottus
+Ulvaceae,Clinocottus
+Nereididae,Clinocottus
+Sabellidae,Clinocottus
+Littorina,Clinocottus
+Mytilus,Clinocottus
+Pycnogonida,Clinocottus
+Ostracoda,Clinocottus
+Harpacticidae,Clinocottus
+Sphaeromatidae,Clinocottus
+Limnoria,Clinocottus
+Idoteidae,Clinocottus
+Gammaridea,Clinocottus
+Caprellidae,Clinocottus
+Hippolytidae,Clinocottus
+Paguridae,Clinocottus
+Pugettia,Clinocottus
+Detritus complex,Clinocottus
+Ophiuroidea,Hemilepidotus hemilepidotus
+Mytilus,Hemilepidotus hemilepidotus
+Sphaeromatidae,Hemilepidotus hemilepidotus
+Gammaridea,Hemilepidotus hemilepidotus
+Paguridae,Hemilepidotus hemilepidotus
+Pugettia,Hemilepidotus hemilepidotus
+Detritus complex,Hemilepidotus hemilepidotus
+Lottia pelta,Oligocottus maculosus
+Cryptochiton stelleri,Oligocottus maculosus
+Harpacticidae,Oligocottus maculosus
+Sphaeromatidae,Oligocottus maculosus
+Gammaridea,Oligocottus maculosus
+Paguridae,Oligocottus maculosus
+Gammaridea,Trichodon trichodon
+Colpomenia,Anoplarchus purpurescens
+Porphyra,Anoplarchus purpurescens
+Cucumaria,Anoplarchus purpurescens
+Ulvaceae,Anoplarchus purpurescens
+Acrosiphoniaceae,Anoplarchus purpurescens
+Littorina,Anoplarchus purpurescens
+Pycnogonida,Anoplarchus purpurescens
+Gammaridea,Anoplarchus purpurescens
+Desmarestia,Xiphister atropurpureus
+Porphyra,Xiphister atropurpureus
+Odonthalia,Xiphister atropurpureus
+Ulvaceae,Xiphister atropurpureus
+Acrosiphoniaceae,Xiphister atropurpureus
+Ostracoda,Xiphister atropurpureus
+Gammaridea,Xiphister atropurpureus
+Caprellidae,Xiphister atropurpureus
+Hippolytidae,Xiphister atropurpureus
+Paguridae,Xiphister atropurpureus
+Porphyra,Xiphister mucosus
+Microcladia,Xiphister mucosus
+Polysiphonia,Xiphister mucosus
+Bacillariophyta,Xiphister mucosus
+Ulvaceae,Xiphister mucosus
+Acrosiphoniaceae,Xiphister mucosus
+Sphaeromatidae,Xiphister mucosus
+Gammaridea,Xiphister mucosus
+Mastocarpus,Xiphister mucosus
+Strongylocentrotus droebachiensis,Pholis
+Lacuna,Pholis
+Ostracoda,Pholis
+Sphaeromatidae,Pholis
+Idoteidae,Pholis
+Gammaridea,Pholis
+Caprellidae,Pholis
+Detritus complex,Pholis
+Harpacticidae,Ammodytes hexapterus
+Gammaridea,Ammodytes hexapterus
+Alaria,Homo sapiens
+Fucus,Homo sapiens
+Porphyra,Homo sapiens
+Palmaria,Homo sapiens
+Chrysophyta,Homo sapiens
+Strongylocentrotus droebachiensis,Homo sapiens
+Cucumaria,Homo sapiens
+Styela,Homo sapiens
+Pyura,Homo sapiens
+Hypomesus pretiosus,Homo sapiens
+Trichodon trichodon,Homo sapiens
+Enhydra lutris,Homo sapiens
+Vulpes,Homo sapiens
+Eumetopias jubatus,Homo sapiens
+Phoca vitulina,Homo sapiens
+Anthopleura,Homo sapiens
+Epiactis,Homo sapiens
+Urticina,Homo sapiens
+Enteroctopus dofleini,Homo sapiens
+Pharidae,Homo sapiens
+Lottia persona,Homo sapiens
+Lineidae,Homo sapiens
+Ulvaceae,Homo sapiens
+Balanus nubilus,Homo sapiens
+Littorina,Homo sapiens
+Naticidae,Homo sapiens
+Fusitriton,Homo sapiens
+Nucella canaliculata,Homo sapiens
+Nucella lamellosa,Homo sapiens
+Nucella lima,Homo sapiens
+Buccinum,Homo sapiens
+Katharina tunicata,Homo sapiens
+Cryptochiton stelleri,Homo sapiens
+Mytilus,Homo sapiens
+Modiolus,Homo sapiens
+Pododesmus,Homo sapiens
+Clinocardium,Homo sapiens
+Tresus,Homo sapiens
+Mactromeris,Homo sapiens
+Macoma,Homo sapiens
+Saxidomus,Homo sapiens
+Protothaca staminea,Homo sapiens
+Hiatellidae,Homo sapiens
+Entodesma,Homo sapiens
+Balanus glandula,Homo sapiens
+Hippolytidae,Homo sapiens
+Telmessus cheiragonus,Homo sapiens
+Cancer,Homo sapiens
+Detritus complex,Homo sapiens
+Gavia,Homo sapiens
+Diomedeidae,Homo sapiens
+Phalacrocorax pelagicus,Homo sapiens
+Branta canadensis,Homo sapiens
+Branta bernicla,Homo sapiens
+Chen canagica,Homo sapiens
+Anas,Homo sapiens
+Somateria mollissima,Homo sapiens
+Somateria spectabilis,Homo sapiens
+Mergus,Homo sapiens
+Tringa melanoleuca,Homo sapiens
+Gallinago,Homo sapiens
+Larus hyperboreus,Homo sapiens
+Larus glaucescens,Homo sapiens
+Uria lomvia,Homo sapiens
+Synthliboramphus antiquus,Homo sapiens
+Ptychoramphus aleuticus,Homo sapiens
+Aethia cristatella,Homo sapiens
+Fratercula corniculata,Homo sapiens
+Fratercula cirrhata,Homo sapiens
+Bubo scandiacus,Homo sapiens
+Phascolosomatidae,Enhydra lutris
+Evasterias troschelii,Enhydra lutris
+Pycnopodia helianthoides,Enhydra lutris
+Strongylocentrotus droebachiensis,Enhydra lutris
+Cucumaria,Enhydra lutris
+Ammodytes hexapterus,Enhydra lutris
+Enteroctopus dofleini,Enhydra lutris
+Pharidae,Enhydra lutris
+Trochidae,Enhydra lutris
+Naticidae,Enhydra lutris
+Nucella lamellosa,Enhydra lutris
+Katharina tunicata,Enhydra lutris
+Cryptochiton stelleri,Enhydra lutris
+Mytilus,Enhydra lutris
+Modiolus,Enhydra lutris
+Pododesmus,Enhydra lutris
+Clinocardium,Enhydra lutris
+Tresus,Enhydra lutris
+Mactromeris,Enhydra lutris
+Macoma,Enhydra lutris
+Saxidomus,Enhydra lutris
+Protothaca staminea,Enhydra lutris
+Hiatellidae,Enhydra lutris
+Entodesma,Enhydra lutris
+Crangonidae,Enhydra lutris
+Paguridae,Enhydra lutris
+Pugettia,Enhydra lutris
+Telmessus cheiragonus,Enhydra lutris
+Cancer,Enhydra lutris
+Gavia,Enhydra lutris
+Anas,Enhydra lutris
+Melanitta perspicillata,Enhydra lutris
+Staphylinidae,Vulpes
+Pholis,Vulpes
+Ammodytes hexapterus,Vulpes
+Enhydra lutris,Vulpes
+Vulpes,Vulpes
+Eumetopias jubatus,Vulpes
+Nereididae,Vulpes
+Mytilus,Vulpes
+Gammaridea,Vulpes
+Detritus complex,Vulpes
+Gavia,Vulpes
+Fulmarus glacialis,Vulpes
+Puffinus tenuirostris,Vulpes
+Oceanodroma,Vulpes
+Phalacrocorax auritus,Vulpes
+Phalacrocorax pelagicus,Vulpes
+Cygnus columbianus,Vulpes
+Branta canadensis,Vulpes
+Branta bernicla,Vulpes
+Chen canagica,Vulpes
+Anas,Vulpes
+Aythya marila,Vulpes
+Clangula hyemalis,Vulpes
+Polysticta stelleri,Vulpes
+Somateria mollissima,Vulpes
+Somateria spectabilis,Vulpes
+Buteo lagopus,Vulpes
+Charadrius semipalmatus,Vulpes
+Calidris,Vulpes
+Limosa lapponica,Vulpes
+Phalaropus lobatus,Vulpes
+Stercorarius parasiticus,Vulpes
+Larus hyperboreus,Vulpes
+Larus glaucescens,Vulpes
+Larus canus,Vulpes
+Rissa tridactyla,Vulpes
+Sterna,Vulpes
+Uria aalge,Vulpes
+Uria lomvia,Vulpes
+Cepphus columba,Vulpes
+Synthliboramphus antiquus,Vulpes
+Ptychoramphus aleuticus,Vulpes
+Aethia cristatella,Vulpes
+Fratercula corniculata,Vulpes
+Fratercula cirrhata,Vulpes
+Melospiza melodia,Vulpes
+Calcarius lapponicus,Vulpes
+Plectrophenax,Vulpes
+Aethia psittacula,Vulpes
+Bubo scandiacus,Vulpes
+Hypomesus pretiosus,Eumetopias jubatus
+Gasterosteus aculeatus,Eumetopias jubatus
+Artedius,Eumetopias jubatus
+Hemilepidotus hemilepidotus,Eumetopias jubatus
+Oligocottus maculosus,Eumetopias jubatus
+Trichodon trichodon,Eumetopias jubatus
+Anoplarchus purpurescens,Eumetopias jubatus
+Xiphister atropurpureus,Eumetopias jubatus
+Xiphister mucosus,Eumetopias jubatus
+Pholis,Eumetopias jubatus
+Ammodytes hexapterus,Eumetopias jubatus
+Enhydra lutris,Eumetopias jubatus
+Phoca vitulina,Eumetopias jubatus
+Enteroctopus dofleini,Eumetopias jubatus
+Cancer,Eumetopias jubatus
+Ptychoramphus aleuticus,Eumetopias jubatus
+Hypomesus pretiosus,Phoca vitulina
+Gasterosteus aculeatus,Phoca vitulina
+Hemilepidotus hemilepidotus,Phoca vitulina
+Trichodon trichodon,Phoca vitulina
+Anoplarchus purpurescens,Phoca vitulina
+Pholis,Phoca vitulina
+Ammodytes hexapterus,Phoca vitulina
+Enteroctopus dofleini,Phoca vitulina
+Mytilus,Phoca vitulina
+Crangonidae,Phoca vitulina
+Paguridae,Phoca vitulina
+Cancer,Phoca vitulina
+Bacteria,Foraminiferida
+Bacillariophyta,Foraminiferida
+Foraminiferida,Foraminiferida
+Radiolaria,Foraminiferida
+Ciliophora,Foraminiferida
+Bacillariophyta,Radiolaria
+Foraminiferida,Radiolaria
+Radiolaria,Radiolaria
+Ciliophora,Radiolaria
+Ostracoda,Radiolaria
+Chrysophyta,Ciliophora
+Gasterosteus aculeatus,Ciliophora
+Bacteria,Ciliophora
+Prymnesiophyceae,Ciliophora
+Bacillariophyta,Ciliophora
+Ciliophora,Ciliophora
+Cyanophycota,Ciliophora
+Prasinophyta,Ciliophora
+Dinophyceae,Ciliophora
+Bacteria,Haliclona
+Detritus complex,Haliclona
+Detritus complex,Ophlitaspongia
+Bacteria,Halichondria panicea
+Detritus complex,Halichondria panicea
+Bacteria,Hydrozoa
+Bacillariophyta,Hydrozoa
+Foraminiferida,Hydrozoa
+Ciliophora,Hydrozoa
+Hydrozoa,Hydrozoa
+Polynoidae,Hydrozoa
+Ostracoda,Hydrozoa
+Gammaridea,Hydrozoa
+Caprellidae,Hydrozoa
+Euphausiidae,Hydrozoa
+Pugettia,Hydrozoa
+Dinophyceae,Hydrozoa
+Detritus complex,Hydrozoa
+Gymnolaemata,Anthopleura
+Bacillariophyta,Anthopleura
+Foraminiferida,Anthopleura
+Hydrozoa,Anthopleura
+Anthopleura,Anthopleura
+Lottia scutum,Anthopleura
+Trochidae,Anthopleura
+Littorina,Anthopleura
+Mytilus,Anthopleura
+Protothaca staminea,Anthopleura
+Balanus glandula,Anthopleura
+Semibalanus cariosus,Anthopleura
+Paguridae,Anthopleura
+Pugettia,Anthopleura
+Cancer,Anthopleura
+Detritus complex,Anthopleura
+Caprellidae,Epiactis
+Detritus complex,Epiactis
+Dermasterias imbricata,Urticina
+Hemilepidotus hemilepidotus,Urticina
+Epiactis,Urticina
+Mytilus,Urticina
+Telmessus cheiragonus,Urticina
+Gymnolaemata,Metridium senile
+Bacillariophyta,Metridium senile
+Foraminiferida,Metridium senile
+Ostracoda,Metridium senile
+Harpacticidae,Metridium senile
+Chthamalus dalli,Metridium senile
+Balanus glandula,Metridium senile
+Semibalanus cariosus,Metridium senile
+Gammaridea,Metridium senile
+Caprellidae,Metridium senile
+Detritus complex,Metridium senile
+Strongylocentrotus droebachiensis,Enteroctopus dofleini
+Enteroctopus dofleini,Enteroctopus dofleini
+Littorina,Enteroctopus dofleini
+Trichotropis cancellata,Enteroctopus dofleini
+Naticidae,Enteroctopus dofleini
+Nucella lima,Enteroctopus dofleini
+Tonicella,Enteroctopus dofleini
+Mytilus,Enteroctopus dofleini
+Pododesmus,Enteroctopus dofleini
+Macoma,Enteroctopus dofleini
+Saxidomus,Enteroctopus dofleini
+Protothaca staminea,Enteroctopus dofleini
+Semibalanus cariosus,Enteroctopus dofleini
+Pugettia,Enteroctopus dofleini
+Telmessus cheiragonus,Enteroctopus dofleini
+Cancer,Enteroctopus dofleini
+Detritus complex,Pharidae
+Fucus,Lottia digitalis
+Bangia,Lottia digitalis
+Bacillariophyta,Lottia digitalis
+Cyanophycota,Lottia digitalis
+Acrosiphoniaceae,Lottia digitalis
+Cladophoraceae,Lottia digitalis
+Chthamalus dalli,Lottia digitalis
+Balanus crenatus,Lottia digitalis
+Balanus glandula,Lottia digitalis
+Semibalanus cariosus,Lottia digitalis
+Mastocarpus,Lottia digitalis
+Mazzaella,Lottia digitalis
+Biofilm Complex,Lottia digitalis
+Bacillariophyta,Lottia pelta
+Cyanophycota,Lottia pelta
+Cladophoraceae,Lottia pelta
+Chthamalus dalli,Lottia pelta
+Balanus glandula,Lottia pelta
+Semibalanus cariosus,Lottia pelta
+Mastocarpus,Lottia pelta
+Mazzaella,Lottia pelta
+Phaeophyta Crust,Lottia pelta
+Crustose coralline algae complex,Lottia pelta
+Biofilm Complex,Lottia pelta
+Red crust complex,Lottia pelta
+Bacillariophyta,Lottia persona
+Biofilm Complex,Lottia persona
+Pilayella littoralis,Lottia scutum
+Saccharina sessile,Lottia scutum
+Porphyra,Lottia scutum
+Odonthalia,Lottia scutum
+Bacillariophyta,Lottia scutum
+Foraminiferida,Lottia scutum
+Cyanophycota,Lottia scutum
+Ulvaceae,Lottia scutum
+Chthamalus dalli,Lottia scutum
+Balanus glandula,Lottia scutum
+Semibalanus cariosus,Lottia scutum
+Mastocarpus,Lottia scutum
+Phaeophyta Crust,Lottia scutum
+Crustose coralline algae complex,Lottia scutum
+Detritus complex,Lottia scutum
+Biofilm Complex,Lottia scutum
+Red crust complex,Lottia scutum
+Lineidae,Lineidae
+Emplectonematidae,Lineidae
+Polynoidae,Lineidae
+Nereididae,Lineidae
+Lottia digitalis,Emplectonematidae
+Lottia pelta,Emplectonematidae
+Polynoidae,Emplectonematidae
+Nereididae,Emplectonematidae
+Lumbrineridae,Emplectonematidae
+Terebellidae,Emplectonematidae
+Nucella lamellosa,Emplectonematidae
+Chthamalus dalli,Emplectonematidae
+Balanus glandula,Emplectonematidae
+Semibalanus cariosus,Emplectonematidae
+Littorina,Amphiporidae
+Idoteidae,Amphiporidae
+Gammaridea,Amphiporidae
+Caprellidae,Amphiporidae
+Gymnolaemata,Polynoidae
+Prymnesiophyceae,Polynoidae
+Bacillariophyta,Polynoidae
+Radiolaria,Polynoidae
+Ciliophora,Polynoidae
+Hydrozoa,Polynoidae
+Polynoidae,Polynoidae
+Pycnogonida,Polynoidae
+Ostracoda,Polynoidae
+Limnoria,Polynoidae
+Gammaridea,Polynoidae
+Detritus complex,Polynoidae
+Bacillariophyta,Balanus nubilus
+Sarcomastigophora,Balanus nubilus
+Foraminiferida,Balanus nubilus
+Detritus complex,Balanus nubilus
+Laminaria,Nereididae
+Fucus,Nereididae
+Odonthalia,Nereididae
+Bacillariophyta,Nereididae
+Zostera marina,Nereididae
+Foraminiferida,Nereididae
+Hydrozoa,Nereididae
+Ulvaceae,Nereididae
+Nereididae,Nereididae
+Macoma,Nereididae
+Limnoria,Nereididae
+Gammaridea,Nereididae
+Detritus complex,Nereididae
+Polynoidae,Glyceridae
+Nereididae,Glyceridae
+Macoma,Glyceridae
+Gammaridea,Glyceridae
+Detritus complex,Glyceridae
+Ophiuroidea,Lumbrineridae
+Foraminiferida,Lumbrineridae
+Lumbrineridae,Lumbrineridae
+Flabelligeridae,Lumbrineridae
+Detritus complex,Lumbrineridae
+Detritus complex,Flabelligeridae
+Bacteria,Terebellidae
+Bacillariophyta,Terebellidae
+Ulvaceae,Terebellidae
+Detritus complex,Terebellidae
+Detritus complex,Sabellidae
+Saccharina sessile,Acmaea mitra
+Alaria,Acmaea mitra
+Corallina,Acmaea mitra
+Microcladia,Acmaea mitra
+Crustose coralline algae complex,Acmaea mitra
+Biofilm Complex,Acmaea mitra
+Laminaria,Trochidae
+Agarum,Trochidae
+Costaria costata,Trochidae
+Saccharina sessile,Trochidae
+Nereocystis luetkeana,Trochidae
+Alaria,Trochidae
+Fucus,Trochidae
+Cystoseira,Trochidae
+Colpomenia,Trochidae
+Corallina,Trochidae
+Microcladia,Trochidae
+Bacillariophyta,Trochidae
+Ulvaceae,Trochidae
+Cladophoraceae,Trochidae
+Codiaceae,Trochidae
+Mastocarpus,Trochidae
+Mazzaella,Trochidae
+Phaeophyta Crust,Trochidae
+Crustose coralline algae complex,Trochidae
+Biofilm Complex,Trochidae
+Red crust complex,Trochidae
+Laminaria,Lacuna
+Costaria costata,Lacuna
+Saccharina sessile,Lacuna
+Nereocystis luetkeana,Lacuna
+Alaria,Lacuna
+Fucus,Lacuna
+Bacillariophyta,Lacuna
+Mastocarpus,Lacuna
+Neorhodomela,Lacuna
+Detritus complex,Lacuna
+Biofilm Complex,Lacuna
+Laminaria,Littorina
+Agarum,Littorina
+Desmarestia,Littorina
+Fucus,Littorina
+Cystoseira,Littorina
+Colpomenia,Littorina
+Porphyra,Littorina
+Polysiphonia,Littorina
+Odonthalia,Littorina
+Caloplaca,Littorina
+Verrucaria,Littorina
+Strongylocentrotus droebachiensis,Littorina
+Bacillariophyta,Littorina
+Foraminiferida,Littorina
+Cyanophycota,Littorina
+Ulvaceae,Littorina
+Acrosiphoniaceae,Littorina
+Cladophoraceae,Littorina
+Codiaceae,Littorina
+Prasinophyta,Littorina
+Mastocarpus,Littorina
+Mazzaella,Littorina
+Neorhodomela,Littorina
+Phaeophyta Crust,Littorina
+Crustose coralline algae complex,Littorina
+Detritus complex,Littorina
+Biofilm Complex,Littorina
+Red crust complex,Littorina
+Halichondria panicea,Cerithiopsis
+Biofilm Complex,Cerithiopsis
+Sabellidae,Trichotropis cancellata
+Detritus complex,Trichotropis cancellata
+Biofilm Complex,Velutina
+Chrysophyta,Naticidae
+Prymnesiophyceae,Naticidae
+Bacillariophyta,Naticidae
+Ulvaceae,Naticidae
+Naticidae,Naticidae
+Buccinum,Naticidae
+Tresus,Naticidae
+Macoma,Naticidae
+Saxidomus,Naticidae
+Protothaca staminea,Naticidae
+Detritus complex,Naticidae
+Biofilm Complex,Naticidae
+Terebratalia transversa,Fusitriton
+Solaster stimpsoni,Fusitriton
+Leptasterias,Fusitriton
+Ophiuroidea,Fusitriton
+Strongylocentrotus droebachiensis,Fusitriton
+Styela,Fusitriton
+Pyura,Fusitriton
+Sabellidae,Fusitriton
+Acmaea mitra,Fusitriton
+Naticidae,Fusitriton
+Fusitriton,Fusitriton
+Tonicella,Fusitriton
+Katharina tunicata,Fusitriton
+Cryptochiton stelleri,Fusitriton
+Mytilus,Fusitriton
+Clinocardium,Fusitriton
+Detritus complex,Fusitriton
+Mytilus,Nucella canaliculata
+Chthamalus dalli,Nucella canaliculata
+Balanus glandula,Nucella canaliculata
+Semibalanus cariosus,Nucella canaliculata
+Pyura,Nucella lamellosa
+Lottia pelta,Nucella lamellosa
+Trichotropis cancellata,Nucella lamellosa
+Mytilus,Nucella lamellosa
+Chthamalus dalli,Nucella lamellosa
+Balanus glandula,Nucella lamellosa
+Semibalanus balanoides,Nucella lamellosa
+Semibalanus cariosus,Nucella lamellosa
+Lottia pelta,Nucella lima
+Littorina,Nucella lima
+Mytilus,Nucella lima
+Balanus glandula,Nucella lima
+Semibalanus balanoides,Nucella lima
+Semibalanus cariosus,Nucella lima
+Strongylocentrotus droebachiensis,Buccinum
+Polynoidae,Buccinum
+Terebellidae,Buccinum
+Buccinum,Buccinum
+Mytilus,Buccinum
+Clinocardium,Buccinum
+Mactromeris,Buccinum
+Gammaridea,Buccinum
+Cancer,Buccinum
+Detritus complex,Buccinum
+Fucus,Siphonaria thersites
+Ulvaceae,Siphonaria thersites
+Biofilm Complex,Siphonaria thersites
+Haliclona,Diaulula sandiegensis
+Halichondria panicea,Diaulula sandiegensis
+Ophlitaspongia,Rostanga pulchra
+Haliclona,Archidoris montereyensis
+Halichondria panicea,Archidoris montereyensis
+Haliclona,Archidoris odhneri
+Halichondria panicea,Archidoris odhneri
+Gymnolaemata,Triopha catalinae
+Gymnolaemata,Hermissenda crassicornis
+Hydrozoa,Hermissenda crassicornis
+Anthopleura,Hermissenda crassicornis
+Hermissenda crassicornis,Hermissenda crassicornis
+Detritus complex,Hermissenda crassicornis
+Hydrozoa,Aeolidia papillosa
+Anthopleura,Aeolidia papillosa
+Epiactis,Aeolidia papillosa
+Urticina,Aeolidia papillosa
+Metridium senile,Aeolidia papillosa
+Bacillariophyta,Onchidella
+Biofilm Complex,Onchidella
+Bacteria,Leptochiton rugatus
+Bacillariophyta,Leptochiton rugatus
+Cyanophycota,Leptochiton rugatus
+Detritus complex,Leptochiton rugatus
+Biofilm Complex,Leptochiton rugatus
+Corallina,Tonicella
+Gymnolaemata,Tonicella
+Bacillariophyta,Tonicella
+Crustose coralline algae complex,Tonicella
+Biofilm Complex,Tonicella
+Saccharina sessile,Katharina tunicata
+Alaria,Katharina tunicata
+Fucus,Katharina tunicata
+Porphyra,Katharina tunicata
+Corallina,Katharina tunicata
+Bossiella,Katharina tunicata
+Microcladia,Katharina tunicata
+Polysiphonia,Katharina tunicata
+Odonthalia,Katharina tunicata
+Verrucaria,Katharina tunicata
+Gymnolaemata,Katharina tunicata
+Bacillariophyta,Katharina tunicata
+Foraminiferida,Katharina tunicata
+Halichondria panicea,Katharina tunicata
+Hydrozoa,Katharina tunicata
+Cyanophycota,Katharina tunicata
+Ulvaceae,Katharina tunicata
+Acrosiphoniaceae,Katharina tunicata
+Lacuna,Katharina tunicata
+Chthamalus dalli,Katharina tunicata
+Mazzaella,Katharina tunicata
+Neorhodomela,Katharina tunicata
+Phaeophyta Crust,Katharina tunicata
+Crustose coralline algae complex,Katharina tunicata
+Biofilm Complex,Katharina tunicata
+Red crust complex,Katharina tunicata
+Chlorophyta Crust,Katharina tunicata
+Corallina,Mopalia
+Gymnolaemata,Mopalia
+Bacillariophyta,Mopalia
+Foraminiferida,Mopalia
+Ciliophora,Mopalia
+Hydrozoa,Mopalia
+Ulvaceae,Mopalia
+Nucella lamellosa,Mopalia
+Mastocarpus,Mopalia
+Phaeophyta Crust,Mopalia
+Crustose coralline algae complex,Mopalia
+Detritus complex,Mopalia
+Biofilm Complex,Mopalia
+Costaria costata,Cryptochiton stelleri
+Saccharina sessile,Cryptochiton stelleri
+Alaria,Cryptochiton stelleri
+Odonthalia,Cryptochiton stelleri
+Ulvaceae,Cryptochiton stelleri
+Acrosiphoniaceae,Cryptochiton stelleri
+Fusitriton,Cryptochiton stelleri
+Mastocarpus,Cryptochiton stelleri
+Biofilm Complex,Cryptochiton stelleri
+Prymnesiophyceae,Mytilus
+Bacillariophyta,Mytilus
+Sarcomastigophora,Mytilus
+Lottia scutum,Mytilus
+Ulvaceae,Mytilus
+Dinophyceae,Mytilus
+Detritus complex,Mytilus
+Detritus complex,Modiolus
+Detritus complex,Pododesmus
+Chrysophyta,Clinocardium
+Prymnesiophyceae,Clinocardium
+Bacillariophyta,Clinocardium
+Prasinophyta,Clinocardium
+Detritus complex,Clinocardium
+Detritus complex,Tresus
+Detritus complex,Mactromeris
+Bacteria,Macoma
+Bacillariophyta,Macoma
+Sarcomastigophora,Macoma
+Cyanophycota,Macoma
+Dinophyceae,Macoma
+Detritus complex,Macoma
+Detritus complex,Saxidomus
+Detritus complex,Protothaca staminea
+Detritus complex,Hiatellidae
+Detritus complex,Entodesma
+Detritus complex,Prostigmata
+Gymnolaemata,Pycnogonida
+Cucumaria,Pycnogonida
+Foraminiferida,Pycnogonida
+Halichondria panicea,Pycnogonida
+Hydrozoa,Pycnogonida
+Anthopleura,Pycnogonida
+Urticina,Pycnogonida
+Metridium senile,Pycnogonida
+Sabellidae,Pycnogonida
+Detritus complex,Pycnogonida
+Bacteria,Ostracoda
+Cyanophycota,Ostracoda
+Detritus complex,Ostracoda
+Bacillariophyta,Harpacticidae
+Detritus complex,Harpacticidae
+Detritus complex,Chthamalus dalli
+Bacillariophyta,Balanus crenatus
+Detritus complex,Balanus crenatus
+Bacillariophyta,Balanus glandula
+Detritus complex,Balanus glandula
+Chrysophyta,Semibalanus balanoides
+Bacillariophyta,Semibalanus balanoides
+Sarcomastigophora,Semibalanus balanoides
+Ciliophora,Semibalanus balanoides
+Dinophyceae,Semibalanus balanoides
+Detritus complex,Semibalanus balanoides
+Bacillariophyta,Semibalanus cariosus
+Foraminiferida,Semibalanus cariosus
+Mytilus,Semibalanus cariosus
+Ostracoda,Semibalanus cariosus
+Detritus complex,Semibalanus cariosus
+Fucus,Sphaeromatidae
+Cystoseira,Sphaeromatidae
+Polysiphonia,Sphaeromatidae
+Bacillariophyta,Sphaeromatidae
+Ulvaceae,Sphaeromatidae
+Cladophoraceae,Sphaeromatidae
+Detritus complex,Sphaeromatidae
+Detritus complex,Limnoria
+Pilayella littoralis,Idoteidae
+Laminaria,Idoteidae
+Costaria costata,Idoteidae
+Saccharina sessile,Idoteidae
+Nereocystis luetkeana,Idoteidae
+Alaria,Idoteidae
+Fucus,Idoteidae
+Porphyra,Idoteidae
+Corallina,Idoteidae
+Palmaria,Idoteidae
+Odonthalia,Idoteidae
+Bacillariophyta,Idoteidae
+Zostera marina,Idoteidae
+Hydrozoa,Idoteidae
+Cyanophycota,Idoteidae
+Ulvaceae,Idoteidae
+Acrosiphoniaceae,Idoteidae
+Cladophoraceae,Idoteidae
+Codiaceae,Idoteidae
+Nucella lamellosa,Idoteidae
+Mastocarpus,Idoteidae
+Neorhodomela,Idoteidae
+Detritus complex,Idoteidae
+Pilayella littoralis,Gammaridea
+Laminaria,Gammaridea
+Alaria,Gammaridea
+Desmarestia,Gammaridea
+Fucus,Gammaridea
+Cystoseira,Gammaridea
+Porphyra,Gammaridea
+Corallina,Gammaridea
+Palmaria,Gammaridea
+Polysiphonia,Gammaridea
+Odonthalia,Gammaridea
+Cucumaria,Gammaridea
+Bacteria,Gammaridea
+Bacillariophyta,Gammaridea
+Zostera marina,Gammaridea
+Ciliophora,Gammaridea
+Cyanophycota,Gammaridea
+Ulvaceae,Gammaridea
+Acrosiphoniaceae,Gammaridea
+Cladophoraceae,Gammaridea
+Codiaceae,Gammaridea
+Macoma,Gammaridea
+Ostracoda,Gammaridea
+Gammaridea,Gammaridea
+Dinophyceae,Gammaridea
+Mazzaella,Gammaridea
+Neorhodomela,Gammaridea
+Detritus complex,Gammaridea
+Biofilm Complex,Gammaridea
+Fucus,Caprellidae
+Microcladia,Caprellidae
+Bacillariophyta,Caprellidae
+Detritus complex,Caprellidae
+Biofilm Complex,Caprellidae
+Prymnesiophyceae,Euphausiidae
+Bacillariophyta,Euphausiidae
+Sarcomastigophora,Euphausiidae
+Foraminiferida,Euphausiidae
+Radiolaria,Euphausiidae
+Ciliophora,Euphausiidae
+Hydrozoa,Euphausiidae
+Cyanophycota,Euphausiidae
+Ostracoda,Euphausiidae
+Euphausiidae,Euphausiidae
+Dinophyceae,Euphausiidae
+Detritus complex,Euphausiidae
+Bacillariophyta,Hippolytidae
+Foraminiferida,Hippolytidae
+Hydrozoa,Hippolytidae
+Hermissenda crassicornis,Hippolytidae
+Gammaridea,Hippolytidae
+Prasinophyta,Hippolytidae
+Detritus complex,Hippolytidae
+Strongylocentrotus droebachiensis,Crangonidae
+Bacillariophyta,Crangonidae
+Foraminiferida,Crangonidae
+Hydrozoa,Crangonidae
+Nereididae,Crangonidae
+Glyceridae,Crangonidae
+Macoma,Crangonidae
+Ostracoda,Crangonidae
+Idoteidae,Crangonidae
+Gammaridea,Crangonidae
+Detritus complex,Crangonidae
+Odonthalia,Paguridae
+Gymnolaemata,Paguridae
+Strongylocentrotus droebachiensis,Paguridae
+Bacillariophyta,Paguridae
+Foraminiferida,Paguridae
+Hydrozoa,Paguridae
+Lottia pelta,Paguridae
+Glyceridae,Paguridae
+Nucella lamellosa,Paguridae
+Mytilus,Paguridae
+Ostracoda,Paguridae
+Paguridae,Paguridae
+Detritus complex,Paguridae
+Detritus complex,Mimulus
+Laminaria,Pugettia
+Costaria costata,Pugettia
+Nereocystis luetkeana,Pugettia
+Alaria,Pugettia
+Fucus,Pugettia
+Cystoseira,Pugettia
+Odonthalia,Pugettia
+Gymnolaemata,Pugettia
+Bacillariophyta,Pugettia
+Zostera marina,Pugettia
+Hydrozoa,Pugettia
+Mytilus,Pugettia
+Idoteidae,Pugettia
+Detritus complex,Pugettia
+Foraminiferida,Scyra
+Detritus complex,Scyra
+Pycnopodia helianthoides,Telmessus cheiragonus
+Zostera marina,Telmessus cheiragonus
+Phoronida,Cancer
+Terebratalia transversa,Cancer
+Leptasterias,Cancer
+Pycnopodia helianthoides,Cancer
+Strongylocentrotus droebachiensis,Cancer
+Cucumaria,Cancer
+Styela,Cancer
+Ammodytes hexapterus,Cancer
+Bacillariophyta,Cancer
+Zostera marina,Cancer
+Hydrozoa,Cancer
+Pharidae,Cancer
+Flabelligeridae,Cancer
+Trochidae,Cancer
+Littorina,Cancer
+Trichotropis cancellata,Cancer
+Nucella lamellosa,Cancer
+Buccinum,Cancer
+Mytilus,Cancer
+Modiolus,Cancer
+Clinocardium,Cancer
+Tresus,Cancer
+Mactromeris,Cancer
+Macoma,Cancer
+Saxidomus,Cancer
+Protothaca staminea,Cancer
+Hiatellidae,Cancer
+Balanus crenatus,Cancer
+Semibalanus balanoides,Cancer
+Gammaridea,Cancer
+Crangonidae,Cancer
+Paguridae,Cancer
+Pugettia,Cancer
+Cancer,Cancer
+Dinophyceae,Cancer
+Detritus complex,Cancer
+Red crust complex,Cancer
+Bacteria,Dinophyceae
+Prymnesiophyceae,Dinophyceae
+Bacillariophyta,Dinophyceae
+Ciliophora,Dinophyceae
+Cyanophycota,Dinophyceae
+Prasinophyta,Dinophyceae
+Dinophyceae,Dinophyceae
+Gasterosteus aculeatus,Gavia
+Pholis,Gavia
+Ammodytes hexapterus,Gavia
+Enteroctopus dofleini,Gavia
+Nereididae,Gavia
+Idoteidae,Gavia
+Gammaridea,Gavia
+Hippolytidae,Gavia
+Paguridae,Gavia
+Gavia,Gavia
+Gasterosteus aculeatus,Podiceps
+Nereididae,Podiceps
+Ostracoda,Podiceps
+Gammaridea,Podiceps
+Crangonidae,Podiceps
+Podiceps,Podiceps
+Strongylocentrotus droebachiensis,Diomedeidae
+Ammodytes hexapterus,Diomedeidae
+Foraminiferida,Diomedeidae
+Polynoidae,Diomedeidae
+Nereididae,Diomedeidae
+Trochidae,Diomedeidae
+Sphaeromatidae,Diomedeidae
+Gammaridea,Diomedeidae
+Euphausiidae,Diomedeidae
+Paguridae,Diomedeidae
+Detritus complex,Diomedeidae
+Hydrozoa,Fulmarus glacialis
+Nereididae,Fulmarus glacialis
+Trochidae,Fulmarus glacialis
+Ostracoda,Fulmarus glacialis
+Idoteidae,Fulmarus glacialis
+Gammaridea,Fulmarus glacialis
+Euphausiidae,Fulmarus glacialis
+Paguridae,Fulmarus glacialis
+Ammodytes hexapterus,Puffinus tenuirostris
+Fusitriton,Puffinus tenuirostris
+Gammaridea,Puffinus tenuirostris
+Euphausiidae,Puffinus tenuirostris
+Ammodytes hexapterus,Oceanodroma
+Hydrozoa,Oceanodroma
+Gammaridea,Oceanodroma
+Euphausiidae,Oceanodroma
+Detritus complex,Oceanodroma
+Gasterosteus aculeatus,Phalacrocorax auritus
+Pholis,Phalacrocorax auritus
+Ammodytes hexapterus,Phalacrocorax auritus
+Littorina,Phalacrocorax auritus
+Mytilus,Phalacrocorax auritus
+Hippolytidae,Phalacrocorax auritus
+Crangonidae,Phalacrocorax auritus
+Cancer,Phalacrocorax auritus
+Detritus complex,Phalacrocorax auritus
+Artedius,Phalacrocorax pelagicus
+Ammodytes hexapterus,Phalacrocorax pelagicus
+Nereididae,Phalacrocorax pelagicus
+Hippolytidae,Phalacrocorax pelagicus
+Cyanophycota,Cygnus columbianus
+Ulvaceae,Cygnus columbianus
+Nereididae,Cygnus columbianus
+Macoma,Cygnus columbianus
+Cygnus columbianus,Cygnus columbianus
+Zostera marina,Branta canadensis
+Somateria mollissima,Branta canadensis
+Fucus,Branta bernicla
+Zostera marina,Branta bernicla
+Ulvaceae,Branta bernicla
+Zostera marina,Chen canagica
+Pharidae,Chen canagica
+Ulvaceae,Chen canagica
+Mytilus,Chen canagica
+Macoma,Chen canagica
+Telmessus cheiragonus,Chen canagica
+Phoronida,Anas
+Gymnolaemata,Anas
+Bacillariophyta,Anas
+Zostera marina,Anas
+Foraminiferida,Anas
+Cyanophycota,Anas
+Ulvaceae,Anas
+Nereididae,Anas
+Cladophoraceae,Anas
+Prostigmata,Anas
+Ostracoda,Anas
+Gammaridea,Anas
+Detritus complex,Anas
+Zostera marina,Aythya marila
+Ulvaceae,Aythya marila
+Lacuna,Aythya marila
+Littorina,Aythya marila
+Cerithiopsis,Aythya marila
+Mytilus,Aythya marila
+Macoma,Aythya marila
+Semibalanus balanoides,Aythya marila
+Gammaridea,Aythya marila
+Paguridae,Aythya marila
+Cancer,Aythya marila
+Detritus complex,Aythya marila
+Lottia pelta,Bucephala
+Nereididae,Bucephala
+Trochidae,Bucephala
+Lacuna,Bucephala
+Littorina,Bucephala
+Mytilus,Bucephala
+Macoma,Bucephala
+Balanus glandula,Bucephala
+Idoteidae,Bucephala
+Gammaridea,Bucephala
+Paguridae,Bucephala
+Cancer,Bucephala
+Detritus complex,Bucephala
+Bucephala,Bucephala
+Pharidae,Clangula hyemalis
+Trochidae,Clangula hyemalis
+Lacuna,Clangula hyemalis
+Littorina,Clangula hyemalis
+Mytilus,Clangula hyemalis
+Macoma,Clangula hyemalis
+Idoteidae,Clangula hyemalis
+Gammaridea,Clangula hyemalis
+Caprellidae,Clangula hyemalis
+Euphausiidae,Clangula hyemalis
+Crangonidae,Clangula hyemalis
+Cancer,Clangula hyemalis
+Ophiuroidea,Histrionicus histrionicus
+Lottia pelta,Histrionicus histrionicus
+Cyanophycota,Histrionicus histrionicus
+Trochidae,Histrionicus histrionicus
+Lacuna,Histrionicus histrionicus
+Littorina,Histrionicus histrionicus
+Tonicella,Histrionicus histrionicus
+Mopalia,Histrionicus histrionicus
+Mytilus,Histrionicus histrionicus
+Paguridae,Histrionicus histrionicus
+Ophiuroidea,Polysticta stelleri
+Strongylocentrotus droebachiensis,Polysticta stelleri
+Nereididae,Polysticta stelleri
+Trochidae,Polysticta stelleri
+Lacuna,Polysticta stelleri
+Littorina,Polysticta stelleri
+Buccinum,Polysticta stelleri
+Mytilus,Polysticta stelleri
+Macoma,Polysticta stelleri
+Hiatellidae,Polysticta stelleri
+Idoteidae,Polysticta stelleri
+Gammaridea,Polysticta stelleri
+Caprellidae,Polysticta stelleri
+Leptasterias,Somateria mollissima
+Ophiuroidea,Somateria mollissima
+Strongylocentrotus droebachiensis,Somateria mollissima
+Nereididae,Somateria mollissima
+Trochidae,Somateria mollissima
+Lacuna,Somateria mollissima
+Littorina,Somateria mollissima
+Buccinum,Somateria mollissima
+Tonicella,Somateria mollissima
+Mytilus,Somateria mollissima
+Modiolus,Somateria mollissima
+Macoma,Somateria mollissima
+Hiatellidae,Somateria mollissima
+Idoteidae,Somateria mollissima
+Gammaridea,Somateria mollissima
+Cancer,Somateria mollissima
+Somateria mollissima,Somateria mollissima
+Ophiuroidea,Somateria spectabilis
+Strongylocentrotus droebachiensis,Somateria spectabilis
+Hydrozoa,Somateria spectabilis
+Trochidae,Somateria spectabilis
+Mytilus,Somateria spectabilis
+Macoma,Somateria spectabilis
+Hiatellidae,Somateria spectabilis
+Gammaridea,Somateria spectabilis
+Caprellidae,Somateria spectabilis
+Acmaea mitra,Melanitta fusca
+Lacuna,Melanitta fusca
+Littorina,Melanitta fusca
+Cerithiopsis,Melanitta fusca
+Mytilus,Melanitta fusca
+Clinocardium,Melanitta fusca
+Macoma,Melanitta fusca
+Protothaca staminea,Melanitta fusca
+Gammaridea,Melanitta fusca
+Cancer,Melanitta fusca
+Melanitta fusca,Melanitta fusca
+Ophiuroidea,Melanitta perspicillata
+Trochidae,Melanitta perspicillata
+Littorina,Melanitta perspicillata
+Mytilus,Melanitta perspicillata
+Clinocardium,Melanitta perspicillata
+Macoma,Melanitta perspicillata
+Protothaca staminea,Melanitta perspicillata
+Balanus glandula,Melanitta perspicillata
+Idoteidae,Melanitta perspicillata
+Paguridae,Melanitta perspicillata
+Pharidae,Melanitta nigra
+Mytilus,Melanitta nigra
+Clinocardium,Melanitta nigra
+Gobiesocidae,Mergus
+Gasterosteus aculeatus,Mergus
+Oligocottus maculosus,Mergus
+Anoplarchus purpurescens,Mergus
+Xiphister atropurpureus,Mergus
+Pholis,Mergus
+Ammodytes hexapterus,Mergus
+Mytilus,Mergus
+Mergus,Mergus
+Chrysophyta,Buteo lagopus
+Detritus complex,Buteo lagopus
+Anas,Buteo lagopus
+Aythya marila,Buteo lagopus
+Somateria spectabilis,Buteo lagopus
+Charadrius semipalmatus,Buteo lagopus
+Tringa melanoleuca,Buteo lagopus
+Tringa incana,Buteo lagopus
+Calidris,Buteo lagopus
+Limosa lapponica,Buteo lagopus
+Gallinago,Buteo lagopus
+Phalaropus lobatus,Buteo lagopus
+Rissa tridactyla,Buteo lagopus
+Asio flammeus,Buteo lagopus
+Calcarius lapponicus,Buteo lagopus
+Chrysophyta,Aquila chrysaetos
+Vulpes,Aquila chrysaetos
+Cygnus columbianus,Aquila chrysaetos
+Branta canadensis,Aquila chrysaetos
+Chen canagica,Aquila chrysaetos
+Anas,Aquila chrysaetos
+Bucephala,Aquila chrysaetos
+Histrionicus histrionicus,Aquila chrysaetos
+Falco rusticolus,Aquila chrysaetos
+Grus canadensis,Aquila chrysaetos
+Tringa melanoleuca,Aquila chrysaetos
+Larus argentatus,Aquila chrysaetos
+Asio flammeus,Aquila chrysaetos
+Corvus corax,Aquila chrysaetos
+Strongylocentrotus droebachiensis,Haliaeetus leucocephalus
+Ammodytes hexapterus,Haliaeetus leucocephalus
+Enhydra lutris,Haliaeetus leucocephalus
+Vulpes,Haliaeetus leucocephalus
+Nereididae,Haliaeetus leucocephalus
+Cryptochiton stelleri,Haliaeetus leucocephalus
+Mytilus,Haliaeetus leucocephalus
+Clinocardium,Haliaeetus leucocephalus
+Protothaca staminea,Haliaeetus leucocephalus
+Cancer,Haliaeetus leucocephalus
+Detritus complex,Haliaeetus leucocephalus
+Gavia,Haliaeetus leucocephalus
+Fulmarus glacialis,Haliaeetus leucocephalus
+Puffinus tenuirostris,Haliaeetus leucocephalus
+Oceanodroma,Haliaeetus leucocephalus
+Branta canadensis,Haliaeetus leucocephalus
+Chen canagica,Haliaeetus leucocephalus
+Anas,Haliaeetus leucocephalus
+Bucephala,Haliaeetus leucocephalus
+Clangula hyemalis,Haliaeetus leucocephalus
+Histrionicus histrionicus,Haliaeetus leucocephalus
+Somateria mollissima,Haliaeetus leucocephalus
+Mergus,Haliaeetus leucocephalus
+Haliaeetus leucocephalus,Haliaeetus leucocephalus
+Haematopus bachmani,Haliaeetus leucocephalus
+Larus hyperboreus,Haliaeetus leucocephalus
+Larus glaucescens,Haliaeetus leucocephalus
+Rissa tridactyla,Haliaeetus leucocephalus
+Uria aalge,Haliaeetus leucocephalus
+Uria lomvia,Haliaeetus leucocephalus
+Cepphus columba,Haliaeetus leucocephalus
+Brachyramphus marmoratus,Haliaeetus leucocephalus
+Synthliboramphus antiquus,Haliaeetus leucocephalus
+Aethia cristatella,Haliaeetus leucocephalus
+Fratercula corniculata,Haliaeetus leucocephalus
+Fratercula cirrhata,Haliaeetus leucocephalus
+Corvus corax,Haliaeetus leucocephalus
+Aethia psittacula,Haliaeetus leucocephalus
+Anas,Falco rusticolus
+Clangula hyemalis,Falco rusticolus
+Mergus,Falco rusticolus
+Buteo lagopus,Falco rusticolus
+Falco rusticolus,Falco rusticolus
+Falco peregrinus,Falco rusticolus
+Calidris,Falco rusticolus
+Gallinago,Falco rusticolus
+Phalaropus lobatus,Falco rusticolus
+Larus canus,Falco rusticolus
+Rissa tridactyla,Falco rusticolus
+Sterna,Falco rusticolus
+Asio flammeus,Falco rusticolus
+Calcarius lapponicus,Falco rusticolus
+Plectrophenax,Falco rusticolus
+Oceanodroma,Falco peregrinus
+Phalacrocorax pelagicus,Falco peregrinus
+Branta bernicla,Falco peregrinus
+Anas,Falco peregrinus
+Bucephala,Falco peregrinus
+Clangula hyemalis,Falco peregrinus
+Histrionicus histrionicus,Falco peregrinus
+Mergus,Falco peregrinus
+Falco peregrinus,Falco peregrinus
+Grus canadensis,Falco peregrinus
+Haematopus bachmani,Falco peregrinus
+Charadrius semipalmatus,Falco peregrinus
+Tringa melanoleuca,Falco peregrinus
+Tringa incana,Falco peregrinus
+Calidris,Falco peregrinus
+Gallinago,Falco peregrinus
+Phalaropus lobatus,Falco peregrinus
+Larus glaucescens,Falco peregrinus
+Rissa tridactyla,Falco peregrinus
+Sterna,Falco peregrinus
+Uria aalge,Falco peregrinus
+Cepphus columba,Falco peregrinus
+Brachyramphus marmoratus,Falco peregrinus
+Synthliboramphus antiquus,Falco peregrinus
+Ptychoramphus aleuticus,Falco peregrinus
+Aethia cristatella,Falco peregrinus
+Fratercula corniculata,Falco peregrinus
+Fratercula cirrhata,Falco peregrinus
+Asio flammeus,Falco peregrinus
+Calcarius lapponicus,Falco peregrinus
+Plectrophenax,Falco peregrinus
+Corvus corax,Falco peregrinus
+Aethia psittacula,Falco peregrinus
+Anthus rubescens,Falco peregrinus
+Anas,Grus canadensis
+Phascolosomatidae,Haematopus bachmani
+Leptasterias,Haematopus bachmani
+Hydrozoa,Haematopus bachmani
+Lottia digitalis,Haematopus bachmani
+Lottia pelta,Haematopus bachmani
+Lottia persona,Haematopus bachmani
+Lottia scutum,Haematopus bachmani
+Nereididae,Haematopus bachmani
+Acmaea mitra,Haematopus bachmani
+Trochidae,Haematopus bachmani
+Littorina,Haematopus bachmani
+Nucella canaliculata,Haematopus bachmani
+Nucella lamellosa,Haematopus bachmani
+Tonicella,Haematopus bachmani
+Katharina tunicata,Haematopus bachmani
+Mopalia,Haematopus bachmani
+Mytilus,Haematopus bachmani
+Saxidomus,Haematopus bachmani
+Protothaca staminea,Haematopus bachmani
+Balanus glandula,Haematopus bachmani
+Idoteidae,Haematopus bachmani
+Nereididae,Charadrius semipalmatus
+Glyceridae,Charadrius semipalmatus
+Macoma,Charadrius semipalmatus
+Ostracoda,Charadrius semipalmatus
+Gammaridea,Charadrius semipalmatus
+Staphylinidae,Tringa melanoleuca
+Gymnolaemata,Tringa melanoleuca
+Gasterosteus aculeatus,Tringa melanoleuca
+Foraminiferida,Tringa melanoleuca
+Nereididae,Tringa melanoleuca
+Littorina,Tringa melanoleuca
+Macoma,Tringa melanoleuca
+Ostracoda,Tringa melanoleuca
+Sphaeromatidae,Tringa melanoleuca
+Gammaridea,Tringa melanoleuca
+Crangonidae,Tringa melanoleuca
+Tringa melanoleuca,Tringa melanoleuca
+Littorina,Tringa incana
+Gammaridea,Tringa incana
+Staphylinidae,Calidris
+Foraminiferida,Calidris
+Hydrozoa,Calidris
+Nereididae,Calidris
+Lumbrineridae,Calidris
+Lacuna,Calidris
+Littorina,Calidris
+Mytilus,Calidris
+Modiolus,Calidris
+Clinocardium,Calidris
+Macoma,Calidris
+Ostracoda,Calidris
+Balanus glandula,Calidris
+Sphaeromatidae,Calidris
+Gammaridea,Calidris
+Detritus complex,Calidris
+Biofilm Complex,Calidris
+Calidris,Calidris
+Staphylinidae,Limosa lapponica
+Nereididae,Limosa lapponica
+Terebellidae,Limosa lapponica
+Littorina,Limosa lapponica
+Macoma,Limosa lapponica
+Gammaridea,Limosa lapponica
+Detritus complex,Limosa lapponica
+Limosa lapponica,Limosa lapponica
+Staphylinidae,Gallinago
+Gallinago,Gallinago
+Hydrozoa,Phalaropus lobatus
+Modiolus,Phalaropus lobatus
+Euphausiidae,Phalaropus lobatus
+Phalaropus lobatus,Phalaropus lobatus
+Vulpes,Stercorarius parasiticus
+Gammaridea,Stercorarius parasiticus
+Gavia,Stercorarius parasiticus
+Oceanodroma,Stercorarius parasiticus
+Cygnus columbianus,Stercorarius parasiticus
+Branta canadensis,Stercorarius parasiticus
+Branta bernicla,Stercorarius parasiticus
+Chen canagica,Stercorarius parasiticus
+Anas,Stercorarius parasiticus
+Aythya marila,Stercorarius parasiticus
+Clangula hyemalis,Stercorarius parasiticus
+Somateria mollissima,Stercorarius parasiticus
+Somateria spectabilis,Stercorarius parasiticus
+Charadrius semipalmatus,Stercorarius parasiticus
+Calidris,Stercorarius parasiticus
+Stercorarius parasiticus,Stercorarius parasiticus
+Larus hyperboreus,Stercorarius parasiticus
+Larus argentatus,Stercorarius parasiticus
+Rissa tridactyla,Stercorarius parasiticus
+Sterna,Stercorarius parasiticus
+Uria aalge,Stercorarius parasiticus
+Uria lomvia,Stercorarius parasiticus
+Calcarius lapponicus,Stercorarius parasiticus
+Plectrophenax,Stercorarius parasiticus
+Strongylocentrotus droebachiensis,Larus hyperboreus
+Pholis,Larus hyperboreus
+Ammodytes hexapterus,Larus hyperboreus
+Pharidae,Larus hyperboreus
+Nereididae,Larus hyperboreus
+Naticidae,Larus hyperboreus
+Mytilus,Larus hyperboreus
+Modiolus,Larus hyperboreus
+Euphausiidae,Larus hyperboreus
+Cygnus columbianus,Larus hyperboreus
+Branta canadensis,Larus hyperboreus
+Branta bernicla,Larus hyperboreus
+Chen canagica,Larus hyperboreus
+Anas,Larus hyperboreus
+Aythya marila,Larus hyperboreus
+Clangula hyemalis,Larus hyperboreus
+Somateria mollissima,Larus hyperboreus
+Somateria spectabilis,Larus hyperboreus
+Grus canadensis,Larus hyperboreus
+Calidris,Larus hyperboreus
+Phalaropus lobatus,Larus hyperboreus
+Larus canus,Larus hyperboreus
+Rissa tridactyla,Larus hyperboreus
+Uria aalge,Larus hyperboreus
+Uria lomvia,Larus hyperboreus
+Plectrophenax,Larus hyperboreus
+Nereocystis luetkeana,Larus glaucescens
+Solaster stimpsoni,Larus glaucescens
+Dermasterias imbricata,Larus glaucescens
+Evasterias troschelii,Larus glaucescens
+Leptasterias,Larus glaucescens
+Orthasterias koehleri,Larus glaucescens
+Pycnopodia helianthoides,Larus glaucescens
+Strongylocentrotus droebachiensis,Larus glaucescens
+Cucumaria,Larus glaucescens
+Trichodon trichodon,Larus glaucescens
+Ammodytes hexapterus,Larus glaucescens
+Enteroctopus dofleini,Larus glaucescens
+Lottia digitalis,Larus glaucescens
+Lottia pelta,Larus glaucescens
+Lottia scutum,Larus glaucescens
+Amphiporidae,Larus glaucescens
+Nereididae,Larus glaucescens
+Acmaea mitra,Larus glaucescens
+Trochidae,Larus glaucescens
+Littorina,Larus glaucescens
+Nucella canaliculata,Larus glaucescens
+Nucella lamellosa,Larus glaucescens
+Katharina tunicata,Larus glaucescens
+Mopalia,Larus glaucescens
+Cryptochiton stelleri,Larus glaucescens
+Mytilus,Larus glaucescens
+Clinocardium,Larus glaucescens
+Tresus,Larus glaucescens
+Saxidomus,Larus glaucescens
+Protothaca staminea,Larus glaucescens
+Balanus glandula,Larus glaucescens
+Semibalanus cariosus,Larus glaucescens
+Pugettia,Larus glaucescens
+Telmessus cheiragonus,Larus glaucescens
+Cancer,Larus glaucescens
+Detritus complex,Larus glaucescens
+Oceanodroma,Larus glaucescens
+Cygnus columbianus,Larus glaucescens
+Branta canadensis,Larus glaucescens
+Branta bernicla,Larus glaucescens
+Chen canagica,Larus glaucescens
+Polysticta stelleri,Larus glaucescens
+Rissa tridactyla,Larus glaucescens
+Synthliboramphus antiquus,Larus glaucescens
+Ptychoramphus aleuticus,Larus glaucescens
+Aethia cristatella,Larus glaucescens
+Fratercula cirrhata,Larus glaucescens
+Strongylocentrotus droebachiensis,Larus argentatus
+Pharidae,Larus argentatus
+Trochidae,Larus argentatus
+Lacuna,Larus argentatus
+Littorina,Larus argentatus
+Mytilus,Larus argentatus
+Macoma,Larus argentatus
+Paguridae,Larus argentatus
+Cancer,Larus argentatus
+Oceanodroma,Larus argentatus
+Branta canadensis,Larus argentatus
+Anas,Larus argentatus
+Clangula hyemalis,Larus argentatus
+Somateria mollissima,Larus argentatus
+Mergus,Larus argentatus
+Charadrius semipalmatus,Larus argentatus
+Calidris,Larus argentatus
+Rissa tridactyla,Larus argentatus
+Sterna,Larus argentatus
+Asio flammeus,Larus argentatus
+Plectrophenax,Larus argentatus
+Pharidae,Larus canus
+Nereididae,Larus canus
+Terebellidae,Larus canus
+Mytilus,Larus canus
+Macoma,Larus canus
+Crangonidae,Larus canus
+Paguridae,Larus canus
+Cygnus columbianus,Larus canus
+Aythya marila,Larus canus
+Calidris,Larus canus
+Melospiza melodia,Larus canus
+Trichodon trichodon,Rissa tridactyla
+Ammodytes hexapterus,Rissa tridactyla
+Nereididae,Rissa tridactyla
+Gammaridea,Rissa tridactyla
+Euphausiidae,Rissa tridactyla
+Rissa tridactyla,Rissa tridactyla
+Gasterosteus aculeatus,Sterna
+Hydrozoa,Sterna
+Nereididae,Sterna
+Gammaridea,Sterna
+Euphausiidae,Sterna
+Ammodytes hexapterus,Uria aalge
+Nereididae,Uria aalge
+Pycnogonida,Uria aalge
+Gammaridea,Uria aalge
+Euphausiidae,Uria aalge
+Hippolytidae,Uria aalge
+Crangonidae,Uria aalge
+Uria aalge,Uria aalge
+Ammodytes hexapterus,Uria lomvia
+Nereididae,Uria lomvia
+Gammaridea,Uria lomvia
+Euphausiidae,Uria lomvia
+Hippolytidae,Uria lomvia
+Crangonidae,Uria lomvia
+Trichodon trichodon,Cepphus columba
+Pholis,Cepphus columba
+Ammodytes hexapterus,Cepphus columba
+Lacuna,Cepphus columba
+Hippolytidae,Cepphus columba
+Crangonidae,Cepphus columba
+Paguridae,Cepphus columba
+Cancer,Cepphus columba
+Trichodon trichodon,Brachyramphus marmoratus
+Ammodytes hexapterus,Brachyramphus marmoratus
+Gammaridea,Brachyramphus marmoratus
+Euphausiidae,Brachyramphus marmoratus
+Ammodytes hexapterus,Synthliboramphus antiquus
+Gammaridea,Synthliboramphus antiquus
+Euphausiidae,Synthliboramphus antiquus
+Synthliboramphus antiquus,Synthliboramphus antiquus
+Artedius,Ptychoramphus aleuticus
+Clinocottus,Ptychoramphus aleuticus
+Ammodytes hexapterus,Ptychoramphus aleuticus
+Hydrozoa,Ptychoramphus aleuticus
+Ostracoda,Ptychoramphus aleuticus
+Idoteidae,Ptychoramphus aleuticus
+Gammaridea,Ptychoramphus aleuticus
+Caprellidae,Ptychoramphus aleuticus
+Euphausiidae,Ptychoramphus aleuticus
+Hippolytidae,Ptychoramphus aleuticus
+Crangonidae,Ptychoramphus aleuticus
+Paguridae,Ptychoramphus aleuticus
+Cancer,Ptychoramphus aleuticus
+Hydrozoa,Aethia cristatella
+Gammaridea,Aethia cristatella
+Euphausiidae,Aethia cristatella
+Paguridae,Aethia cristatella
+Gasterosteus aculeatus,Fratercula corniculata
+Trichodon trichodon,Fratercula corniculata
+Pholis,Fratercula corniculata
+Ammodytes hexapterus,Fratercula corniculata
+Euphausiidae,Fratercula corniculata
+Gasterosteus aculeatus,Fratercula cirrhata
+Trichodon trichodon,Fratercula cirrhata
+Pholis,Fratercula cirrhata
+Ammodytes hexapterus,Fratercula cirrhata
+Nereididae,Fratercula cirrhata
+Gammaridea,Fratercula cirrhata
+Euphausiidae,Fratercula cirrhata
+Oceanodroma,Asio flammeus
+Charadrius semipalmatus,Asio flammeus
+Calidris,Asio flammeus
+Sterna,Asio flammeus
+Melospiza melodia,Asio flammeus
+Staphylinidae,Lanius excubitor
+Calidris,Lanius excubitor
+Plectrophenax,Lanius excubitor
+Detritus complex,Melospiza melodia
+Staphylinidae,Calcarius lapponicus
+Staphylinidae,Plectrophenax
+Strongylocentrotus droebachiensis,Corvus corax
+Cryptochiton stelleri,Corvus corax
+Detritus complex,Corvus corax
+Gavia,Corvus corax
+Cygnus columbianus,Corvus corax
+Branta canadensis,Corvus corax
+Anas,Corvus corax
+Aythya marila,Corvus corax
+Polysticta stelleri,Corvus corax
+Somateria mollissima,Corvus corax
+Somateria spectabilis,Corvus corax
+Mergus,Corvus corax
+Grus canadensis,Corvus corax
+Haematopus bachmani,Corvus corax
+Charadrius semipalmatus,Corvus corax
+Calidris,Corvus corax
+Limosa lapponica,Corvus corax
+Larus glaucescens,Corvus corax
+Larus argentatus,Corvus corax
+Rissa tridactyla,Corvus corax
+Sterna,Corvus corax
+Uria aalge,Corvus corax
+Uria lomvia,Corvus corax
+Brachyramphus marmoratus,Corvus corax
+Asio flammeus,Corvus corax
+Calcarius lapponicus,Corvus corax
+Corvus corax,Corvus corax
+Ammodytes hexapterus,Aethia psittacula
+Gammaridea,Aethia psittacula
+Euphausiidae,Aethia psittacula
+Paguridae,Aethia psittacula
+Staphylinidae,Anthus rubescens
+Podiceps,Bubo scandiacus
+Oceanodroma,Bubo scandiacus
+Branta canadensis,Bubo scandiacus
+Anas,Bubo scandiacus
+Aythya marila,Bubo scandiacus
+Bucephala,Bubo scandiacus
+Clangula hyemalis,Bubo scandiacus
+Histrionicus histrionicus,Bubo scandiacus
+Polysticta stelleri,Bubo scandiacus
+Melanitta fusca,Bubo scandiacus
+Melanitta perspicillata,Bubo scandiacus
+Calidris,Bubo scandiacus
+Larus glaucescens,Bubo scandiacus
+Larus canus,Bubo scandiacus
+Cepphus columba,Bubo scandiacus
+Synthliboramphus antiquus,Bubo scandiacus
+Ptychoramphus aleuticus,Bubo scandiacus
+Fratercula corniculata,Bubo scandiacus
+Fratercula cirrhata,Bubo scandiacus
+Asio flammeus,Bubo scandiacus
+Melospiza melodia,Bubo scandiacus
+Calcarius lapponicus,Bubo scandiacus
+Plectrophenax,Bubo scandiacus
+Hydrozoa,Cinclus mexicanus

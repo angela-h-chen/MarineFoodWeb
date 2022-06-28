@@ -1,650 +1,650 @@
-"","Predator","Prey"
-"1","Aged detritus","Polychaeta"
-"2","Aged detritus","Polynoidae"
-"3","Aged detritus","Gitanopsis squamosa"
-"4","Aged detritus","Gobionotothen gibberifrons"
-"5","Aged detritus","Notothenia rossii"
-"6","Aged detritus","Ophionotus victoriae"
-"7","Aged detritus","Aequiyoldia eightsii"
-"8","Aged detritus","Salpidae"
-"9","Aged detritus","Gammaridea"
-"10","Aged detritus","Ostracoda"
-"11","Aged detritus","Oligochaeta"
-"12","Aged detritus","Tanaidacea"
-"13","Aged detritus","Nereididae"
-"14","Aged detritus","Cumacea"
-"15","Aged detritus","Cheirimedon femoratus"
-"16","Aged detritus","Orchomenella sp."
-"17","Aged detritus","Paradexamine fissicauda"
-"18","Aged detritus","Nemertea"
-"19","Aged detritus","Spionidae"
-"20","Aged detritus","Terebellidae"
-"21","Aged detritus","Laternula elliptica"
-"22","Aged detritus","Hippomedon kergueleni"
-"23","Aged detritus","Sterechinus neumayeri"
-"24","Aged detritus","Aglaophamus trissophyllus"
-"25","Aged detritus","Odontaster validus"
-"26","Aged detritus","Notothenia coriiceps"
-"27","Benthic Diatomea","Polynoidae"
-"28","Benthic Diatomea","Hydrozoa"
-"29","Benthic Diatomea","Porifera"
-"30","Benthic Diatomea","Bovallia gigantea"
-"31","Benthic Diatomea","Charcotia obesa"
-"32","Benthic Diatomea","Eurymera monticulosa"
-"33","Benthic Diatomea","Priapulida"
-"34","Benthic Diatomea","Mysida"
-"35","Benthic Diatomea","Ophionotus victoriae"
-"36","Benthic Diatomea","Aequiyoldia eightsii"
-"37","Benthic Diatomea","Chalinidae"
-"38","Benthic Diatomea","Dendrilla antarctica"
-"39","Benthic Diatomea","Rosella antartica"
-"40","Benthic Diatomea","Rossella sp."
-"41","Benthic Diatomea","Stylo_Myca"
-"42","Benthic Diatomea","Gammaridea"
-"43","Benthic Diatomea","Ostracoda"
-"44","Benthic Diatomea","Polyplacophora"
-"45","Benthic Diatomea","Tanaidacea"
-"46","Benthic Diatomea","Nereididae"
-"47","Benthic Diatomea","Cumacea"
-"48","Benthic Diatomea","Oradarea bidentata"
-"49","Benthic Diatomea","Djerboa furcipes"
-"50","Benthic Diatomea","Margarella antarctica"
-"51","Benthic Diatomea","Nacella concinna"
-"52","Benthic Diatomea","Orchomenella sp."
-"53","Benthic Diatomea","Ascidiacea"
-"54","Benthic Diatomea","Spionidae"
-"55","Benthic Diatomea","Terebellidae"
-"56","Benthic Diatomea","Laternula elliptica"
-"57","Benthic Diatomea","Hemiarthrum setulosum"
-"58","Benthic Diatomea","Sterechinus neumayeri"
-"59","Benthic Diatomea","Doris kerguelenensis"
-"60","Benthic Diatomea","Aglaophamus trissophyllus"
-"61","Benthic Diatomea","Odontaster validus"
-"62","Benthic Diatomea","Parborlasia corrugatus"
-"63","Fresh detritus","Polychaeta"
-"64","Fresh detritus","Copepoda"
-"65","Fresh detritus","Gastropoda"
-"66","Fresh detritus","Hydrozoa"
-"67","Fresh detritus","Porifera"
-"68","Fresh detritus","Bovallia gigantea"
-"69","Fresh detritus","Charcotia obesa"
-"70","Fresh detritus","Eurymera monticulosa"
-"71","Fresh detritus","Gitanopsis squamosa"
-"72","Fresh detritus","Paradexamine sp."
-"73","Fresh detritus","Prostebbingia gracilis"
-"74","Fresh detritus","Prostebbingia sp."
-"75","Fresh detritus","Pariphimedia integricauda"
-"76","Fresh detritus","Mysida"
-"77","Fresh detritus","Ophionotus victoriae"
-"78","Fresh detritus","Aequiyoldia eightsii"
-"79","Fresh detritus","Chalinidae"
-"80","Fresh detritus","Dendrilla antarctica"
-"81","Fresh detritus","Rosella antartica"
-"82","Fresh detritus","Rossella sp."
-"83","Fresh detritus","Stylo_Myca"
-"84","Fresh detritus","Bryozoa"
-"85","Fresh detritus","Salpidae"
-"86","Fresh detritus","Ostracoda"
-"87","Fresh detritus","Polyplacophora"
-"88","Fresh detritus","Tanaidacea"
-"89","Fresh detritus","Glyptonotus antarcticus"
-"90","Fresh detritus","Nereididae"
-"91","Fresh detritus","Oradarea bidentata"
-"92","Fresh detritus","Probolisca ovata"
-"93","Fresh detritus","Cheirimedon femoratus"
-"94","Fresh detritus","Djerboa furcipes"
-"95","Fresh detritus","Eatoniella sp."
-"96","Fresh detritus","Orchomenella sp."
-"97","Fresh detritus","Paradexamine fissicauda"
-"98","Fresh detritus","Ascidiacea"
-"99","Fresh detritus","Terebellidae"
-"100","Fresh detritus","Sterechinus neumayeri"
-"101","Fresh detritus","Aglaophamus trissophyllus"
-"102","Fresh detritus","Barrukia cristata"
-"103","Fresh detritus","Diplasterias brucei"
-"104","Fresh detritus","Odontaster validus"
-"105","Phytoplankton","Copepoda"
-"106","Phytoplankton","Zooplankton"
-"107","Phytoplankton","Hydrozoa"
-"108","Phytoplankton","Charcotia obesa"
-"109","Phytoplankton","Gitanopsis squamosa"
-"110","Phytoplankton","Prostebbingia gracilis"
-"111","Phytoplankton","Prostebbingia sp."
-"112","Phytoplankton","Euphausia superba"
-"113","Phytoplankton","Mysida"
-"114","Phytoplankton","Aequiyoldia eightsii"
-"115","Phytoplankton","Stylo_Myca"
-"116","Phytoplankton","Bryozoa"
-"117","Phytoplankton","Salpidae"
-"118","Phytoplankton","Gammaridea"
-"119","Phytoplankton","Ostracoda"
-"120","Phytoplankton","Polyplacophora"
-"121","Phytoplankton","Tanaidacea"
-"122","Phytoplankton","Djerboa furcipes"
-"123","Phytoplankton","Paradexamine fissicauda"
-"124","Phytoplankton","Ascidiacea"
-"125","Phytoplankton","Laternula elliptica"
-"126","Phytoplankton","Cephalopoda"
-"127","Phytoplankton","Malacobelemnon daytoni"
-"128","Polychaeta","Polynoidae"
-"129","Polychaeta","Priapulida"
-"130","Polychaeta","Gobionotothen gibberifrons"
-"131","Polychaeta","Harpagifer antarcticus"
-"132","Polychaeta","Lindbergichthys nudifrons"
-"133","Polychaeta","Notothenia rossii"
-"134","Polychaeta","Octopoda"
-"135","Polychaeta","Ophionotus victoriae"
-"136","Polychaeta","Aequiyoldia eightsii"
-"137","Polychaeta","Glyptonotus antarcticus"
-"138","Polychaeta","Serolis sp."
-"139","Polychaeta","Cephalopoda"
-"140","Polychaeta","Sterechinus neumayeri"
-"141","Polychaeta","Aglaophamus trissophyllus"
-"142","Polychaeta","Barrukia cristata"
-"143","Polychaeta","Trematomus newnesi"
-"144","Polychaeta","Odontaster validus"
-"145","Polychaeta","Notothenia coriiceps"
-"146","Polychaeta","Parborlasia corrugatus"
-"147","Copepoda","Polychaeta"
-"148","Copepoda","Polynoidae"
-"149","Copepoda","Zooplankton"
-"150","Copepoda","Hydrozoa"
-"151","Copepoda","Bovallia gigantea"
-"152","Copepoda","Euphausia superba"
-"153","Copepoda","Gobionotothen gibberifrons"
-"154","Copepoda","Harpagifer antarcticus"
-"155","Copepoda","Lindbergichthys nudifrons"
-"156","Copepoda","Mysida"
-"157","Copepoda","Notothenia rossii"
-"158","Copepoda","Ophionotus victoriae"
-"159","Copepoda","Salpidae"
-"160","Copepoda","Gammaridea"
-"161","Copepoda","Cheirimedon femoratus"
-"162","Copepoda","Orchomenella sp."
-"163","Copepoda","Nemertea"
-"164","Copepoda","Cephalopoda"
-"165","Copepoda","Hyperiidea"
-"166","Copepoda","Aglaophamus trissophyllus"
-"167","Copepoda","Barrukia cristata"
-"168","Copepoda","Trematomus newnesi"
-"169","Copepoda","Trematomus bernacchii"
-"170","Copepoda","Notothenia coriiceps"
-"171","Polynoidae","Hydrozoa"
-"172","Polynoidae","Harpagifer antarcticus"
-"173","Polynoidae","Ophionotus victoriae"
-"174","Polynoidae","Nemertea"
-"175","Polynoidae","Aglaophamus trissophyllus"
-"176","Polynoidae","Trematomus bernacchii"
-"177","Zooplankton","Copepoda"
-"178","Zooplankton","Hydrozoa"
-"179","Zooplankton","Euphausia superba"
-"180","Zooplankton","Mysida"
-"181","Zooplankton","Salpidae"
-"182","Zooplankton","Ostracoda"
-"183","Zooplankton","Nereididae"
-"184","Zooplankton","Ascidiacea"
-"185","Zooplankton","Terebellidae"
-"186","Zooplankton","Cephalopoda"
-"187","Zooplankton","Hemiarthrum setulosum"
-"188","Zooplankton","Hyperiidea"
-"189","Zooplankton","Sterechinus neumayeri"
-"190","Zooplankton","Trematomus bernacchii"
-"191","Zooplankton","Malacobelemnon daytoni"
-"192","Gastropoda","Polynoidae"
-"193","Gastropoda","Gobionotothen gibberifrons"
-"194","Gastropoda","Harpagifer antarcticus"
-"195","Gastropoda","Lindbergichthys nudifrons"
-"196","Gastropoda","Notothenia rossii"
-"197","Gastropoda","Ophionotus victoriae"
-"198","Gastropoda","Glyptonotus antarcticus"
-"199","Gastropoda","Barrukia cristata"
-"200","Gastropoda","Trematomus newnesi"
-"201","Gastropoda","Diplasterias brucei"
-"202","Gastropoda","Odontaster validus"
-"203","Gastropoda","Trematomus bernacchii"
-"204","Gastropoda","Notothenia coriiceps"
-"205","Gastropoda","Urticinopsis antarctica"
-"206","Hydrozoa","Polynoidae"
-"207","Hydrozoa","Notothenia rossii"
-"208","Hydrozoa","Ophionotus victoriae"
-"209","Hydrozoa","Nereididae"
-"210","Hydrozoa","Sterechinus neumayeri"
-"211","Hydrozoa","Barrukia cristata"
-"212","Hydrozoa","Odontaster validus"
-"213","Hydrozoa","Trematomus bernacchii"
-"214","Hydrozoa","Notothenia coriiceps"
-"215","Porifera","Polynoidae"
-"216","Porifera","Gastropoda"
-"217","Porifera","Charcotia obesa"
-"218","Porifera","Ophionotus victoriae"
-"219","Porifera","Polyplacophora"
-"220","Porifera","Orchomenella sp."
-"221","Porifera","Hemiarthrum setulosum"
-"222","Porifera","Sterechinus neumayeri"
-"223","Porifera","Doris kerguelenensis"
-"224","Porifera","Barrukia cristata"
-"225","Porifera","Diplasterias brucei"
-"226","Porifera","Odontaster meridionalis"
-"227","Porifera","Odontaster validus"
-"228","Porifera","Perknaster fuscus antarticus"
-"229","Porifera","Trematomus bernacchii"
-"230","Porifera","Parborlasia corrugatus"
-"231","Bovallia gigantea","Gobionotothen gibberifrons"
-"232","Bovallia gigantea","Harpagifer antarcticus"
-"233","Bovallia gigantea","Lindbergichthys nudifrons"
-"234","Bovallia gigantea","Notothenia rossii"
-"235","Bovallia gigantea","Glyptonotus antarcticus"
-"236","Bovallia gigantea","Sterechinus neumayeri"
-"237","Bovallia gigantea","Trematomus newnesi"
-"238","Bovallia gigantea","Trematomus bernacchii"
-"239","Bovallia gigantea","Notothenia coriiceps"
-"240","Charcotia obesa","Bovallia gigantea"
-"241","Charcotia obesa","Lindbergichthys nudifrons"
-"242","Charcotia obesa","Notothenia rossii"
-"243","Charcotia obesa","Notothenia coriiceps"
-"244","Eurymera monticulosa","Bovallia gigantea"
-"245","Eurymera monticulosa","Harpagifer antarcticus"
-"246","Eurymera monticulosa","Notothenia rossii"
-"247","Eurymera monticulosa","Notothenia coriiceps"
-"248","Gitanopsis squamosa","Bovallia gigantea"
-"249","Gitanopsis squamosa","Notothenia rossii"
-"250","Gitanopsis squamosa","Trematomus newnesi"
-"251","Gitanopsis squamosa","Notothenia coriiceps"
-"252","Gondogeneia antarctica","Bovallia gigantea"
-"253","Gondogeneia antarctica","Gobionotothen gibberifrons"
-"254","Gondogeneia antarctica","Harpagifer antarcticus"
-"255","Gondogeneia antarctica","Lindbergichthys nudifrons"
-"256","Gondogeneia antarctica","Notothenia rossii"
-"257","Gondogeneia antarctica","Glyptonotus antarcticus"
-"258","Gondogeneia antarctica","Cheirimedon femoratus"
-"259","Gondogeneia antarctica","Trematomus newnesi"
-"260","Gondogeneia antarctica","Trematomus bernacchii"
-"261","Gondogeneia antarctica","Notothenia coriiceps"
-"262","Paradexamine sp.","Bovallia gigantea"
-"263","Paradexamine sp.","Notothenia rossii"
-"264","Paradexamine sp.","Sterechinus neumayeri"
-"265","Paradexamine sp.","Notothenia coriiceps"
-"266","Prostebbingia gracilis","Bovallia gigantea"
-"267","Prostebbingia gracilis","Gobionotothen gibberifrons"
-"268","Prostebbingia gracilis","Harpagifer antarcticus"
-"269","Prostebbingia gracilis","Lindbergichthys nudifrons"
-"270","Prostebbingia gracilis","Notothenia rossii"
-"271","Prostebbingia gracilis","Trematomus newnesi"
-"272","Prostebbingia gracilis","Notothenia coriiceps"
-"273","Prostebbingia sp.","Bovallia gigantea"
-"274","Prostebbingia sp.","Harpagifer antarcticus"
-"275","Prostebbingia sp.","Lindbergichthys nudifrons"
-"276","Prostebbingia sp.","Notothenia rossii"
-"277","Prostebbingia sp.","Ophionotus victoriae"
-"278","Prostebbingia sp.","Sterechinus neumayeri"
-"279","Prostebbingia sp.","Notothenia coriiceps"
-"280","Prostebbingia sp.","Parborlasia corrugatus"
-"281","Pariphimedia integricauda","Bovallia gigantea"
-"282","Pariphimedia integricauda","Harpagifer antarcticus"
-"283","Pariphimedia integricauda","Notothenia rossii"
-"284","Pariphimedia integricauda","Trematomus newnesi"
-"285","Pariphimedia integricauda","Notothenia coriiceps"
-"286","Euphausia superba","Hydrozoa"
-"287","Euphausia superba","Chaenocephalus aceratus"
-"288","Euphausia superba","Harpagifer antarcticus"
-"289","Euphausia superba","Lindbergichthys nudifrons"
-"290","Euphausia superba","Notothenia rossii"
-"291","Euphausia superba","Ophionotus victoriae"
-"292","Euphausia superba","Parachaenichthys charcoti"
-"293","Euphausia superba","Glyptonotus antarcticus"
-"294","Euphausia superba","Cephalopoda"
-"295","Euphausia superba","Hyperiidea"
-"296","Euphausia superba","Trematomus newnesi"
-"297","Euphausia superba","Trematomus bernacchii"
-"298","Euphausia superba","Notothenia coriiceps"
-"299","Priapulida","Cephalopoda"
-"300","Priapulida","Trematomus bernacchii"
-"301","Gobionotothen gibberifrons","Chaenocephalus aceratus"
-"302","Harpagifer antarcticus","Chaenocephalus aceratus"
-"303","Lindbergichthys nudifrons","Chaenocephalus aceratus"
-"304","Lindbergichthys nudifrons","Notothenia rossii"
-"305","Mysida","Polychaeta"
-"306","Mysida","Chaenocephalus aceratus"
-"307","Mysida","Harpagifer antarcticus"
-"308","Mysida","Ophionotus victoriae"
-"309","Mysida","Parachaenichthys charcoti"
-"310","Mysida","Trematomus newnesi"
-"311","Mysida","Trematomus bernacchii"
-"312","Mysida","Notothenia coriiceps"
-"313","Notothenia rossii","Chaenocephalus aceratus"
-"314","Octopoda","Chaenocephalus aceratus"
-"315","Octopoda","Notothenia rossii"
-"316","Octopoda","Notothenia coriiceps"
-"317","Ophionotus victoriae","Chaenocephalus aceratus"
-"318","Ophionotus victoriae","Notothenia coriiceps"
-"319","Parachaenichthys charcoti","Chaenocephalus aceratus"
-"320","Necromass","Polychaeta"
-"321","Necromass","Polynoidae"
-"322","Necromass","Charcotia obesa"
-"323","Necromass","Eurymera monticulosa"
-"324","Necromass","Gitanopsis squamosa"
-"325","Necromass","Pariphimedia integricauda"
-"326","Necromass","Mysida"
-"327","Necromass","Ophionotus victoriae"
-"328","Necromass","Neobuccinum eatoni"
-"329","Necromass","Glyptonotus antarcticus"
-"330","Necromass","Nereididae"
-"331","Necromass","Serolis sp."
-"332","Necromass","Cheirimedon femoratus"
-"333","Necromass","Orchomenella sp."
-"334","Necromass","Paradexamine fissicauda"
-"335","Necromass","Nemertea"
-"336","Necromass","Pseudorchomene plebs"
-"337","Necromass","Hippomedon kergueleni"
-"338","Necromass","Sterechinus neumayeri"
-"339","Necromass","Doris kerguelenensis"
-"340","Necromass","Diplasterias brucei"
-"341","Necromass","Odontaster validus"
-"342","Necromass","Perknaster fuscus antarticus"
-"343","Necromass","Notothenia coriiceps"
-"344","Necromass","Parborlasia corrugatus"
-"345","Aequiyoldia eightsii","Gobionotothen gibberifrons"
-"346","Aequiyoldia eightsii","Ophionotus victoriae"
-"347","Aequiyoldia eightsii","Trematomus newnesi"
-"348","Aequiyoldia eightsii","Diplasterias brucei"
-"349","Aequiyoldia eightsii","Odontaster validus"
-"350","Aequiyoldia eightsii","Trematomus bernacchii"
-"351","Aequiyoldia eightsii","Notothenia coriiceps"
-"352","Neobuccinum eatoni","Harpagifer antarcticus"
-"353","Neobuccinum eatoni","Ophionotus victoriae"
-"354","Neobuccinum eatoni","Trematomus newnesi"
-"355","Neobuccinum eatoni","Diplasterias brucei"
-"356","Neobuccinum eatoni","Odontaster meridionalis"
-"357","Neobuccinum eatoni","Odontaster validus"
-"358","Neobuccinum eatoni","Trematomus bernacchii"
-"359","Chalinidae","Ophionotus victoriae"
-"360","Chalinidae","Sterechinus neumayeri"
-"361","Chalinidae","Doris kerguelenensis"
-"362","Chalinidae","Odontaster meridionalis"
-"363","Chalinidae","Odontaster validus"
-"364","Chalinidae","Parborlasia corrugatus"
-"365","Dendrilla antarctica","Doris kerguelenensis"
-"366","Rosella antartica","Ophionotus victoriae"
-"367","Rosella antartica","Sterechinus neumayeri"
-"368","Rosella antartica","Doris kerguelenensis"
-"369","Rosella antartica","Odontaster meridionalis"
-"370","Rosella antartica","Odontaster validus"
-"371","Rosella antartica","Perknaster fuscus antarticus"
-"372","Rosella antartica","Parborlasia corrugatus"
-"373","Rossella sp.","Ophionotus victoriae"
-"374","Rossella sp.","Sterechinus neumayeri"
-"375","Rossella sp.","Doris kerguelenensis"
-"376","Rossella sp.","Odontaster meridionalis"
-"377","Rossella sp.","Odontaster validus"
-"378","Rossella sp.","Parborlasia corrugatus"
-"379","Stylo_Myca","Ophionotus victoriae"
-"380","Stylo_Myca","Sterechinus neumayeri"
-"381","Stylo_Myca","Doris kerguelenensis"
-"382","Stylo_Myca","Odontaster meridionalis"
-"383","Stylo_Myca","Odontaster validus"
-"384","Stylo_Myca","Perknaster fuscus antarticus"
-"385","Stylo_Myca","Parborlasia corrugatus"
-"386","Stylo_Myca","Perknaster aurorae"
-"387","Bryozoa","Polynoidae"
-"388","Bryozoa","Ophionotus victoriae"
-"389","Bryozoa","Polyplacophora"
-"390","Bryozoa","Eatoniella sp."
-"391","Bryozoa","Hemiarthrum setulosum"
-"392","Bryozoa","Sterechinus neumayeri"
-"393","Bryozoa","Odontaster validus"
-"394","Bryozoa","Trematomus bernacchii"
-"395","Bryozoa","Notothenia coriiceps"
-"396","Epiphytic Diatomea","Eurymera monticulosa"
-"397","Epiphytic Diatomea","Gammaridea"
-"398","Epiphytic Diatomea","Polyplacophora"
-"399","Epiphytic Diatomea","Eatoniella sp."
-"400","Epiphytic Diatomea","Nacella concinna"
-"401","Epiphytic Diatomea","Paradexamine fissicauda"
-"402","Epiphytic Diatomea","Hemiarthrum setulosum"
-"403","Salpidae","Euphausia superba"
-"404","Salpidae","Lindbergichthys nudifrons"
-"405","Salpidae","Notothenia rossii"
-"406","Salpidae","Trematomus newnesi"
-"407","Salpidae","Notothenia coriiceps"
-"408","Desmarestia anceps","Gondogeneia antarctica"
-"409","Desmarestia anceps","Prostebbingia gracilis"
-"410","Desmarestia anceps","Prostebbingia sp."
-"411","Desmarestia anceps","Notothenia rossii"
-"412","Desmarestia anceps","Gammaridea"
-"413","Desmarestia anceps","Notothenia coriiceps"
-"414","Desmarestia antarctica","Gondogeneia antarctica"
-"415","Desmarestia antarctica","Prostebbingia gracilis"
-"416","Desmarestia antarctica","Prostebbingia sp."
-"417","Desmarestia antarctica","Notothenia rossii"
-"418","Desmarestia antarctica","Gammaridea"
-"419","Desmarestia antarctica","Notothenia coriiceps"
-"420","Desmarestia menziesii","Gondogeneia antarctica"
-"421","Desmarestia menziesii","Prostebbingia gracilis"
-"422","Desmarestia menziesii","Prostebbingia sp."
-"423","Desmarestia menziesii","Notothenia rossii"
-"424","Desmarestia menziesii","Gammaridea"
-"425","Desmarestia menziesii","Laevilacunaria antarctica"
-"426","Desmarestia menziesii","Notothenia coriiceps"
-"427","Gammaridea","Polynoidae"
-"428","Gammaridea","Hydrozoa"
-"429","Gammaridea","Gobionotothen gibberifrons"
-"430","Gammaridea","Lindbergichthys nudifrons"
-"431","Gammaridea","Notothenia rossii"
-"432","Gammaridea","Ophionotus victoriae"
-"433","Gammaridea","Nereididae"
-"434","Gammaridea","Nemertea"
-"435","Gammaridea","Trematomus newnesi"
-"436","Gammaridea","Trematomus bernacchii"
-"437","Gammaridea","Notothenia coriiceps"
-"438","Ostracoda","Polychaeta"
-"439","Ostracoda","Polynoidae"
-"440","Ostracoda","Hydrozoa"
-"441","Ostracoda","Gobionotothen gibberifrons"
-"442","Ostracoda","Lindbergichthys nudifrons"
-"443","Ostracoda","Mysida"
-"444","Ostracoda","Notothenia rossii"
-"445","Ostracoda","Ophionotus victoriae"
-"446","Ostracoda","Salpidae"
-"447","Ostracoda","Gammaridea"
-"448","Ostracoda","Hyperiidea"
-"449","Ostracoda","Trematomus newnesi"
-"450","Ostracoda","Odontaster validus"
-"451","Ostracoda","Trematomus bernacchii"
-"452","Ostracoda","Notothenia coriiceps"
-"453","Palmaria decipiens","Gondogeneia antarctica"
-"454","Palmaria decipiens","Prostebbingia gracilis"
-"455","Palmaria decipiens","Prostebbingia sp."
-"456","Palmaria decipiens","Pariphimedia integricauda"
-"457","Palmaria decipiens","Notothenia rossii"
-"458","Palmaria decipiens","Gammaridea"
-"459","Palmaria decipiens","Oradarea bidentata"
-"460","Palmaria decipiens","Laevilacunaria antarctica"
-"461","Palmaria decipiens","Paradexamine fissicauda"
-"462","Palmaria decipiens","Odontaster validus"
-"463","Palmaria decipiens","Notothenia coriiceps"
-"464","Oligochaeta","Mysida"
-"465","Oligochaeta","Gammaridea"
-"466","Oligochaeta","Nereididae"
-"467","Oligochaeta","Nemertea"
-"468","Oligochaeta","Trematomus bernacchii"
-"469","Polyplacophora","Gastropoda"
-"470","Polyplacophora","Harpagifer antarcticus"
-"471","Polyplacophora","Octopoda"
-"472","Polyplacophora","Notothenia coriiceps"
-"473","Tanaidacea","Gastropoda"
-"474","Tanaidacea","Lindbergichthys nudifrons"
-"475","Tanaidacea","Ophionotus victoriae"
-"476","Tanaidacea","Trematomus bernacchii"
-"477","Tanaidacea","Notothenia coriiceps"
-"478","Glyptonotus antarcticus","Harpagifer antarcticus"
-"479","Glyptonotus antarcticus","Lindbergichthys nudifrons"
-"480","Glyptonotus antarcticus","Octopoda"
-"481","Glyptonotus antarcticus","Odontaster validus"
-"482","Glyptonotus antarcticus","Trematomus bernacchii"
-"483","Glyptonotus antarcticus","Notothenia coriiceps"
-"484","Glyptonotus antarcticus","Parborlasia corrugatus"
-"485","Nereididae","Polynoidae"
-"486","Nereididae","Priapulida"
-"487","Nereididae","Harpagifer antarcticus"
-"488","Nereididae","Lindbergichthys nudifrons"
-"489","Nereididae","Notothenia rossii"
-"490","Nereididae","Ophionotus victoriae"
-"491","Nereididae","Glyptonotus antarcticus"
-"492","Nereididae","Nemertea"
-"493","Nereididae","Odontaster validus"
-"494","Nereididae","Trematomus bernacchii"
-"495","Nereididae","Notothenia coriiceps"
-"496","Cumacea","Polychaeta"
-"497","Cumacea","Gobionotothen gibberifrons"
-"498","Cumacea","Lindbergichthys nudifrons"
-"499","Cumacea","Notothenia rossii"
-"500","Cumacea","Ophionotus victoriae"
-"501","Cumacea","Nereididae"
-"502","Cumacea","Trematomus bernacchii"
-"503","Oradarea bidentata","Gobionotothen gibberifrons"
-"504","Oradarea bidentata","Notothenia rossii"
-"505","Oradarea bidentata","Trematomus newnesi"
-"506","Oradarea bidentata","Notothenia coriiceps"
-"507","Probolisca ovata","Gobionotothen gibberifrons"
-"508","Probolisca ovata","Harpagifer antarcticus"
-"509","Probolisca ovata","Notothenia rossii"
-"510","Probolisca ovata","Trematomus newnesi"
-"511","Probolisca ovata","Notothenia coriiceps"
-"512","Serolis sp.","Gobionotothen gibberifrons"
-"513","Serolis sp.","Harpagifer antarcticus"
-"514","Serolis sp.","Lindbergichthys nudifrons"
-"515","Serolis sp.","Notothenia coriiceps"
-"516","Serolis sp.","Parborlasia corrugatus"
-"517","Adenocystis utricularis","Gondogeneia antarctica"
-"518","Adenocystis utricularis","Laevilacunaria antarctica"
-"519","Adenocystis utricularis","Notothenia coriiceps"
-"520","Gigartina skottsbergii","Gondogeneia antarctica"
-"521","Gigartina skottsbergii","Prostebbingia gracilis"
-"522","Gigartina skottsbergii","Prostebbingia sp."
-"523","Gigartina skottsbergii","Notothenia rossii"
-"524","Gigartina skottsbergii","Nereididae"
-"525","Gigartina skottsbergii","Laevilacunaria antarctica"
-"526","Gigartina skottsbergii","Odontaster validus"
-"527","Gigartina skottsbergii","Notothenia coriiceps"
-"528","Iridaea cordata","Gondogeneia antarctica"
-"529","Iridaea cordata","Prostebbingia gracilis"
-"530","Iridaea cordata","Prostebbingia sp."
-"531","Iridaea cordata","Notothenia rossii"
-"532","Iridaea cordata","Laevilacunaria antarctica"
-"533","Iridaea cordata","Notothenia coriiceps"
-"534","Myriogramme manginii","Gondogeneia antarctica"
-"535","Myriogramme manginii","Prostebbingia gracilis"
-"536","Myriogramme manginii","Prostebbingia sp."
-"537","Myriogramme manginii","Notothenia rossii"
-"538","Phaeurus antarcticus ","Gondogeneia antarctica"
-"539","Phaeurus antarcticus ","Notothenia coriiceps"
-"540","Plocamium cartilagineum","Gondogeneia antarctica"
-"541","Plocamium cartilagineum","Prostebbingia gracilis"
-"542","Plocamium cartilagineum","Prostebbingia sp."
-"543","Plocamium cartilagineum","Notothenia rossii"
-"544","Plocamium cartilagineum","Laevilacunaria antarctica"
-"545","Plocamium cartilagineum","Notothenia coriiceps"
-"546","Cheirimedon femoratus","Harpagifer antarcticus"
-"547","Cheirimedon femoratus","Notothenia rossii"
-"548","Cheirimedon femoratus","Trematomus newnesi"
-"549","Cheirimedon femoratus","Notothenia coriiceps"
-"550","Djerboa furcipes","Harpagifer antarcticus"
-"551","Djerboa furcipes","Notothenia rossii"
-"552","Djerboa furcipes","Trematomus newnesi"
-"553","Djerboa furcipes","Trematomus bernacchii"
-"554","Djerboa furcipes","Notothenia coriiceps"
-"555","Eatoniella sp.","Harpagifer antarcticus"
-"556","Eatoniella sp.","Notothenia coriiceps"
-"557","Eatoniella sp.","Urticinopsis antarctica"
-"558","Laevilacunaria antarctica","Harpagifer antarcticus"
-"559","Laevilacunaria antarctica","Urticinopsis antarctica"
-"560","Margarella antarctica","Harpagifer antarcticus"
-"561","Margarella antarctica","Trematomus newnesi"
-"562","Margarella antarctica","Trematomus bernacchii"
-"563","Margarella antarctica","Notothenia coriiceps"
-"564","Nacella concinna","Harpagifer antarcticus"
-"565","Nacella concinna","Notothenia rossii"
-"566","Nacella concinna","Trematomus newnesi"
-"567","Nacella concinna","Trematomus bernacchii"
-"568","Nacella concinna","Notothenia coriiceps"
-"569","Nacella concinna","Parborlasia corrugatus"
-"570","Orchomenella sp.","Harpagifer antarcticus"
-"571","Orchomenella sp.","Notothenia rossii"
-"572","Orchomenella sp.","Trematomus newnesi"
-"573","Orchomenella sp.","Trematomus bernacchii"
-"574","Orchomenella sp.","Notothenia coriiceps"
-"575","Paradexamine fissicauda","Harpagifer antarcticus"
-"576","Paradexamine fissicauda","Trematomus newnesi"
-"577","Paradexamine fissicauda","Notothenia coriiceps"
-"578","Nemertea","Hydrozoa"
-"579","Nemertea","Harpagifer antarcticus"
-"580","Nemertea","Ophionotus victoriae"
-"581","Nemertea","Trematomus bernacchii"
-"582","Nemertea","Notothenia coriiceps"
-"583","Curdiea racovitzae","Laevilacunaria antarctica"
-"584","Curdiea racovitzae","Notothenia coriiceps"
-"585","Georgiella confluens ","Notothenia rossii"
-"586","Georgiella confluens ","Laevilacunaria antarctica"
-"587","Georgiella confluens ","Notothenia coriiceps"
-"588","Monostroma hariotii","Laevilacunaria antarctica"
-"589","Monostroma hariotii","Notothenia coriiceps"
-"590","Ascidiacea","Lindbergichthys nudifrons"
-"591","Ascidiacea","Notothenia rossii"
-"592","Ascidiacea","Ophionotus victoriae"
-"593","Ascidiacea","Trematomus bernacchii"
-"594","Ascidiacea","Notothenia coriiceps"
-"595","Pseudorchomene plebs","Lindbergichthys nudifrons"
-"596","Pseudorchomene plebs","Trematomus bernacchii"
-"597","Pseudorchomene plebs","Notothenia coriiceps"
-"598","Ascoseira mirabilis","Nacella concinna"
-"599","Ascoseira mirabilis","Notothenia coriiceps"
-"600","Ulothrix sp.","Nacella concinna"
-"601","Spionidae","Nereididae"
-"602","Spionidae","Nemertea"
-"603","Spionidae","Trematomus bernacchii"
-"604","Terebellidae","Nemertea"
-"605","Terebellidae","Trematomus bernacchii"
-"606","Laternula elliptica","Ophionotus victoriae"
-"607","Laternula elliptica","Neobuccinum eatoni"
-"608","Laternula elliptica","Odontaster validus"
-"609","Laternula elliptica","Trematomus bernacchii"
-"610","Laternula elliptica","Notothenia coriiceps"
-"611","Laternula elliptica","Parborlasia corrugatus"
-"612","Callophyllis atrosanguinea ","Notothenia coriiceps"
-"613","Cephalopoda","Salpidae"
-"614","Cephalopoda","Notothenia coriiceps"
-"615","Hemiarthrum setulosum","Notothenia coriiceps"
-"616","Hippomedon kergueleni","Notothenia rossii"
-"617","Hippomedon kergueleni","Octopoda"
-"618","Hippomedon kergueleni","Trematomus bernacchii"
-"619","Hippomedon kergueleni","Notothenia coriiceps"
-"620","Hyperiidea","Polychaeta"
-"621","Hyperiidea","Notothenia rossii"
-"622","Hyperiidea","Salpidae"
-"623","Hyperiidea","Trematomus newnesi"
-"624","Hyperiidea","Trematomus bernacchii"
-"625","Hyperiidea","Notothenia coriiceps"
-"626","Lambia antarctica ","Notothenia coriiceps"
-"627","Neuroglossum delesseriae","Notothenia coriiceps"
-"628","Pantoneura plocamioides ","Notothenia coriiceps"
-"629","Picconiella plumosa ","Notothenia coriiceps"
-"630","Porphyra plocamiestris ","Notothenia coriiceps"
-"631","Trematocarpus antarcticus","Notothenia coriiceps"
-"632","Urospora penicilliformis","Notothenia coriiceps"
-"633","Sterechinus neumayeri","Octopoda"
-"634","Sterechinus neumayeri","Ophionotus victoriae"
-"635","Sterechinus neumayeri","Odontaster validus"
-"636","Sterechinus neumayeri","Trematomus bernacchii"
-"637","Sterechinus neumayeri","Urticinopsis antarctica"
-"638","Doris kerguelenensis","Odontaster validus"
-"639","Aglaophamus trissophyllus","Ophionotus victoriae"
-"640","Aglaophamus trissophyllus","Trematomus newnesi"
-"641","Aglaophamus trissophyllus","Trematomus bernacchii"
-"642","Geminocarpus geminatus","Paradexamine fissicauda"
-"643","Barrukia cristata","Trematomus bernacchii"
-"644","Trematomus newnesi","Urticinopsis antarctica"
-"645","Diplasterias brucei","Urticinopsis antarctica"
-"646","Odontaster meridionalis","Urticinopsis antarctica"
-"647","Odontaster validus","Urticinopsis antarctica"
-"648","Perknaster fuscus antarticus","Urticinopsis antarctica"
-"649","Trematomus bernacchii","Urticinopsis antarctica"
+Prey,Predator
+Aged detritus,Polychaeta
+Aged detritus,Polynoidae
+Aged detritus,Gitanopsis squamosa
+Aged detritus,Gobionotothen gibberifrons
+Aged detritus,Notothenia rossii
+Aged detritus,Ophionotus victoriae
+Aged detritus,Aequiyoldia eightsii
+Aged detritus,Salpidae
+Aged detritus,Gammaridea
+Aged detritus,Ostracoda
+Aged detritus,Oligochaeta
+Aged detritus,Tanaidacea
+Aged detritus,Nereididae
+Aged detritus,Cumacea
+Aged detritus,Cheirimedon femoratus
+Aged detritus,Orchomenella sp.
+Aged detritus,Paradexamine fissicauda
+Aged detritus,Nemertea
+Aged detritus,Spionidae
+Aged detritus,Terebellidae
+Aged detritus,Laternula elliptica
+Aged detritus,Hippomedon kergueleni
+Aged detritus,Sterechinus neumayeri
+Aged detritus,Aglaophamus trissophyllus
+Aged detritus,Odontaster validus
+Aged detritus,Notothenia coriiceps
+Benthic Diatomea,Polynoidae
+Benthic Diatomea,Hydrozoa
+Benthic Diatomea,Porifera
+Benthic Diatomea,Bovallia gigantea
+Benthic Diatomea,Charcotia obesa
+Benthic Diatomea,Eurymera monticulosa
+Benthic Diatomea,Priapulida
+Benthic Diatomea,Mysida
+Benthic Diatomea,Ophionotus victoriae
+Benthic Diatomea,Aequiyoldia eightsii
+Benthic Diatomea,Chalinidae
+Benthic Diatomea,Dendrilla antarctica
+Benthic Diatomea,Rosella antartica
+Benthic Diatomea,Rossella sp.
+Benthic Diatomea,Stylo_Myca
+Benthic Diatomea,Gammaridea
+Benthic Diatomea,Ostracoda
+Benthic Diatomea,Polyplacophora
+Benthic Diatomea,Tanaidacea
+Benthic Diatomea,Nereididae
+Benthic Diatomea,Cumacea
+Benthic Diatomea,Oradarea bidentata
+Benthic Diatomea,Djerboa furcipes
+Benthic Diatomea,Margarella antarctica
+Benthic Diatomea,Nacella concinna
+Benthic Diatomea,Orchomenella sp.
+Benthic Diatomea,Ascidiacea
+Benthic Diatomea,Spionidae
+Benthic Diatomea,Terebellidae
+Benthic Diatomea,Laternula elliptica
+Benthic Diatomea,Hemiarthrum setulosum
+Benthic Diatomea,Sterechinus neumayeri
+Benthic Diatomea,Doris kerguelenensis
+Benthic Diatomea,Aglaophamus trissophyllus
+Benthic Diatomea,Odontaster validus
+Benthic Diatomea,Parborlasia corrugatus
+Fresh detritus,Polychaeta
+Fresh detritus,Copepoda
+Fresh detritus,Gastropoda
+Fresh detritus,Hydrozoa
+Fresh detritus,Porifera
+Fresh detritus,Bovallia gigantea
+Fresh detritus,Charcotia obesa
+Fresh detritus,Eurymera monticulosa
+Fresh detritus,Gitanopsis squamosa
+Fresh detritus,Paradexamine sp.
+Fresh detritus,Prostebbingia gracilis
+Fresh detritus,Prostebbingia sp.
+Fresh detritus,Pariphimedia integricauda
+Fresh detritus,Mysida
+Fresh detritus,Ophionotus victoriae
+Fresh detritus,Aequiyoldia eightsii
+Fresh detritus,Chalinidae
+Fresh detritus,Dendrilla antarctica
+Fresh detritus,Rosella antartica
+Fresh detritus,Rossella sp.
+Fresh detritus,Stylo_Myca
+Fresh detritus,Bryozoa
+Fresh detritus,Salpidae
+Fresh detritus,Ostracoda
+Fresh detritus,Polyplacophora
+Fresh detritus,Tanaidacea
+Fresh detritus,Glyptonotus antarcticus
+Fresh detritus,Nereididae
+Fresh detritus,Oradarea bidentata
+Fresh detritus,Probolisca ovata
+Fresh detritus,Cheirimedon femoratus
+Fresh detritus,Djerboa furcipes
+Fresh detritus,Eatoniella sp.
+Fresh detritus,Orchomenella sp.
+Fresh detritus,Paradexamine fissicauda
+Fresh detritus,Ascidiacea
+Fresh detritus,Terebellidae
+Fresh detritus,Sterechinus neumayeri
+Fresh detritus,Aglaophamus trissophyllus
+Fresh detritus,Barrukia cristata
+Fresh detritus,Diplasterias brucei
+Fresh detritus,Odontaster validus
+Phytoplankton,Copepoda
+Phytoplankton,Zooplankton
+Phytoplankton,Hydrozoa
+Phytoplankton,Charcotia obesa
+Phytoplankton,Gitanopsis squamosa
+Phytoplankton,Prostebbingia gracilis
+Phytoplankton,Prostebbingia sp.
+Phytoplankton,Euphausia superba
+Phytoplankton,Mysida
+Phytoplankton,Aequiyoldia eightsii
+Phytoplankton,Stylo_Myca
+Phytoplankton,Bryozoa
+Phytoplankton,Salpidae
+Phytoplankton,Gammaridea
+Phytoplankton,Ostracoda
+Phytoplankton,Polyplacophora
+Phytoplankton,Tanaidacea
+Phytoplankton,Djerboa furcipes
+Phytoplankton,Paradexamine fissicauda
+Phytoplankton,Ascidiacea
+Phytoplankton,Laternula elliptica
+Phytoplankton,Cephalopoda
+Phytoplankton,Malacobelemnon daytoni
+Polychaeta,Polynoidae
+Polychaeta,Priapulida
+Polychaeta,Gobionotothen gibberifrons
+Polychaeta,Harpagifer antarcticus
+Polychaeta,Lindbergichthys nudifrons
+Polychaeta,Notothenia rossii
+Polychaeta,Octopoda
+Polychaeta,Ophionotus victoriae
+Polychaeta,Aequiyoldia eightsii
+Polychaeta,Glyptonotus antarcticus
+Polychaeta,Serolis sp.
+Polychaeta,Cephalopoda
+Polychaeta,Sterechinus neumayeri
+Polychaeta,Aglaophamus trissophyllus
+Polychaeta,Barrukia cristata
+Polychaeta,Trematomus newnesi
+Polychaeta,Odontaster validus
+Polychaeta,Notothenia coriiceps
+Polychaeta,Parborlasia corrugatus
+Copepoda,Polychaeta
+Copepoda,Polynoidae
+Copepoda,Zooplankton
+Copepoda,Hydrozoa
+Copepoda,Bovallia gigantea
+Copepoda,Euphausia superba
+Copepoda,Gobionotothen gibberifrons
+Copepoda,Harpagifer antarcticus
+Copepoda,Lindbergichthys nudifrons
+Copepoda,Mysida
+Copepoda,Notothenia rossii
+Copepoda,Ophionotus victoriae
+Copepoda,Salpidae
+Copepoda,Gammaridea
+Copepoda,Cheirimedon femoratus
+Copepoda,Orchomenella sp.
+Copepoda,Nemertea
+Copepoda,Cephalopoda
+Copepoda,Hyperiidea
+Copepoda,Aglaophamus trissophyllus
+Copepoda,Barrukia cristata
+Copepoda,Trematomus newnesi
+Copepoda,Trematomus bernacchii
+Copepoda,Notothenia coriiceps
+Polynoidae,Hydrozoa
+Polynoidae,Harpagifer antarcticus
+Polynoidae,Ophionotus victoriae
+Polynoidae,Nemertea
+Polynoidae,Aglaophamus trissophyllus
+Polynoidae,Trematomus bernacchii
+Zooplankton,Copepoda
+Zooplankton,Hydrozoa
+Zooplankton,Euphausia superba
+Zooplankton,Mysida
+Zooplankton,Salpidae
+Zooplankton,Ostracoda
+Zooplankton,Nereididae
+Zooplankton,Ascidiacea
+Zooplankton,Terebellidae
+Zooplankton,Cephalopoda
+Zooplankton,Hemiarthrum setulosum
+Zooplankton,Hyperiidea
+Zooplankton,Sterechinus neumayeri
+Zooplankton,Trematomus bernacchii
+Zooplankton,Malacobelemnon daytoni
+Gastropoda,Polynoidae
+Gastropoda,Gobionotothen gibberifrons
+Gastropoda,Harpagifer antarcticus
+Gastropoda,Lindbergichthys nudifrons
+Gastropoda,Notothenia rossii
+Gastropoda,Ophionotus victoriae
+Gastropoda,Glyptonotus antarcticus
+Gastropoda,Barrukia cristata
+Gastropoda,Trematomus newnesi
+Gastropoda,Diplasterias brucei
+Gastropoda,Odontaster validus
+Gastropoda,Trematomus bernacchii
+Gastropoda,Notothenia coriiceps
+Gastropoda,Urticinopsis antarctica
+Hydrozoa,Polynoidae
+Hydrozoa,Notothenia rossii
+Hydrozoa,Ophionotus victoriae
+Hydrozoa,Nereididae
+Hydrozoa,Sterechinus neumayeri
+Hydrozoa,Barrukia cristata
+Hydrozoa,Odontaster validus
+Hydrozoa,Trematomus bernacchii
+Hydrozoa,Notothenia coriiceps
+Porifera,Polynoidae
+Porifera,Gastropoda
+Porifera,Charcotia obesa
+Porifera,Ophionotus victoriae
+Porifera,Polyplacophora
+Porifera,Orchomenella sp.
+Porifera,Hemiarthrum setulosum
+Porifera,Sterechinus neumayeri
+Porifera,Doris kerguelenensis
+Porifera,Barrukia cristata
+Porifera,Diplasterias brucei
+Porifera,Odontaster meridionalis
+Porifera,Odontaster validus
+Porifera,Perknaster fuscus antarticus
+Porifera,Trematomus bernacchii
+Porifera,Parborlasia corrugatus
+Bovallia gigantea,Gobionotothen gibberifrons
+Bovallia gigantea,Harpagifer antarcticus
+Bovallia gigantea,Lindbergichthys nudifrons
+Bovallia gigantea,Notothenia rossii
+Bovallia gigantea,Glyptonotus antarcticus
+Bovallia gigantea,Sterechinus neumayeri
+Bovallia gigantea,Trematomus newnesi
+Bovallia gigantea,Trematomus bernacchii
+Bovallia gigantea,Notothenia coriiceps
+Charcotia obesa,Bovallia gigantea
+Charcotia obesa,Lindbergichthys nudifrons
+Charcotia obesa,Notothenia rossii
+Charcotia obesa,Notothenia coriiceps
+Eurymera monticulosa,Bovallia gigantea
+Eurymera monticulosa,Harpagifer antarcticus
+Eurymera monticulosa,Notothenia rossii
+Eurymera monticulosa,Notothenia coriiceps
+Gitanopsis squamosa,Bovallia gigantea
+Gitanopsis squamosa,Notothenia rossii
+Gitanopsis squamosa,Trematomus newnesi
+Gitanopsis squamosa,Notothenia coriiceps
+Gondogeneia antarctica,Bovallia gigantea
+Gondogeneia antarctica,Gobionotothen gibberifrons
+Gondogeneia antarctica,Harpagifer antarcticus
+Gondogeneia antarctica,Lindbergichthys nudifrons
+Gondogeneia antarctica,Notothenia rossii
+Gondogeneia antarctica,Glyptonotus antarcticus
+Gondogeneia antarctica,Cheirimedon femoratus
+Gondogeneia antarctica,Trematomus newnesi
+Gondogeneia antarctica,Trematomus bernacchii
+Gondogeneia antarctica,Notothenia coriiceps
+Paradexamine sp.,Bovallia gigantea
+Paradexamine sp.,Notothenia rossii
+Paradexamine sp.,Sterechinus neumayeri
+Paradexamine sp.,Notothenia coriiceps
+Prostebbingia gracilis,Bovallia gigantea
+Prostebbingia gracilis,Gobionotothen gibberifrons
+Prostebbingia gracilis,Harpagifer antarcticus
+Prostebbingia gracilis,Lindbergichthys nudifrons
+Prostebbingia gracilis,Notothenia rossii
+Prostebbingia gracilis,Trematomus newnesi
+Prostebbingia gracilis,Notothenia coriiceps
+Prostebbingia sp.,Bovallia gigantea
+Prostebbingia sp.,Harpagifer antarcticus
+Prostebbingia sp.,Lindbergichthys nudifrons
+Prostebbingia sp.,Notothenia rossii
+Prostebbingia sp.,Ophionotus victoriae
+Prostebbingia sp.,Sterechinus neumayeri
+Prostebbingia sp.,Notothenia coriiceps
+Prostebbingia sp.,Parborlasia corrugatus
+Pariphimedia integricauda,Bovallia gigantea
+Pariphimedia integricauda,Harpagifer antarcticus
+Pariphimedia integricauda,Notothenia rossii
+Pariphimedia integricauda,Trematomus newnesi
+Pariphimedia integricauda,Notothenia coriiceps
+Euphausia superba,Hydrozoa
+Euphausia superba,Chaenocephalus aceratus
+Euphausia superba,Harpagifer antarcticus
+Euphausia superba,Lindbergichthys nudifrons
+Euphausia superba,Notothenia rossii
+Euphausia superba,Ophionotus victoriae
+Euphausia superba,Parachaenichthys charcoti
+Euphausia superba,Glyptonotus antarcticus
+Euphausia superba,Cephalopoda
+Euphausia superba,Hyperiidea
+Euphausia superba,Trematomus newnesi
+Euphausia superba,Trematomus bernacchii
+Euphausia superba,Notothenia coriiceps
+Priapulida,Cephalopoda
+Priapulida,Trematomus bernacchii
+Gobionotothen gibberifrons,Chaenocephalus aceratus
+Harpagifer antarcticus,Chaenocephalus aceratus
+Lindbergichthys nudifrons,Chaenocephalus aceratus
+Lindbergichthys nudifrons,Notothenia rossii
+Mysida,Polychaeta
+Mysida,Chaenocephalus aceratus
+Mysida,Harpagifer antarcticus
+Mysida,Ophionotus victoriae
+Mysida,Parachaenichthys charcoti
+Mysida,Trematomus newnesi
+Mysida,Trematomus bernacchii
+Mysida,Notothenia coriiceps
+Notothenia rossii,Chaenocephalus aceratus
+Octopoda,Chaenocephalus aceratus
+Octopoda,Notothenia rossii
+Octopoda,Notothenia coriiceps
+Ophionotus victoriae,Chaenocephalus aceratus
+Ophionotus victoriae,Notothenia coriiceps
+Parachaenichthys charcoti,Chaenocephalus aceratus
+Necromass,Polychaeta
+Necromass,Polynoidae
+Necromass,Charcotia obesa
+Necromass,Eurymera monticulosa
+Necromass,Gitanopsis squamosa
+Necromass,Pariphimedia integricauda
+Necromass,Mysida
+Necromass,Ophionotus victoriae
+Necromass,Neobuccinum eatoni
+Necromass,Glyptonotus antarcticus
+Necromass,Nereididae
+Necromass,Serolis sp.
+Necromass,Cheirimedon femoratus
+Necromass,Orchomenella sp.
+Necromass,Paradexamine fissicauda
+Necromass,Nemertea
+Necromass,Pseudorchomene plebs
+Necromass,Hippomedon kergueleni
+Necromass,Sterechinus neumayeri
+Necromass,Doris kerguelenensis
+Necromass,Diplasterias brucei
+Necromass,Odontaster validus
+Necromass,Perknaster fuscus antarticus
+Necromass,Notothenia coriiceps
+Necromass,Parborlasia corrugatus
+Aequiyoldia eightsii,Gobionotothen gibberifrons
+Aequiyoldia eightsii,Ophionotus victoriae
+Aequiyoldia eightsii,Trematomus newnesi
+Aequiyoldia eightsii,Diplasterias brucei
+Aequiyoldia eightsii,Odontaster validus
+Aequiyoldia eightsii,Trematomus bernacchii
+Aequiyoldia eightsii,Notothenia coriiceps
+Neobuccinum eatoni,Harpagifer antarcticus
+Neobuccinum eatoni,Ophionotus victoriae
+Neobuccinum eatoni,Trematomus newnesi
+Neobuccinum eatoni,Diplasterias brucei
+Neobuccinum eatoni,Odontaster meridionalis
+Neobuccinum eatoni,Odontaster validus
+Neobuccinum eatoni,Trematomus bernacchii
+Chalinidae,Ophionotus victoriae
+Chalinidae,Sterechinus neumayeri
+Chalinidae,Doris kerguelenensis
+Chalinidae,Odontaster meridionalis
+Chalinidae,Odontaster validus
+Chalinidae,Parborlasia corrugatus
+Dendrilla antarctica,Doris kerguelenensis
+Rosella antartica,Ophionotus victoriae
+Rosella antartica,Sterechinus neumayeri
+Rosella antartica,Doris kerguelenensis
+Rosella antartica,Odontaster meridionalis
+Rosella antartica,Odontaster validus
+Rosella antartica,Perknaster fuscus antarticus
+Rosella antartica,Parborlasia corrugatus
+Rossella sp.,Ophionotus victoriae
+Rossella sp.,Sterechinus neumayeri
+Rossella sp.,Doris kerguelenensis
+Rossella sp.,Odontaster meridionalis
+Rossella sp.,Odontaster validus
+Rossella sp.,Parborlasia corrugatus
+Stylo_Myca,Ophionotus victoriae
+Stylo_Myca,Sterechinus neumayeri
+Stylo_Myca,Doris kerguelenensis
+Stylo_Myca,Odontaster meridionalis
+Stylo_Myca,Odontaster validus
+Stylo_Myca,Perknaster fuscus antarticus
+Stylo_Myca,Parborlasia corrugatus
+Stylo_Myca,Perknaster aurorae
+Bryozoa,Polynoidae
+Bryozoa,Ophionotus victoriae
+Bryozoa,Polyplacophora
+Bryozoa,Eatoniella sp.
+Bryozoa,Hemiarthrum setulosum
+Bryozoa,Sterechinus neumayeri
+Bryozoa,Odontaster validus
+Bryozoa,Trematomus bernacchii
+Bryozoa,Notothenia coriiceps
+Epiphytic Diatomea,Eurymera monticulosa
+Epiphytic Diatomea,Gammaridea
+Epiphytic Diatomea,Polyplacophora
+Epiphytic Diatomea,Eatoniella sp.
+Epiphytic Diatomea,Nacella concinna
+Epiphytic Diatomea,Paradexamine fissicauda
+Epiphytic Diatomea,Hemiarthrum setulosum
+Salpidae,Euphausia superba
+Salpidae,Lindbergichthys nudifrons
+Salpidae,Notothenia rossii
+Salpidae,Trematomus newnesi
+Salpidae,Notothenia coriiceps
+Desmarestia anceps,Gondogeneia antarctica
+Desmarestia anceps,Prostebbingia gracilis
+Desmarestia anceps,Prostebbingia sp.
+Desmarestia anceps,Notothenia rossii
+Desmarestia anceps,Gammaridea
+Desmarestia anceps,Notothenia coriiceps
+Desmarestia antarctica,Gondogeneia antarctica
+Desmarestia antarctica,Prostebbingia gracilis
+Desmarestia antarctica,Prostebbingia sp.
+Desmarestia antarctica,Notothenia rossii
+Desmarestia antarctica,Gammaridea
+Desmarestia antarctica,Notothenia coriiceps
+Desmarestia menziesii,Gondogeneia antarctica
+Desmarestia menziesii,Prostebbingia gracilis
+Desmarestia menziesii,Prostebbingia sp.
+Desmarestia menziesii,Notothenia rossii
+Desmarestia menziesii,Gammaridea
+Desmarestia menziesii,Laevilacunaria antarctica
+Desmarestia menziesii,Notothenia coriiceps
+Gammaridea,Polynoidae
+Gammaridea,Hydrozoa
+Gammaridea,Gobionotothen gibberifrons
+Gammaridea,Lindbergichthys nudifrons
+Gammaridea,Notothenia rossii
+Gammaridea,Ophionotus victoriae
+Gammaridea,Nereididae
+Gammaridea,Nemertea
+Gammaridea,Trematomus newnesi
+Gammaridea,Trematomus bernacchii
+Gammaridea,Notothenia coriiceps
+Ostracoda,Polychaeta
+Ostracoda,Polynoidae
+Ostracoda,Hydrozoa
+Ostracoda,Gobionotothen gibberifrons
+Ostracoda,Lindbergichthys nudifrons
+Ostracoda,Mysida
+Ostracoda,Notothenia rossii
+Ostracoda,Ophionotus victoriae
+Ostracoda,Salpidae
+Ostracoda,Gammaridea
+Ostracoda,Hyperiidea
+Ostracoda,Trematomus newnesi
+Ostracoda,Odontaster validus
+Ostracoda,Trematomus bernacchii
+Ostracoda,Notothenia coriiceps
+Palmaria decipiens,Gondogeneia antarctica
+Palmaria decipiens,Prostebbingia gracilis
+Palmaria decipiens,Prostebbingia sp.
+Palmaria decipiens,Pariphimedia integricauda
+Palmaria decipiens,Notothenia rossii
+Palmaria decipiens,Gammaridea
+Palmaria decipiens,Oradarea bidentata
+Palmaria decipiens,Laevilacunaria antarctica
+Palmaria decipiens,Paradexamine fissicauda
+Palmaria decipiens,Odontaster validus
+Palmaria decipiens,Notothenia coriiceps
+Oligochaeta,Mysida
+Oligochaeta,Gammaridea
+Oligochaeta,Nereididae
+Oligochaeta,Nemertea
+Oligochaeta,Trematomus bernacchii
+Polyplacophora,Gastropoda
+Polyplacophora,Harpagifer antarcticus
+Polyplacophora,Octopoda
+Polyplacophora,Notothenia coriiceps
+Tanaidacea,Gastropoda
+Tanaidacea,Lindbergichthys nudifrons
+Tanaidacea,Ophionotus victoriae
+Tanaidacea,Trematomus bernacchii
+Tanaidacea,Notothenia coriiceps
+Glyptonotus antarcticus,Harpagifer antarcticus
+Glyptonotus antarcticus,Lindbergichthys nudifrons
+Glyptonotus antarcticus,Octopoda
+Glyptonotus antarcticus,Odontaster validus
+Glyptonotus antarcticus,Trematomus bernacchii
+Glyptonotus antarcticus,Notothenia coriiceps
+Glyptonotus antarcticus,Parborlasia corrugatus
+Nereididae,Polynoidae
+Nereididae,Priapulida
+Nereididae,Harpagifer antarcticus
+Nereididae,Lindbergichthys nudifrons
+Nereididae,Notothenia rossii
+Nereididae,Ophionotus victoriae
+Nereididae,Glyptonotus antarcticus
+Nereididae,Nemertea
+Nereididae,Odontaster validus
+Nereididae,Trematomus bernacchii
+Nereididae,Notothenia coriiceps
+Cumacea,Polychaeta
+Cumacea,Gobionotothen gibberifrons
+Cumacea,Lindbergichthys nudifrons
+Cumacea,Notothenia rossii
+Cumacea,Ophionotus victoriae
+Cumacea,Nereididae
+Cumacea,Trematomus bernacchii
+Oradarea bidentata,Gobionotothen gibberifrons
+Oradarea bidentata,Notothenia rossii
+Oradarea bidentata,Trematomus newnesi
+Oradarea bidentata,Notothenia coriiceps
+Probolisca ovata,Gobionotothen gibberifrons
+Probolisca ovata,Harpagifer antarcticus
+Probolisca ovata,Notothenia rossii
+Probolisca ovata,Trematomus newnesi
+Probolisca ovata,Notothenia coriiceps
+Serolis sp.,Gobionotothen gibberifrons
+Serolis sp.,Harpagifer antarcticus
+Serolis sp.,Lindbergichthys nudifrons
+Serolis sp.,Notothenia coriiceps
+Serolis sp.,Parborlasia corrugatus
+Adenocystis utricularis,Gondogeneia antarctica
+Adenocystis utricularis,Laevilacunaria antarctica
+Adenocystis utricularis,Notothenia coriiceps
+Gigartina skottsbergii,Gondogeneia antarctica
+Gigartina skottsbergii,Prostebbingia gracilis
+Gigartina skottsbergii,Prostebbingia sp.
+Gigartina skottsbergii,Notothenia rossii
+Gigartina skottsbergii,Nereididae
+Gigartina skottsbergii,Laevilacunaria antarctica
+Gigartina skottsbergii,Odontaster validus
+Gigartina skottsbergii,Notothenia coriiceps
+Iridaea cordata,Gondogeneia antarctica
+Iridaea cordata,Prostebbingia gracilis
+Iridaea cordata,Prostebbingia sp.
+Iridaea cordata,Notothenia rossii
+Iridaea cordata,Laevilacunaria antarctica
+Iridaea cordata,Notothenia coriiceps
+Myriogramme manginii,Gondogeneia antarctica
+Myriogramme manginii,Prostebbingia gracilis
+Myriogramme manginii,Prostebbingia sp.
+Myriogramme manginii,Notothenia rossii
+Phaeurus antarcticus ,Gondogeneia antarctica
+Phaeurus antarcticus ,Notothenia coriiceps
+Plocamium cartilagineum,Gondogeneia antarctica
+Plocamium cartilagineum,Prostebbingia gracilis
+Plocamium cartilagineum,Prostebbingia sp.
+Plocamium cartilagineum,Notothenia rossii
+Plocamium cartilagineum,Laevilacunaria antarctica
+Plocamium cartilagineum,Notothenia coriiceps
+Cheirimedon femoratus,Harpagifer antarcticus
+Cheirimedon femoratus,Notothenia rossii
+Cheirimedon femoratus,Trematomus newnesi
+Cheirimedon femoratus,Notothenia coriiceps
+Djerboa furcipes,Harpagifer antarcticus
+Djerboa furcipes,Notothenia rossii
+Djerboa furcipes,Trematomus newnesi
+Djerboa furcipes,Trematomus bernacchii
+Djerboa furcipes,Notothenia coriiceps
+Eatoniella sp.,Harpagifer antarcticus
+Eatoniella sp.,Notothenia coriiceps
+Eatoniella sp.,Urticinopsis antarctica
+Laevilacunaria antarctica,Harpagifer antarcticus
+Laevilacunaria antarctica,Urticinopsis antarctica
+Margarella antarctica,Harpagifer antarcticus
+Margarella antarctica,Trematomus newnesi
+Margarella antarctica,Trematomus bernacchii
+Margarella antarctica,Notothenia coriiceps
+Nacella concinna,Harpagifer antarcticus
+Nacella concinna,Notothenia rossii
+Nacella concinna,Trematomus newnesi
+Nacella concinna,Trematomus bernacchii
+Nacella concinna,Notothenia coriiceps
+Nacella concinna,Parborlasia corrugatus
+Orchomenella sp.,Harpagifer antarcticus
+Orchomenella sp.,Notothenia rossii
+Orchomenella sp.,Trematomus newnesi
+Orchomenella sp.,Trematomus bernacchii
+Orchomenella sp.,Notothenia coriiceps
+Paradexamine fissicauda,Harpagifer antarcticus
+Paradexamine fissicauda,Trematomus newnesi
+Paradexamine fissicauda,Notothenia coriiceps
+Nemertea,Hydrozoa
+Nemertea,Harpagifer antarcticus
+Nemertea,Ophionotus victoriae
+Nemertea,Trematomus bernacchii
+Nemertea,Notothenia coriiceps
+Curdiea racovitzae,Laevilacunaria antarctica
+Curdiea racovitzae,Notothenia coriiceps
+Georgiella confluens ,Notothenia rossii
+Georgiella confluens ,Laevilacunaria antarctica
+Georgiella confluens ,Notothenia coriiceps
+Monostroma hariotii,Laevilacunaria antarctica
+Monostroma hariotii,Notothenia coriiceps
+Ascidiacea,Lindbergichthys nudifrons
+Ascidiacea,Notothenia rossii
+Ascidiacea,Ophionotus victoriae
+Ascidiacea,Trematomus bernacchii
+Ascidiacea,Notothenia coriiceps
+Pseudorchomene plebs,Lindbergichthys nudifrons
+Pseudorchomene plebs,Trematomus bernacchii
+Pseudorchomene plebs,Notothenia coriiceps
+Ascoseira mirabilis,Nacella concinna
+Ascoseira mirabilis,Notothenia coriiceps
+Ulothrix sp.,Nacella concinna
+Spionidae,Nereididae
+Spionidae,Nemertea
+Spionidae,Trematomus bernacchii
+Terebellidae,Nemertea
+Terebellidae,Trematomus bernacchii
+Laternula elliptica,Ophionotus victoriae
+Laternula elliptica,Neobuccinum eatoni
+Laternula elliptica,Odontaster validus
+Laternula elliptica,Trematomus bernacchii
+Laternula elliptica,Notothenia coriiceps
+Laternula elliptica,Parborlasia corrugatus
+Callophyllis atrosanguinea ,Notothenia coriiceps
+Cephalopoda,Salpidae
+Cephalopoda,Notothenia coriiceps
+Hemiarthrum setulosum,Notothenia coriiceps
+Hippomedon kergueleni,Notothenia rossii
+Hippomedon kergueleni,Octopoda
+Hippomedon kergueleni,Trematomus bernacchii
+Hippomedon kergueleni,Notothenia coriiceps
+Hyperiidea,Polychaeta
+Hyperiidea,Notothenia rossii
+Hyperiidea,Salpidae
+Hyperiidea,Trematomus newnesi
+Hyperiidea,Trematomus bernacchii
+Hyperiidea,Notothenia coriiceps
+Lambia antarctica ,Notothenia coriiceps
+Neuroglossum delesseriae,Notothenia coriiceps
+Pantoneura plocamioides ,Notothenia coriiceps
+Picconiella plumosa ,Notothenia coriiceps
+Porphyra plocamiestris ,Notothenia coriiceps
+Trematocarpus antarcticus,Notothenia coriiceps
+Urospora penicilliformis,Notothenia coriiceps
+Sterechinus neumayeri,Octopoda
+Sterechinus neumayeri,Ophionotus victoriae
+Sterechinus neumayeri,Odontaster validus
+Sterechinus neumayeri,Trematomus bernacchii
+Sterechinus neumayeri,Urticinopsis antarctica
+Doris kerguelenensis,Odontaster validus
+Aglaophamus trissophyllus,Ophionotus victoriae
+Aglaophamus trissophyllus,Trematomus newnesi
+Aglaophamus trissophyllus,Trematomus bernacchii
+Geminocarpus geminatus,Paradexamine fissicauda
+Barrukia cristata,Trematomus bernacchii
+Trematomus newnesi,Urticinopsis antarctica
+Diplasterias brucei,Urticinopsis antarctica
+Odontaster meridionalis,Urticinopsis antarctica
+Odontaster validus,Urticinopsis antarctica
+Perknaster fuscus antarticus,Urticinopsis antarctica
+Trematomus bernacchii,Urticinopsis antarctica

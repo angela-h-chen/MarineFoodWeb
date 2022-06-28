@@ -1,15 +1,14 @@
+#
+## Analysis of complexity and structure for a set of highly-resolved marine food webs
+# Authors: Angela Chen & Tomas I. Marina
+# Objective: Calculate complexity & structure properties
+#
 
-####Install Packages ----
-# install.packages("NetIndices")
-# install.packages("bipartite")
-# install.packages("devtools")
-# install_github("lsaravia/multiweb")
-# install.packages("sna")
+# Load data
+# setwd("C://Users/Angela/OneDrive/Desktop/ISP/R")
+load(file="Data/all_igraph.rda")
 
-###Load libraries and all_lists.rda file 
-
-setwd("C://Users/Angela/OneDrive/Desktop/ISP/R")
-load(file="../Data/all_igraph.rda")
+# Load packages
 library(dplyr)
 library(tidyr)
 library(bipartite)
@@ -300,7 +299,7 @@ save(structure,
      complexity,
      deg_all_df,
      troph_all_df,
-     file="../Data/.for_graphing.rda")
+     file="Data/for_graphing.rda")
 
 # Trophic level properties (basal, intermediate, top) ----
 

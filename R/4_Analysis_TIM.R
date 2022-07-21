@@ -11,6 +11,15 @@ load(file="Data/all_igraph.rda")
 metadata <- read.csv("Data/Metadata_FW.csv")
 
 
+# Wrangle Metadata
+# Convert latitude/longitude to decimals
+metadata <- metadata %>% 
+  rename(Network = FoodWeb) %>% 
+  mutate(Longitude = as.numeric(conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg")),
+         Latitude = as.numeric(conv_unit(Latitude, from = "deg_min_sec", to = "dec_deg")))
+str(metadata)
+
+
 # Analysis ----
 
 ## Get largest connected component
@@ -23,7 +32,7 @@ g_all_ok <- lapply(g_all, function(x){
 })
 
 
-## Calculate structure properties & stability (QSS)
+## Structure & stability (QSS) ----
 
 data <- bind_cols(calc_topological_indices(g_all_ok), calc_modularity(g_all_ok), 
                   calc_QSS(g_all_ok, nsim = 1000, ncores = 4, istrength = FALSE, returnRaw = FALSE)) %>% 
@@ -33,23 +42,38 @@ data <- data %>%
 
 #QSS <- calc_QSS(g_all_ok, nsim = 1000, ncores = 4, istrength = FALSE, returnRaw = TRUE)
 
-# Add Metadata
-# First, convert latitude/longitude to decimals
-metadata <- metadata %>% 
-  rename(Network = FoodWeb) %>% 
-  mutate(Longitude = conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg"),
-         Latitude = conv_unit(Latitude, from = "deg_min_sec", to = "dec_deg"))
+
+## Merge analyses ----
 
 fw_results <- data %>% 
   left_join(metadata)
-
+str(fw_results)
 
 save(g_all_ok, metadata, data, fw_results,
      file = "Results/comp_str_stab.rda")
 
 
-## Exploratory plots
+# Exploratory plots ----
 
+# Stability (QSS) vs Connectance
 ggplot(fw_results, aes(x = Connectance, y = MEing)) +
-  geom_point()
+  geom_point() +
+  labs(x = "Connectance", y = "QSS (mean MaxEigen)") +
+  theme_classic()
 
+# Stability (QSS) vs Latitude
+ggplot(fw_results, aes(x = Latitude, y = MEing)) +
+  geom_point() +
+  geom_smooth(method="lm") +
+  labs(x = "Latitude", y = "QSS (mean MaxEigen)") +
+  theme_classic()
+
+
+# GLM model ----
+
+library(performance)
+
+model <- glm(MEing ~ Latitude, data = fw_results)
+check_model(model)
+model_performance(model)
+r2(model)

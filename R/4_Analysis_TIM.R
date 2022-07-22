@@ -43,7 +43,7 @@ data <- data %>%
 #QSS <- calc_QSS(g_all_ok, nsim = 1000, ncores = 4, istrength = FALSE, returnRaw = TRUE)
 
 
-## Merge analyses ----
+## Merge results ----
 
 fw_results <- data %>% 
   left_join(metadata)
@@ -51,29 +51,3 @@ str(fw_results)
 
 save(g_all_ok, metadata, data, fw_results,
      file = "Results/comp_str_stab.rda")
-
-
-# Exploratory plots ----
-
-# Stability (QSS) vs Connectance
-ggplot(fw_results, aes(x = Connectance, y = MEing)) +
-  geom_point() +
-  labs(x = "Connectance", y = "QSS (mean MaxEigen)") +
-  theme_classic()
-
-# Stability (QSS) vs Latitude
-ggplot(fw_results, aes(x = Latitude, y = MEing)) +
-  geom_point() +
-  geom_smooth(method="lm") +
-  labs(x = "Latitude", y = "QSS (mean MaxEigen)") +
-  theme_classic()
-
-
-# GLM model ----
-
-library(performance)
-
-model <- glm(MEing ~ Latitude, data = fw_results)
-check_model(model)
-model_performance(model)
-r2(model)

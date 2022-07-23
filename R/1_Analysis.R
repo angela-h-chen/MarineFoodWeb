@@ -418,20 +418,39 @@ pp1$Excludedspp <- pp1$BasalCount - pp1$PPcount
 pp1$pp_con <- pp1$PPcount/(pp1$Especies-pp1$Excludedspp)
 
 
+# Create a new script 'CurveBall_Analysis.R' from here including all food webs
 # Curveball
 
 p <- g_all[["Benguela"]]
-tip <- bind_cols(calc_topological_indices(p), calc_modularity(p), calc_QSS(p, nsim=1000)) %>% mutate(Name="Benguela")
+tip <- bind_cols(calc_topological_indices(p), calc_modularity(p), calc_QSS(p, nsim=1000)) %>% 
+  mutate(Network = "Benguela")
 
 a <- g_all[["Gulf Alaska"]]
-tia <- bind_cols(calc_topological_indices(a), calc_modularity(a), calc_QSS(a, nsim=1000)) %>% mutate(Name="Alaska")
+tia <- bind_cols(calc_topological_indices(a), calc_modularity(a), calc_QSS(a, nsim=1000)) %>% 
+  mutate(Network = "Alaska")
 
-pCB <- curveBall(p, nsim=1000)
-ptiIC <- bind_cols(calc_topological_indices(pCB),calc_modularity(pCB)) %>% mutate(Name="Benguela") 
+pCB <- curveBall(p, nsim=1000, istrength = FALSE)
+ptiIC <- bind_cols(calc_topological_indices(pCB),calc_modularity(pCB)) %>% 
+  mutate(Network = "Benguela") 
 
-aCB <- curveBall(a, nsim=1000)
-atiIC <- bind_cols(calc_topological_indices(aCB),calc_modularity(aCB)) %>% mutate(Name="Alaska") 
+aCB <- curveBall(a, nsim=1000, istrength = FALSE)
+atiIC <- bind_cols(calc_topological_indices(aCB),calc_modularity(aCB)) %>% 
+  mutate(Network = "Alaska") 
+
+# Bind all food web results
+all_CB <- bind_rows(ptiIC, atiIC)
+
+
+# Plot comparing curveball results
 
 library(ggplot2)
-ggplot(ptiIC,aes(x=Modularity))+
-  geom_density()
+
+ggplot(all_CB, aes(x = Modularity, color = Network, fill = Network))+
+  geom_density() +
+  scale_manual_viridis_d() +
+  theme_bw()
+
+
+
+
+

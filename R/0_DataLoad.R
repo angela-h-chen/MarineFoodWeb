@@ -10,13 +10,13 @@ library(data.table)
 library(tidyverse)
 library(igraph)
 
-
 # Load data ----
-temp <- list.files(path = "./Data", pattern="*.csv", full.names = TRUE)
+setwd("C:/Users/Angela/MarineFoodWeb/Data")
+temp <- list.files(pattern="*.csv", full.names = TRUE)
 myfiles <- lapply(temp, read_csv)
 names(myfiles) <- c("Angola", "Baltic Sea", "Barents Sea Arctic", "Barents Sea Boreal",
-                    "Beach Peru", "Beagle Channel", "Benguela", "Cayman Is", "Celtic Sea",
-                    "Chilean rocky", "Cuba", "Florida", "Gulf Alaska", "Gulf Cadiz",
+                    "Beach Peru", "Beagle Channel", "Benguela", "Caribbean Reef","Cayman Is", 
+                    "Celtic Sea","Chilean rocky", "Cuba", "Florida", "Gulf Alaska", "Gulf Cadiz",
                     "Gulf Lions", "Gulf Tortugas", "Jamaica", "Kerguelen Plateau",
                     "La Guajira", "Metadata", "Monterey Bay", "NE US Shelf", "Potter Cove",
                     "Sanak intertidal", "Sanak nearshore", "Simon Bay", "Southern Brazil",
@@ -29,13 +29,22 @@ mynetworks <- within(myfiles, rm(Metadata))  # remove 'Metadata' item
 ## From adjacency matrix ----
 
 adj_l <- within(mynetworks, rm("Beagle Channel", "Gulf Alaska", "Potter Cove",
-                              "Sanak intertidal", "Sanak nearshore", "Weddell Sea"))  # discard networks as edge lists
+                              "Sanak intertidal", "Sanak nearshore", "Weddell Sea",
+                              "Cayman Is", "Cuba", "Jamaica"))  # discard networks as edge lists
 # Transpose matrix for "Baltic Sea" & "Southern Brazil"
 m_sb <- adj_l[["Southern Brazil"]]  # m_b "Baltic Sea"
 m_sb <- as.matrix(m_sb)[,-1]  # m_b
 names <- colnames(m_sb)  # m_b
 m_t_sb <- t(m_sb)  # m_t_b m_b
 colnames(m_t_sb) <- names  # m_t_b
+
+m_b <- adj_l[["Baltic Sea"]]  # m_b "Baltic Sea"
+m_b <- as.matrix(m_b)[,-1]  # m_b
+names <- colnames(m_b)  # m_b
+m_t_b <- t(m_b)  # m_t_b m_b
+colnames(m_t_b) <- names  # m_t_b
+
+
 # Convert matrix to igraph
 g_b <- graph_from_adjacency_matrix(m_t_b, mode = "directed")  # Baltic Sea
 g_sb <- graph_from_adjacency_matrix(m_t_sb, mode = "directed")  # Southern Brazil
@@ -56,7 +65,8 @@ g_adj[["Southern Brazil"]] <- g_sb
 ## From edge list ----
 
 edge_l <- mynetworks[c("Beagle Channel", "Gulf Alaska", "Potter Cove",
-                        "Sanak intertidal", "Sanak nearshore", "Weddell Sea")]
+                       "Sanak intertidal", "Sanak nearshore", "Weddell Sea",
+                       "Cayman Is", "Cuba", "Jamaica")]
 edge_to_g <- function(x){
   to_m <- lapply(x, as.matrix)
   to_g <- lapply(to_m, graph_from_edgelist)

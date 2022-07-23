@@ -417,3 +417,21 @@ pp1$Excludedspp <- pp1$BasalCount - pp1$PPcount
 
 pp1$pp_con <- pp1$PPcount/(pp1$Especies-pp1$Excludedspp)
 
+
+# Curveball
+
+p <- g_all[["Benguela"]]
+tip <- bind_cols(calc_topological_indices(p), calc_modularity(p), calc_QSS(p, nsim=1000)) %>% mutate(Name="Benguela")
+
+a <- g_all[["Gulf Alaska"]]
+tia <- bind_cols(calc_topological_indices(a), calc_modularity(a), calc_QSS(a, nsim=1000)) %>% mutate(Name="Alaska")
+
+pCB <- curveBall(p, nsim=1000)
+ptiIC <- bind_cols(calc_topological_indices(pCB),calc_modularity(pCB)) %>% mutate(Name="Benguela") 
+
+aCB <- curveBall(a, nsim=1000)
+atiIC <- bind_cols(calc_topological_indices(aCB),calc_modularity(aCB)) %>% mutate(Name="Alaska") 
+
+library(ggplot2)
+ggplot(ptiIC,aes(x=Modularity))+
+  geom_density()

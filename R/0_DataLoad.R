@@ -11,8 +11,10 @@ library(tidyverse)
 library(igraph)
 
 # Load data ----
-setwd("C:/Users/Angela/MarineFoodWeb/Data")
-temp <- list.files(pattern="*.csv", full.names = TRUE)
+
+setwd("C:/Users/Angela/MarineFoodWeb/Data")  # no need to setwd() if you open the R project 'MarineFoodWeb' 
+
+temp <- list.files(path = "Data", pattern="*.csv", full.names = TRUE)  # I added the path to 'Data' directory
 myfiles <- lapply(temp, read_csv)
 names(myfiles) <- c("Angola", "Baltic Sea", "Barents Sea Arctic", "Barents Sea Boreal",
                     "Beach Peru", "Beagle Channel", "Benguela", "Caribbean Reef","Cayman Is", 
@@ -32,18 +34,17 @@ adj_l <- within(mynetworks, rm("Beagle Channel", "Gulf Alaska", "Potter Cove",
                               "Sanak intertidal", "Sanak nearshore", "Weddell Sea",
                               "Cayman Is", "Cuba", "Jamaica"))  # discard networks as edge lists
 # Transpose matrix for "Baltic Sea" & "Southern Brazil"
-m_sb <- adj_l[["Southern Brazil"]]  # m_b "Baltic Sea"
-m_sb <- as.matrix(m_sb)[,-1]  # m_b
-names <- colnames(m_sb)  # m_b
-m_t_sb <- t(m_sb)  # m_t_b m_b
-colnames(m_t_sb) <- names  # m_t_b
+m_sb <- adj_l[["Southern Brazil"]]
+m_sb <- as.matrix(m_sb)[,-1]
+names <- colnames(m_sb)
+m_t_sb <- t(m_sb)
+colnames(m_t_sb) <- names
 
-m_b <- adj_l[["Baltic Sea"]]  # m_b "Baltic Sea"
-m_b <- as.matrix(m_b)[,-1]  # m_b
-names <- colnames(m_b)  # m_b
-m_t_b <- t(m_b)  # m_t_b m_b
-colnames(m_t_b) <- names  # m_t_b
-
+m_b <- adj_l[["Baltic Sea"]]
+m_b <- as.matrix(m_b)[,-1]
+names <- colnames(m_b)
+m_t_b <- t(m_b)
+colnames(m_t_b) <- names
 
 # Convert matrix to igraph
 g_b <- graph_from_adjacency_matrix(m_t_b, mode = "directed")  # Baltic Sea
@@ -77,15 +78,14 @@ g_edge <- edge_to_g(edge_l)
 # Append g lists ----
 
 g_all <- append(g_adj, g_edge)
+
+# I don't understand what you are doing here :(
 g_all[order(names(setNames(g_all,g_all)))]
-
 list_text_data[order(names(setNames(list_text_data, list_text_data)))]
-
 try1 <- setNames(g_all,g_all)
+
 
 # Save data ----
 
 save(g_adj, g_edge, g_all,
      file = "Data/all_igraph.rda")
-
-

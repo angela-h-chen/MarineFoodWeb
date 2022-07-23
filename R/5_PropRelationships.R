@@ -73,10 +73,6 @@ ggplot(fw_results, aes(Latitude,MEing)) +
   geom_smooth(method="lm", se=F)
 
 
-
-
-
-
 # GLM model ----
 
 library(performance)

@@ -77,7 +77,11 @@ g_edge <- edge_to_g(edge_l)
 # Append g lists ----
 
 g_all <- append(g_adj, g_edge)
+g_all[order(names(setNames(g_all,g_all)))]
 
+list_text_data[order(names(setNames(list_text_data, list_text_data)))]
+
+try1 <- setNames(g_all,g_all)
 
 # Save data ----
 

@@ -5,10 +5,11 @@
 #
 
 # Load data
-# setwd("C://Users/Angela/OneDrive/Desktop/ISP/R")
+#setwd("C:/Users/Angela/MarineFoodWeb")
 load(file="Data/all_igraph.rda")
 
 # Load packages
+library(igraph)
 library(dplyr)
 library(tidyr)
 library(bipartite)
@@ -18,7 +19,6 @@ library(multiweb)
 
 ###Calculate complexity properties (S, L, LD, Co) ----
 
-library(igraph)
 s_all<-lapply(g_all,vcount)
 l_all<-lapply(g_all,ecount)
 ld_all<-lapply(g_all, function(x) {
@@ -29,14 +29,19 @@ co_all<-lapply(g_all, function(x) {
 })
 
 ###Bind complexity properties in a data frame and add region
-library(dplyr)
 complexity<-data.frame(cbind(s_all,l_all,ld_all,co_all))
-colnames(complexity)<-c("Especies","Interacciones","Densidad","Conectividad")
+colnames(complexity)<-c("Species","Interaction","Density","Connectance")
 complexity<-complexity %>%
-  mutate(Region=c("Polar","Subtropical","Templado","Polar","Templado","Subpolar","Templado",
-                  "Subtropical","Templado","Templado","Templado","Templado","Tropical","Tropical",
-                  "Tropical","Subpolar","Tropical","Tropical","Templado","Templado","Templado",
-                  "Subtropical","Polar","Polar","Polar","Templado","Tropical","Polar")) %>%
+  mutate(Region=c("Polar","Subtropical","Temperate",
+                  "Polar","Temperate","Subpolar",
+                  "Temperate","Subtropical","Temperate",
+                  "Tropical","Tropical","Temperate",
+                  "Temperate","Tropical","Tropical",
+                  "Tropical","Temperate","Tropical",
+                  "Temperate","Temperate","Temperate",
+                  "Temperate","Subtropical","Polar",
+                  "Polar","Polar","Temperate",
+                  "Tropical","Polar")) %>%
   mutate(across(!Region, as.numeric))
 
 complexity$Location<-rownames(complexity)
@@ -85,7 +90,7 @@ structure<-round(cbind(topo_all_df$Omnivory,topo_all_df$TLmean,topo_all_df$PathL
                  modu_all$Modularity),3)
 colnames(structure)<-c('Omnivory','TLmean','PathLength','Modularity')
 structure<-data.frame(structure)
-structure$Conectividad <- complexity$Conectividad
+structure$Connectance <- complexity$Connectance
 structure$Region <- complexity$Region
 structure$Location <- complexity$Location
 
@@ -121,31 +126,34 @@ for(i in 1:nrow(deg_all_df)) {
     deg_all_df[i, "Region"]<- "Subtropical"
   }
   if (deg_all_df[i,"Location"] == "Baltic") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "BarentsArctic") {
     deg_all_df[i, "Region"]<- "Polar"
   }
   if (deg_all_df[i,"Location"] == "BarentsBoreal") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Benguela") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Brazil") {
     deg_all_df[i, "Region"]<- "Subtropical"
   }
   if (deg_all_df[i,"Location"] == "Cadiz") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
+  }
+  if (deg_all_df[i,"Location"] == "Caribbean") {
+    deg_all_df[i, "Region"]<- "Tropical"
   }
   if (deg_all_df[i,"Location"] == "Cayman") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Celtic") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Chile") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Cuba") {
     deg_all_df[i, "Region"]<- "Tropical"
@@ -163,22 +171,22 @@ for(i in 1:nrow(deg_all_df)) {
     deg_all_df[i, "Region"]<- "Tropical"
   }
   if (deg_all_df[i,"Location"] == "Lion") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Monterey") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "NEUS") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Pacific") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Peru") {
     deg_all_df[i, "Region"]<- "Subtropical"
   }
   if (deg_all_df[i,"Location"] == "Simon") {
-    deg_all_df[i, "Region"]<- "Templado"
+    deg_all_df[i, "Region"]<- "Temperate"
   }
   if (deg_all_df[i,"Location"] == "Tortuga") {
     deg_all_df[i, "Region"]<- "Tropical"
@@ -204,91 +212,94 @@ for(i in 1:nrow(deg_all_df)) {
 }
 
 ##Order degree distribution plot by connectance
-deg_all_df$Conectividad <- NA
+deg_all_df$Connectance <- NA
 for(i in 1:nrow(deg_all_df)) {
   if (deg_all_df[i,"Location"] == "Angola") {
-    deg_all_df[i, "Conectividad"]<- "0.162"
+    deg_all_df[i, "Connectance"]<- "0.162"
   }
   if (deg_all_df[i,"Location"] == "Baltic") {
-    deg_all_df[i, "Conectividad"]<- "0.175"
+    deg_all_df[i, "Connectance"]<- "0.175"
   }
   if (deg_all_df[i,"Location"] == "BarentsArctic") {
-    deg_all_df[i, "Conectividad"]<- "0.034"
+    deg_all_df[i, "Connectance"]<- "0.034"
   }
   if (deg_all_df[i,"Location"] == "BarentsBoreal") {
-    deg_all_df[i, "Conectividad"]<- "0.048"
+    deg_all_df[i, "Connectance"]<- "0.048"
   }
   if (deg_all_df[i,"Location"] == "Benguela") {
-    deg_all_df[i, "Conectividad"]<- "0.252"
+    deg_all_df[i, "Connectance"]<- "0.252"
   }
   if (deg_all_df[i,"Location"] == "Brazil") {
-    deg_all_df[i, "Conectividad"]<- "0.041"
+    deg_all_df[i, "Connectance"]<- "0.041"
   }
   if (deg_all_df[i,"Location"] == "Cadiz") {
-    deg_all_df[i, "Conectividad"]<- "0.232"
+    deg_all_df[i, "Connectance"]<- "0.232"
+  }
+  if (deg_all_df[i,"Location"] == "Caribbean") {
+    deg_all_df[i, "Connectance"]<- "0.054"
   }
   if (deg_all_df[i,"Location"] == "Cayman") {
-    deg_all_df[i, "Conectividad"]<- "0.054"
+    deg_all_df[i, "Connectance"]<- "0.054"
   }
   if (deg_all_df[i,"Location"] == "Celtic") {
-    deg_all_df[i, "Conectividad"]<- "0.073"
+    deg_all_df[i, "Connectance"]<- "0.073"
   }
   if (deg_all_df[i,"Location"] == "Chile") {
-    deg_all_df[i, "Conectividad"]<- "0.121"
+    deg_all_df[i, "Connectance"]<- "0.121"
   }
   if (deg_all_df[i,"Location"] == "Cuba") {
-    deg_all_df[i, "Conectividad"]<- "0.055"
+    deg_all_df[i, "Connectance"]<- "0.055"
   }
   if (deg_all_df[i,"Location"] == "Florida") {
-    deg_all_df[i, "Conectividad"]<- "0.096"
+    deg_all_df[i, "Connectance"]<- "0.096"
   }
   if (deg_all_df[i,"Location"] == "Jamaica") {
-    deg_all_df[i, "Conectividad"]<- "0.058"
+    deg_all_df[i, "Connectance"]<- "0.058"
   }
   if (deg_all_df[i,"Location"] == "Kerguelen") {
-    deg_all_df[i, "Conectividad"]<- "0.221"
+    deg_all_df[i, "Connectance"]<- "0.221"
   }
   if (deg_all_df[i,"Location"] == "LaGuajira") {
-    deg_all_df[i, "Conectividad"]<- "0.272"
+    deg_all_df[i, "Connectance"]<- "0.272"
   }
   if (deg_all_df[i,"Location"] == "Lion") {
-    deg_all_df[i, "Conectividad"]<- "0.124"
+    deg_all_df[i, "Connectance"]<- "0.124"
   }
   if (deg_all_df[i,"Location"] == "Monterey") {
-    deg_all_df[i, "Conectividad"]<- "0.058"
+    deg_all_df[i, "Connectance"]<- "0.058"
   }
   if (deg_all_df[i,"Location"] == "NEUS") {
-    deg_all_df[i, "Conectividad"]<- "0.227"
+    deg_all_df[i, "Connectance"]<- "0.227"
   }
   if (deg_all_df[i,"Location"] == "Pacific") {
-    deg_all_df[i, "Conectividad"]<- "0.017"
+    deg_all_df[i, "Connectance"]<- "0.017"
   }
   if (deg_all_df[i,"Location"] == "Peru") {
-    deg_all_df[i, "Conectividad"]<- "0.042"
+    deg_all_df[i, "Connectance"]<- "0.042"
   }
   if (deg_all_df[i,"Location"] == "Simon") {
-    deg_all_df[i, "Conectividad"]<- "0.096"
+    deg_all_df[i, "Connectance"]<- "0.096"
   }
   if (deg_all_df[i,"Location"] == "Tortuga") {
-    deg_all_df[i, "Conectividad"]<- "0.01"
+    deg_all_df[i, "Connectance"]<- "0.01"
   }
   if (deg_all_df[i,"Location"] == "Alaska") {
-    deg_all_df[i, "Conectividad"]<- "0.006"
+    deg_all_df[i, "Connectance"]<- "0.006"
   }
   if (deg_all_df[i,"Location"] == "Beagle") {
-    deg_all_df[i, "Conectividad"]<- "0.053"
+    deg_all_df[i, "Connectance"]<- "0.053"
   }
   if (deg_all_df[i,"Location"] == "Potter") {
-    deg_all_df[i, "Conectividad"]<- "0.054"
+    deg_all_df[i, "Connectance"]<- "0.054"
   }
   if (deg_all_df[i,"Location"] == "SanakIntertidal") {
-    deg_all_df[i, "Conectividad"]<- "0.033"
+    deg_all_df[i, "Connectance"]<- "0.033"
   }
   if (deg_all_df[i,"Location"] == "SanakNearshore") {
-    deg_all_df[i, "Conectividad"]<- "0.026"
+    deg_all_df[i, "Connectance"]<- "0.026"
   }
   if (deg_all_df[i,"Location"] == "Weddell") {
-    deg_all_df[i, "Conectividad"]<- "0.01"
+    deg_all_df[i, "Connectance"]<- "0.01"
   }
 }
 
@@ -324,8 +335,8 @@ indeg<-indeg %>%
   count(Indegree)
 
 names(indeg)[names(indeg) == 'n'] <- 'BasalCount'
-indeg$Especies<-complexity$Especies
-indeg$Basal<-indeg$BasalCount/indeg$Especies
+indeg$Species<-complexity$Species
+indeg$Basal<-indeg$BasalCount/indeg$Species
 
 
 ##Percentage top predators (out degree = 0)
@@ -354,8 +365,8 @@ outdeg<-rbind(outdeg,Beng)
 outdeg<-outdeg[order(outdeg$Location),]
 outdeg$TopCount<-as.numeric(outdeg$TopCount)
 
-outdeg$Especies<-complexity$Especies
-outdeg$Top<-outdeg$TopCount/outdeg$Especies
+outdeg$Species<-complexity$Species
+outdeg$Top<-outdeg$TopCount/outdeg$Species
 
 ## Combine basal and top to calculate % intermediate species
 
@@ -377,8 +388,8 @@ gen_df <- (as.data.frame(t(gen)))
 colnames(gen_df)<-c("Generality")
 
 ### Normalization by connectance
-gen_df$Conectividad <- complexity$Conectividad
-gen_df$Gen_norm <- gen_df$Generality/gen_df$Conectividad
+gen_df$Connectance <- complexity$Connectance
+gen_df$Gen_norm <- gen_df$Generality/gen_df$Connectance
 
 
 ## Vulnerability (energy flow)
@@ -393,8 +404,8 @@ vul_df <- t(vul_df)
 vul_df <- as.data.frame(vul_df)
 colnames(vul_df) <- c("Vulnerability")
 
-vul_df$Conectividad <- complexity$Conectividad
-vul_df$Gen_norm <- vul_df$Vulnerability/vul_df$Conectividad
+vul_df$Connectance <- complexity$Connectance
+vul_df$Gen_norm <- vul_df$Vulnerability/vul_df$Connectance
 
 
 # Primary producer/consumer for each food web ----
@@ -411,46 +422,11 @@ pp1 <- pp %>%
 colnames(pp1) <- c("Location", "Indegree", "PPcount")
 
 ## Calculate ratio of pp/consumer
-pp1$Especies <- complexity$Especies
+pp1$Species <- complexity$Species
 pp1$BasalCount <- indeg$BasalCount
 pp1$Excludedspp <- pp1$BasalCount - pp1$PPcount
 
-pp1$pp_con <- pp1$PPcount/(pp1$Especies-pp1$Excludedspp)
-
-
-# Create a new script 'CurveBall_Analysis.R' from here including all food webs
-# Curveball
-
-p <- g_all[["Benguela"]]
-tip <- bind_cols(calc_topological_indices(p), calc_modularity(p), calc_QSS(p, nsim=1000)) %>% 
-  mutate(Network = "Benguela")
-
-a <- g_all[["Gulf Alaska"]]
-tia <- bind_cols(calc_topological_indices(a), calc_modularity(a), calc_QSS(a, nsim=1000)) %>% 
-  mutate(Network = "Alaska")
-
-pCB <- curveBall(p, nsim=1000, istrength = FALSE)
-ptiIC <- bind_cols(calc_topological_indices(pCB),calc_modularity(pCB)) %>% 
-  mutate(Network = "Benguela") 
-
-aCB <- curveBall(a, nsim=1000, istrength = FALSE)
-atiIC <- bind_cols(calc_topological_indices(aCB),calc_modularity(aCB)) %>% 
-  mutate(Network = "Alaska") 
-
-# Bind all food web results
-all_CB <- bind_rows(ptiIC, atiIC)
-
-
-# Plot comparing curveball results
-
-library(ggplot2)
-
-ggplot(all_CB, aes(x = Modularity, color = Network, fill = Network))+
-  geom_density() +
-  scale_manual_viridis_d() +
-  theme_bw()
-
-
+pp1$pp_con <- pp1$PPcount/(pp1$Species-pp1$Excludedspp)
 
 
 

@@ -59,23 +59,23 @@ base_world <- base_world_messy + cleanup
 # Complexity plots: C with S, L, and LD ----
 
 complexity$Region <- factor(complexity$Region, levels = c("Polar", "Subpolar", 
-                                                          "Templado", "Subtropical", 
+                                                          "Temperate", "Subtropical", 
                                                           "Tropical"))
-regioncolor<-scale_color_manual(labels = c("Polar", "Subpolar", "Templado", "Subtropical",  "Tropical"), 
+regioncolor<-scale_color_manual(labels = c("Polar", "Subpolar", "Temperate", "Subtropical",  "Tropical"), 
                                 values = c("#1984c5", "#a7d5ed","gray50","#e1a692","#c23728"))
 
 # C vs S plot
-(s_all<-ggplot(complexity, aes(x=Conectividad,y=Especies)) +  
+(s_all<-ggplot(complexity, aes(x=Connectance,y=Species)) +  
   geom_point(size=4) + 
-  ylab("Especies Tróficas") +
+  ylab("Trophic Species") +
   xlab(NULL)+
   theme_classic()+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 20)))
 
-(s_reg<-ggplot(complexity, aes(x=Conectividad,y=Especies)) +  
+(s_reg<-ggplot(complexity, aes(x=Connectance,y=Species)) +  
   geom_point(aes(shape=factor(Region),color=factor(Region)),size=4) + 
-  ylab("Especies Tróficas") +
+  ylab("Trophic Species") +
   xlab(NULL)+
   theme_classic()+
   theme(legend.position = "none") +
@@ -84,17 +84,17 @@ regioncolor<-scale_color_manual(labels = c("Polar", "Subpolar", "Templado", "Sub
         axis.title = element_text(size = 20)))
 
 # C vs L plot
-l_all<-ggplot(complexity, aes(x=Conectividad,y=Interacciones)) +  
+l_all<-ggplot(complexity, aes(x=Connectance,y=Interactions)) +  
   geom_point(size=4) + 
-  ylab("Interacciones") +
+  ylab("Interactions") +
   xlab(NULL)+
   theme_classic()+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 20))
 
-l_reg<-ggplot(complexity, aes(x=Conectividad,y=Interacciones)) +  
+l_reg<-ggplot(complexity, aes(x=Connectance,y=Interactions)) +  
   geom_point(aes(shape=factor(Region),color=factor(Region)),size=4) + 
-  ylab("Interacciones") +
+  ylab("Interactions") +
   xlab(NULL)+
   theme_classic() +
   theme(legend.position = "none")+
@@ -103,17 +103,17 @@ l_reg<-ggplot(complexity, aes(x=Conectividad,y=Interacciones)) +
         axis.title = element_text(size = 20))
 
 # C vs LD plot
-ld_all<-ggplot(complexity, aes(x=Conectividad,y=Densidad)) +  
+ld_all<-ggplot(complexity, aes(x=Connectance,y=Density)) +  
   geom_point(size=4) + 
-  ylab("Densidad de interacciones") +
+  ylab("Linkage Density") +
   xlab(NULL)+
   theme_classic()+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 16))
 
-ld_reg<-ggplot(complexity, aes(x=Conectividad,y=Densidad)) +  
+ld_reg<-ggplot(complexity, aes(x=Connectance,y=Density)) +  
   geom_point(aes(shape=factor(Region),color=factor(Region)),size=4) +
-  ylab("Densidad de interacciones") +
+  ylab("Linkage Density") +
   xlab("Región")+
   theme_classic()+
   theme(legend.position = "none")+
@@ -144,11 +144,11 @@ TL_quantiles <- troph_all_df %>%
                    Q3 = quantile(TL,probs=0.75),
                    Max = max(TL))
 
-figc<-ggplot(TL_quantiles, aes(reorder(x=Location, complexity$Conectividad), ymin=Min, lower=Q1, middle=Med, upper=Q3, ymax= Max))+
+figc<-ggplot(TL_quantiles, aes(reorder(x=Location, complexity$Connectance), ymin=Min, lower=Q1, middle=Med, upper=Q3, ymax= Max))+
   geom_boxplot(stat="identity", aes(color=complexity$Region))+
   theme_classic()+
-  ylab("Nivel Trófico")+
-  xlab("Red Trófica")+
+  ylab("Trophic Level")+
+  xlab("Food web")+
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))+
   regioncolor
 
@@ -159,9 +159,9 @@ figc<-ggplot(TL_quantiles, aes(reorder(x=Location, complexity$Conectividad), ymi
 
 omni_gen<-structure %>%
   filter(Location != "Alaska") %>%
-  ggplot(aes(x=Conectividad,y=Omnivory))+
+  ggplot(aes(x=Connectance,y=Omnivory))+
       geom_point(size=4)+
-      ylab("Omnivoría")+
+      ylab("Omnivory")+
       theme_classic()+
       xlab(NULL)+
       theme(axis.text = element_text(size = 18),
@@ -169,10 +169,10 @@ omni_gen<-structure %>%
 
 omni_color<-structure %>%
   filter(Location != "Alaska") %>%
-  ggplot(aes(x=Conectividad,y=Omnivory))+
+  ggplot(aes(x=Connectance,y=Omnivory))+
   geom_point(aes(shape=factor(Region), color=Region),size=4)+
-  ylab("Omnivoría")+
-  xlab("Conectividad (C)")+
+  ylab("Omnivory")+
+  xlab("Connectance (C)")+
   guides(color=guide_legend("Region"), shape=guide_legend("Region"))+
   theme_classic()+
   theme(legend.position = "none")+
@@ -183,17 +183,17 @@ omni_color<-structure %>%
 
 
 # Path length and connectance
-path_gen<-ggplot(structure, aes(x=complexity$Conectividad,y=PathLength))+
+path_gen<-ggplot(structure, aes(x=complexity$Connectance,y=PathLength))+
   geom_point(size=4)+
-  ylab("Distancia entre especies")+
+  ylab("Characteristic Path Length")+
   theme_classic()+
   xlab(NULL)+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 17))
 
-path_color<-ggplot(structure, aes(x=complexity$Conectividad,y=PathLength))+
+path_color<-ggplot(structure, aes(x=complexity$Connectance,y=PathLength))+
   geom_point(aes(shape=factor(complexity$Region),color=complexity$Region),size=4)+
-  ylab("Distancia entre especies")+
+  ylab("Characteristic Path Length")+
   guides(color=guide_legend("Region"), shape=guide_legend("Region"))+
   theme_classic()+
   theme(legend.position = "none")+
@@ -203,17 +203,17 @@ path_color<-ggplot(structure, aes(x=complexity$Conectividad,y=PathLength))+
         axis.title = element_text(size = 17))
 
 #Modularity and connectance
-modu_gen<-ggplot(structure, aes(x=complexity$Conectividad,y=Modularity))+
+modu_gen<-ggplot(structure, aes(x=complexity$Connectance,y=Modularity))+
   geom_point(size=4)+
-  ylab("Modularidad")+
+  ylab("Modularity")+
   theme_classic()+
   xlab(NULL)+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 18))
 
-modu_color<-ggplot(structure, aes(x=complexity$Conectividad,y=Modularity))+
+modu_color<-ggplot(structure, aes(x=complexity$Connectance,y=Modularity))+
   geom_point(aes(shape=factor(complexity$Region),color=complexity$Region),size=4)+
-  ylab("Modularidad")+
+  ylab("Modularity")+
   theme_classic()+
   theme(legend.position = "none")+
   regioncolor+
@@ -231,7 +231,7 @@ modu_color<-ggplot(structure, aes(x=complexity$Conectividad,y=Modularity))+
 # Plot degree distribution by location ----
 library(ggjoy)
 deg_all_df <- group_by(deg_all_df, Location) %>%
-  mutate(m=max(Conectividad)) %>%
+  mutate(m=max(Connectance)) %>%
   arrange(m) %>%
   ungroup() %>%
   mutate(Location=factor(Location, unique(Location)))
@@ -239,8 +239,8 @@ deg_all_df <- group_by(deg_all_df, Location) %>%
 (fige <- ggplot(deg_all_df,aes(x=Degree,y=Location,fill=Region))+
   geom_joy()+
   theme_joy(grid=FALSE)+
-  scale_fill_manual(labels = c("Polar", "Subpolar", "Subtropical","Templado",  "Tropical"), values = c("#1984c5", "#a7d5ed","#e1a692","gray50","#c23728"))+
-  labs(x="Número de interacciones", y="Red Trófica")+
+  scale_fill_manual(labels = c("Polar", "Subpolar", "Subtropical","Temperate",  "Tropical"), values = c("#1984c5", "#a7d5ed","#e1a692","gray50","#c23728"))+
+  labs(x="Interactions", y="Food web")+
   xlim(c(-10,150))+
   theme(axis.text = element_text(size = 18),
         axis.title = element_text(size = 18)))
@@ -264,14 +264,14 @@ df_quantiles <- df_quantiles %>%
 df_quantiles<-cbind(complexity$Region,df_quantiles)
 colnames(df_quantiles)[1]<-"Region"
 
-df_quantiles$Region <- factor(df_quantiles$Region, levels = c("Polar", "Subpolar", "Templado", "Subtropical", "Tropical"))
+df_quantiles$Region <- factor(df_quantiles$Region, levels = c("Polar", "Subpolar", "Temperate", "Subtropical", "Tropical"))
 row.names(df_quantiles) -> df_quantiles$Location
 
-(figb<-ggplot(df_quantiles, aes(reorder(x=Location,complexity$Conectividad), ymin=Min, lower=Q1, middle=Median, upper=Q3, ymax= Max))+
+(figb<-ggplot(df_quantiles, aes(reorder(x=Location,complexity$Connectance), ymin=Min, lower=Q1, middle=Median, upper=Q3, ymax= Max))+
     geom_boxplot(stat="identity", aes(color=Region))+
     theme_classic()+
-    ylab("Grado")+
-    xlab("Red Trófica")+
+    ylab("Degree")+
+    xlab("Food web")+
     regioncolor+
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)))
 
@@ -307,8 +307,8 @@ both_index_boxplot <- both_index %>%
 (figg<-ggplot(both_index, aes(x=TL_norm,y=Index_norm))+
   geom_point(aes(color=factor(Location)), size=5)+
   theme_classic()+
-  labs(x="Nivel trófico normalizado", y="Índice de especie clave normalizado")+
-  scale_color_discrete(name = "Red Trófica")+
+  labs(x="Normalized trophic level", y="Normalized keystone index")+
+  scale_color_discrete(name = "Food web")+
   theme(legend.title = element_text(size = 20), 
         legend.text = element_text(size = 20),
         axis.text = element_text(size = 25),
@@ -319,12 +319,12 @@ both_index_boxplot <- both_index %>%
 (figh<-ggplot(both_index_boxplot,aes(x=Location, y=Index_value))+
   geom_boxplot(aes(fill=Index_type), size=2)+
   theme_classic()+
-  labs(x="Red Trófica",y="Índice y Nivel Trófico Normalizados")+
+  labs(x="Food web",y="Normalized Keystone and TL index")+
   theme(legend.title = element_text(size = 20), 
         legend.text = element_text(size = 20),
         axis.text = element_text(size = 25),
         axis.title = element_text(size = 25)))+
-        scale_fill_discrete(name = "Índice", labels = c("Especie Clave", "Nivel Trófico"))
+        scale_fill_discrete(name = "Índice", labels = c("Keystone species", "Trophic level"))
 
 
 
@@ -358,7 +358,7 @@ legend(x="bottomright",legend=c("0","1","2","3","4","5"),
              "#a7d5ed",
              "#63bff0"),
        cex=1, lwd=1, bty = "n",
-       title = "# de interacciones")
+       title = "# de Interactions")
 
 ### Sprattus fuegensis ----
 (b_spr <- plot(b, 

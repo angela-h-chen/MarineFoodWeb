@@ -46,22 +46,22 @@ CB <- lapply(g_list_ok, function(x) {
 
 # Curveball results to data frame
 all_CB <- bind_rows(CB) %>% 
-  mutate(Network = case_when(Size == 28 ~ "Angola", Size == 33 ~ "Baltic Sea",
-                             Size == 159 ~ "Barents Sea Arctic", Size == 180 ~ "Barents Sea Boreal",
-                             Size == 46 ~ "Beach Peru", Size == 29 ~ "Benguela", 
-                             Size == 242 ~ "Cayman Is", Size == 48 ~ "Celtic Sea", 
-                             Size == 106 ~ "Chile rocky", Size == 240 ~ "Cuba",
-                             Size == 48 & Links == 221 ~ "Florida", Size == 42 ~ "Gulf Cadiz",
-                             Size == 39 ~ "Gulf Lions", Size == 256 ~ "Gulf Tortugas",
-                             Size == 249 ~ "Jamaica", Size == 28 & Links == 173 ~ "Kerguelen Plateau",
-                             Size == 27 ~ "La Guajira", Size == 37 ~ "Monterey Bay",
-                             Size == 81 ~ "NE US Shelf", Size == 26 ~ "Simon Bay",
-                             Size == 143 ~ "Southern Brazil", Size == 108 ~ "SW Pacific Ocean",
-                             Size == 145 ~ "Beagle Channel", Size == 110 ~ "Potter Cove",
-                             Size == 235 ~ "Sanak intertidal", Size == 513 ~ "Sanak nearshore",
-                             Size == 435 ~ "Weddell Sea")) %>% 
+  mutate(Network = case_when(Links == 127 ~ "Angola", Links == 191 ~ "Baltic Sea",
+                             Links == 848 ~ "Barents Sea Arctic", Links == 1546 ~ "Barents Sea Boreal",
+                             Links == 88 ~ "Beach Peru", Links == 203 ~ "Benguela", 
+                             Links == 3766 ~ "Cayman Is", Links == 169 ~ "Celtic Sea", 
+                             Links == 1362 ~ "Chile rocky", Links == 3874 ~ "Cuba",
+                             Links == 221 ~ "Florida", Links == 410 ~ "Gulf Cadiz",
+                             Links == 189 ~ "Gulf Lions", Links == 643 ~ "Gulf Tortugas",
+                             Links == 4105 ~ "Jamaica", Links == 173 ~ "Kerguelen Plateau",
+                             Links == 198 ~ "La Guajira", Links == 79 ~ "Monterey Bay",
+                             Links == 1490 ~ "NE US Shelf", Links == 70 ~ "Simon Bay",
+                             Links == 840 ~ "Southern Brazil", Links == 202 ~ "SW Pacific Ocean",
+                             Links == 1115 ~ "Beagle Channel", Links == 649 ~ "Potter Cove",
+                             Links == 1804 ~ "Sanak intertidal", Links == 6774 ~ "Sanak nearshore",
+                             Links == 1972 ~ "Weddell Sea")) %>% 
   dplyr::select(Network, everything())
-
+unique(all_CB$Network)  # check if all FWs are present
 
 # Plot comparing curveball results
 

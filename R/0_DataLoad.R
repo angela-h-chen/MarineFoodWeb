@@ -16,31 +16,31 @@ library(igraph)
 
 temp <- list.files(path = "Data", pattern="*.csv", full.names = TRUE)  # I added the path to 'Data' directory
 myfiles <- lapply(temp, read_csv)
-names(myfiles) <- c("Angola", "Baltic", "BarentsArctic", "BarentsBoreal",
-                    "Peru", "Beagle", "Benguela", "Caribbean","Cayman", 
-                    "Celtic","Chile", "Cuba", "Florida", "Alaska", "Cadiz",
-                    "Lions", "Tortugas", "Jamaica", "Kerguelen",
-                    "LaGuajira", "Metadata", "Monterey", "NEUS", "Potter",
-                    "SanakIntertidal", "SanakNearshore", "Simon", "Brazil",
-                    "Pacific", "Weddell")
+names(myfiles) <- c("Angola", "Baltic Sea", "Barents Sea Arctic", "Barents Sea Boreal",
+                    "Beach Peru", "Beagle Channel", "Benguela", "Caribbean Reef","Cayman Is", 
+                    "Celtic Sea", "Chilean rocky", "Cuba", "Florida", "Gulf Alaska", "Gulf Cadiz", 
+                    "Gulf Lions", "Gulf Tortugas", "Jamaica", "Kerguelen Plateau", "La Guajira", 
+                    "Metadata", "Monterey Bay", "NE US Shelf", "Potter Cove", "Sanak intertidal",
+                    "Sanak nearshore", "Simon Bay", "Southern Brazil", "SW Pacific Ocean", "Weddell Sea")
 mynetworks <- within(myfiles, rm(Metadata))  # remove 'Metadata' item
+
 
 
 # Convert to igraph objects ----
 
 ## From adjacency matrix ----
 
-adj_l <- within(mynetworks, rm("Beagle", "Alaska", "Potter",
-                              "SanakIntertidal", "SanakNearshore", "Weddell",
-                              "Cayman", "Cuba", "Jamaica"))  # discard networks as edge lists
+adj_l <- within(mynetworks, rm("Beagle Channel", "Gulf Alaska", "Potter Cove",
+                              "Sanak intertidal", "Sanak nearshore", "Weddell Sea",
+                              "Cayman Is", "Cuba", "Jamaica"))  # discard networks as edge lists
 # Transpose matrix for "Baltic Sea" & "Southern Brazil"
-m_sb <- adj_l[["Brazil"]]
+m_sb <- adj_l[["Southern Brazil"]]
 m_sb <- as.matrix(m_sb)[,-1]
 names <- colnames(m_sb)
 m_t_sb <- t(m_sb)
 colnames(m_t_sb) <- names
 
-m_b <- adj_l[["Baltic"]]
+m_b <- adj_l[["Baltic Sea"]]
 m_b <- as.matrix(m_b)[,-1]
 names <- colnames(m_b)
 m_t_b <- t(m_b)
@@ -59,15 +59,15 @@ adj_to_g <- function(x){
 g_adj <- adj_to_g(adj_l)
 
 # Replace g objects for "Baltic Sea" & "Southern Brazil"
-g_adj[["Baltic"]] <- g_b
-g_adj[["Brazil"]] <- g_sb
+g_adj[["Baltic Sea"]] <- g_b
+g_adj[["Southern Brazil"]] <- g_sb
 
 
 ## From edge list ----
 
-edge_l <- mynetworks[c("Beagle", "Alaska", "Potter",
-                       "SanakIntertidal", "SanakNearshore", "Weddell",
-                       "Cayman", "Cuba", "Jamaica")]
+edge_l <- mynetworks[c("Beagle Channel", "Gulf Alaska", "Potter Cove",
+                       "Sanak intertidal", "Sanak nearshore", "Weddell Sea",
+                       "Cayman Is", "Cuba", "Jamaica")]
 edge_to_g <- function(x){
   to_m <- lapply(x, as.matrix)
   to_g <- lapply(to_m, graph_from_edgelist)
@@ -84,4 +84,4 @@ g_all<-g_all[order(names(g_all))]
 # Save data ----
 
 save(g_adj, g_edge, g_all,
-     file = "all_igraph.rda")
+     file = "Data/all_igraph.rda")

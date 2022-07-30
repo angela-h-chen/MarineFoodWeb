@@ -3,8 +3,8 @@ library(ggplot2)
 
 # Load data ----
 
-load(file="Data/all_igraph.rda")
-load(file="Results/comp_str_stab.rda")
+load(file="../Data/all_igraph.rda")
+load(file="../Results/comp_str_stab.rda")
 
 # Exploratory plots ----
 

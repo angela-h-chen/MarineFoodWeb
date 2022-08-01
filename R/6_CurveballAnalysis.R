@@ -17,8 +17,8 @@ ipak(packages)
 
 ## Load data ----
 
-load(file="../Data/all_igraph.rda")
-load(file="../Results/comp_str_stab.rda")
+load(file="Data/all_igraph.rda")
+load(file="Results/comp_str_stab.rda")
 
 
 ## Largest connected component ----
@@ -41,10 +41,20 @@ CB <- lapply(g_list_ok, function(x) {
 
 })
 
-# Add 'Network' name
+# Convert curveball list into data frame
+# and add network's name, latitude, longitude & region
+all_CB <- bind_rows(CB, .id = "Network") %>% 
+  left_join(metadata)
 
-load("../Results/curveball.rda")
-load("../Data/all_igraph.rda")
+
+# Save data
+save(g_list_ok, CB, all_CB,
+     file = "Results/curveball.rda")
+
+
+# This is not necessary. Follow the results in 'all_CB' df
+load("Results/curveball.rda")
+load("Data/all_igraph.rda")
 
 link <- aggregate(all_CB$Links, list(all_CB$Network), FUN=mean)
 
@@ -52,24 +62,6 @@ l_all<-as.data.frame(t(lapply(g_all_ok,ecount)))
 l_all<- t(l_all)
 colnames(l_all) <- c("Links")
 write.csv(l_all,"links.csv")
-
-all_CB <- bind_rows(CB) %>%  #Los valores de links no están actualizados#
-  mutate(Network = case_when(Links == 127 ~ "Angola", Links == 191 ~ "Baltic Sea",
-                             Links == 848 ~ "Barents Sea Arctic", Links == 1546 ~ "Barents Sea Boreal",
-                             Links == 88 ~ "Beach Peru", Links == 212 ~ "Benguela", Links == 3373 ~ "Caribbean reef", 
-                             Links == 3766 ~ "Cayman Is", Links == 169 ~ "Celtic Sea", Links == 1362 ~ "Chilean rocky", 
-                             Links == 3874 ~ "Cuba", Links == 221 ~ "Florida", Links == 410 ~ "Gulf Cadiz",
-                             Links == 189 ~ "Gulf Lions", Links == 643 ~ "Gulf Tortugas",
-                             Links == 4105 ~ "Jamaica", Links == 173 ~ "Kerguelen Plateau",
-                             Links == 198 ~ "La Guajira", Links == 79 ~ "Monterey Bay",
-                             Links == 1490 ~ "NE US Shelf", Links == 70 ~ "Simon Bay",
-                             Links == 840 ~ "Southern Brazil", Links == 202 ~ "SW Pacific Ocean",
-                             Links == 1115 ~ "Beagle Channel", Links == 649 ~ "Potter Cove",
-                             Links == 1804 ~ "Sanak intertidal", Links == 6774 ~ "Sanak nearshore",
-                             Links == 1972 ~ "Weddell Sea")) %>% 
-  dplyr::select(Network, everything())
-unique(all_CB$Network)  # check if all FWs are present
-
 
 
 # Add latitude, longitude, and region
@@ -241,7 +233,3 @@ ggplot(all_CB, aes(x = Vulnerability, y = reorder(Network, Latitude))) +
         axis.text.x = element_text(size = 10),
         axis.text.y = element_text(size = 15))
 
-
-# Save data
-save(g_list_ok, CB, all_CB,
-     file = "Results/curveball.rda")

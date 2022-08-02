@@ -1,6 +1,7 @@
 #
-# Create a new script 'CurveBall_Analysis.R' from here including all food webs
-# Curveball
+# Curveball analysis to compare food webs
+# 
+
 
 ## Load packages ----
 
@@ -53,8 +54,6 @@ all_CB <- all_CB %>%
 # Save data
 save(g_list_ok, CB, all_CB,
      file = "Results/curveball.rda")
-
-
 
 
 ## Plots ----

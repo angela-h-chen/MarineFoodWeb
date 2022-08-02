@@ -8,8 +8,8 @@
 #install.packages("ggjoy")
 
 #Load libraries
-load(file="../Data/.for_graphing.rda")
-load(file="../Data/.BeaglePotter_graphing.rda")
+load(file="Data/for_graphing.rda")
+load(file="Data/.BeaglePotter_graphing.rda")
 library(ggplot2)
 library(tidyverse)
 library(dplyr)

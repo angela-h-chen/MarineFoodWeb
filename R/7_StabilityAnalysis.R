@@ -30,13 +30,13 @@ g_all_ok <- lapply(g_all, function(x){
 
 ## Stability analysis (QSS) ----
 # QSS is always zero meaning the proportion of locally stable matrices is zero
-# Then look at 'MEing': the closer to zero, the relatively more stable is the network
+# Then look at 'maxre': the closer to zero, the relatively more stable is the network
+# More info in 'calc_QSS' help & original paper: Allesina & Pascual 2008, https://doi.org/10.1007/s12080-007-0007-8
 
-QSS <- calc_QSS(g_all_ok, nsim = 1000, ncores = 4, istrength = FALSE, returnRaw = FALSE) %>% 
-  mutate(Network = names(g_all_ok))
-QSS
+QSS_raw <- calc_QSS(g_all_ok, nsim = 1000, ncores = 4, istrength = FALSE, returnRaw = TRUE)
+QSS_raw$Network <- rep(names(g_all_ok), each = 1000)
 
 
 # Save
-save(g_all_ok, QSS,
+save(g_all_ok, QSS_raw,
      file = "Results/Stability.rda")

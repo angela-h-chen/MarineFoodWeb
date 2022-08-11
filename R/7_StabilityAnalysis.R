@@ -40,3 +40,40 @@ QSS_raw$Network <- rep(names(g_all_ok), each = 1000)
 # Save
 save(g_all_ok, QSS_raw,
      file = "Results/Stability.rda")
+
+
+## Exploratory plots ----
+load(file="Results/Stability.rda")
+load(file="Data/Metadata_FW.csv")
+
+# Add region to QSS_raw
+
+QSS_raw <- QSS_raw %>%
+  left_join(Metadata_FW, by = "Network")
+  
+
+# QSS x connectance
+
+QSS_raw$Region <- factor(QSS_raw$Region, levels = c("Polar", "Subpolar", 
+                                                  "Temperate", "Subtropical", 
+                                                  "Tropical"))
+
+
+regionfill<-scale_fill_manual(labels = c("Polar", "Subpolar", "Temperate", 
+                                         "Subtropical",  "Tropical"), 
+                              values = c("#1984c5", "#a7d5ed","gray50",
+                                         "#e1a692","#c23728"))
+
+geomjoy_theme <- theme(panel.grid = element_blank(),
+                       axis.title = element_text(size = 18, face = "bold"),
+                       axis.text.x = element_text(size = 10),
+                       axis.text.y = element_text(size = 15))
+
+
+ggplot(QSS_raw, aes(x = maxre, y = reorder(Network, Connectance), fill = Region)) +
+  geom_joy() +
+  theme_joy(grid = FALSE) +
+  labs(x = "QSS", y = "Food web (increasing connectance") +
+  regionfill+
+  geomjoy_theme
+

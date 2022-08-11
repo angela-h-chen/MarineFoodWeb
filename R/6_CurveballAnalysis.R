@@ -86,6 +86,7 @@ ggplot(all_CB, aes(x = Modularity, y = reorder(Network, Connectance), fill=Regio
   regionfill+
   geomjoy_theme
 
+
 # Modularity by latitude
 ggplot(all_CB, aes(x = Modularity, y = reorder(Network, Latitude), fill = Region)) +
   geom_joy() +

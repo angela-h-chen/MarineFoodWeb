@@ -5,7 +5,7 @@
 
 ## Load packages ----
 
-packages <- c("multiweb", "ggplot2", "igraph", "dplyr")
+packages <- c("multiweb", "ggplot2", "igraph", "dplyr","measurements")
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if (length(new.pkg))
@@ -46,11 +46,20 @@ save(g_all_ok, QSS_raw,
 load(file="Results/Stability.rda")
 load(file="Data/Metadata_FW.csv")
 
-# Add region to QSS_raw
+# Add region and connectance to QSS_raw
 
 QSS_raw <- QSS_raw %>%
   left_join(Metadata_FW, by = "Network")
-  
+
+Co <- fw_results %>% select(Network,Connectance)
+QSS_raw <- QSS_raw %>%
+  left_join(Co, by = "Network")
+
+# Convert latitude and longitude to decimals
+QSS_raw <- QSS_raw %>% 
+  mutate(Longitude = as.numeric(conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg")),
+         Latitude = as.numeric(conv_unit(Latitude, from = "deg_min_sec", to = "dec_deg")))
+
 
 # QSS x connectance
 
@@ -77,3 +86,10 @@ ggplot(QSS_raw, aes(x = maxre, y = reorder(Network, Connectance), fill = Region)
   regionfill+
   geomjoy_theme
 
+# QSS by latitude
+ggplot(QSS_raw, aes(x = maxre, y = reorder(Network, Latitude), fill = Region)) +
+  geom_joy() +
+  theme_joy(grid = FALSE) +
+  labs(x = "QSS", y = "Food web (increasing latitude") +
+  regionfill+
+  geomjoy_theme

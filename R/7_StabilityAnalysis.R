@@ -60,6 +60,7 @@ QSS_raw <- QSS_raw %>%
   mutate(Longitude = as.numeric(conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg")),
          Latitude = as.numeric(conv_unit(Latitude, from = "deg_min_sec", to = "dec_deg")))
 
+QSS_raw$Lat_abs <- abs(QSS_raw$Latitude)
 
 # QSS x connectance
 
@@ -78,6 +79,11 @@ geomjoy_theme <- theme(panel.grid = element_blank(),
                        axis.text.x = element_text(size = 10),
                        axis.text.y = element_text(size = 15))
 
+boxplot_theme <- theme(panel.grid = element_blank(),
+                       axis.title = element_text(size = 18, face = "bold"),
+                       axis.text.x = element_text(size = 10, angle = 45, vjust = 1, hjust=1),
+                       axis.text.y = element_text(size = 15))
+
 
 ggplot(QSS_raw, aes(x = maxre, y = reorder(Network, Connectance), fill = Region)) +
   geom_joy() +
@@ -93,3 +99,13 @@ ggplot(QSS_raw, aes(x = maxre, y = reorder(Network, Latitude), fill = Region)) +
   labs(x = "QSS", y = "Food web (increasing latitude") +
   regionfill+
   geomjoy_theme
+
+
+# QSS by absolute value of latitude
+ggplot(QSS_raw, aes(x = reorder(Network, Lat_abs), y = maxre, fill = Region)) +
+  geom_boxplot() +
+  geom_smooth(method = "lm", color="black", aes(group=1)) +
+  theme_classic() +
+  labs(x = "Food web (increasing latitude)", y = "QSS") +
+  regionfill+
+  boxplot_theme

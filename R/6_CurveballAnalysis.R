@@ -44,12 +44,22 @@ CB <- lapply(g_list_ok, function(x) {
 
 # Convert curveball list into data frame
 # and add network's name, latitude, longitude & region
+
 all_CB <- bind_rows(CB, .id = "Network") %>% 
   left_join(Metadata_FW)
 
 all_CB <- all_CB %>% 
   mutate(Longitude = as.numeric(conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg")),
          Latitude = as.numeric(conv_unit(Latitude, from = "deg_min_sec", to = "dec_deg")))
+
+all_CB$Lat_abs <- abs(all_CB$Latitude)
+
+
+# Make individual dataframe for connectance for graphing
+CoLat <- aggregate(cbind(Connectance, Latitude) ~ Network, all_CB, mean)
+
+ggplot(CoLat, aes(x=Connectance,y=Latitude, color=Region))+
+  geom_point()
 
 # Save data
 save(g_list_ok, CB, all_CB,
@@ -74,6 +84,11 @@ regionfill<-scale_fill_manual(labels = c("Polar", "Subpolar", "Temperate",
 geomjoy_theme <- theme(panel.grid = element_blank(),
                        axis.title = element_text(size = 18, face = "bold"),
                        axis.text.x = element_text(size = 10),
+                       axis.text.y = element_text(size = 15))
+
+boxplot_theme <- theme(panel.grid = element_blank(),
+                       axis.title = element_text(size = 18, face = "bold"),
+                       axis.text.x = element_text(size = 10, angle = 45, vjust = 1, hjust=1),
                        axis.text.y = element_text(size = 15))
 
 
@@ -160,4 +175,31 @@ ggplot(all_CB, aes(x = Vulnerability, y = reorder(Network, Latitude), fill = Reg
   labs(x = "Vulnerability", y = "Food web (increasing latitude") +
   regionfill+
   geomjoy_theme
+
+
+#
+ggplot(all_CB, aes(x = Modularity, y = reorder(Network, fw_results$Clustering), fill = Region)) +
+  geom_joy() +
+  theme_joy(grid = FALSE) +
+  labs(x = "Vulnerability", y = "Food web (increasing latitude") +
+  regionfill+
+  geomjoy_theme
+
+
+ggplot(fw_results, aes(x = Modularity, y = Clustering, color = Region))+
+  geom_point()
+
+
+
+
+# Boxplots by latitude ----
+
+ggplot(all_CB, aes(x = reorder(Network, Lat_abs), y = Generality, fill = Region)) +
+  geom_boxplot() +
+  geom_smooth(method = "lm", color="black", aes(group=1)) +
+  theme_classic() +
+  labs(x = "Food web (increasing latitude)", y = "Generality") +
+  regionfill+
+  boxplot_theme
+
 

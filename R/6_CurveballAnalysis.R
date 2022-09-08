@@ -92,15 +92,14 @@ boxplot_theme <- theme(panel.grid = element_blank(),
                        axis.text.y = element_text(size = 15))
 
 
+### Modularity ----
 # Modularity by connectance
-
 ggplot(all_CB, aes(x = Modularity, y = reorder(Network, Connectance), fill=Region)) +
   geom_joy() +
   theme_joy(grid = FALSE) +
   labs(x = "Modularity", y = "Food web (increasing C)") +
   regionfill+
   geomjoy_theme
-
 
 # Modularity by latitude
 ggplot(all_CB, aes(x = Modularity, y = reorder(Network, Latitude), fill = Region)) +
@@ -111,6 +110,7 @@ ggplot(all_CB, aes(x = Modularity, y = reorder(Network, Latitude), fill = Region
   geomjoy_theme
 
 
+### Generality ----
 # Generality by connectance
 ggplot(all_CB, aes(x = Generality, y = reorder(Network, Connectance), fill = Region)) +
   geom_joy() +
@@ -127,6 +127,8 @@ ggplot(all_CB, aes(x = Generality, y = reorder(Network, Latitude), fill = Region
   regionfill+
   geomjoy_theme
 
+
+### Path Length ----
 # Path length by connectance
 ggplot(all_CB, aes(x = PathLength, y = reorder(Network, Connectance), fill = Region)) +
   geom_joy() +
@@ -134,7 +136,6 @@ ggplot(all_CB, aes(x = PathLength, y = reorder(Network, Connectance), fill = Reg
   labs(x = "Path Length", y = "Food web (increasing connectance") +
   regionfill+
   geomjoy_theme
-
 
 # Path length by latitude
 ggplot(all_CB, aes(x = PathLength, y = reorder(Network, Latitude), fill = Region)) +
@@ -144,6 +145,8 @@ ggplot(all_CB, aes(x = PathLength, y = reorder(Network, Latitude), fill = Region
   regionfill+
   geomjoy_theme
 
+
+### Clustering ----
 # Clustering by connectance
 ggplot(all_CB, aes(x = Clustering, y = reorder(Network, Connectance), fill = Region)) +
   geom_joy() +
@@ -160,6 +163,8 @@ ggplot(all_CB, aes(x = Clustering, y = reorder(Network, Latitude), fill = Region
   regionfill+
   geomjoy_theme
 
+
+### Vulnerability ----
 # Vulnerability by connectance
 ggplot(all_CB, aes(x = Vulnerability, y = reorder(Network, Connectance), fill = Region)) +
   geom_joy() +
@@ -190,9 +195,7 @@ ggplot(fw_results, aes(x = Modularity, y = Clustering, color = Region))+
   geom_point()
 
 
-
-
-# Boxplots by latitude ----
+## Boxplots by latitude ----
 
 ggplot(all_CB, aes(x = reorder(Network, Lat_abs), y = Generality, fill = Region)) +
   geom_boxplot() +

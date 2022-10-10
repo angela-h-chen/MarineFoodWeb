@@ -46,7 +46,7 @@ CB <- lapply(g_list_ok, function(x) {
 # and add network's name, latitude, longitude & region
 
 all_CB <- bind_rows(CB, .id = "Network") %>% 
-  left_join(Metadata_FW)
+  left_join(metadata)
 
 all_CB <- all_CB %>% 
   mutate(Longitude = as.numeric(conv_unit(Longitude, from = "deg_min_sec", to = "dec_deg")),
